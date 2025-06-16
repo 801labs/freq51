@@ -1,0 +1,18 @@
+[book]
+authors = []
+language = "en"
+multilingual = false
+src = "src"
+
+[output.html]
+smart-punctuation = true
+mathjax-support = true
+site-url = "/"
+git-repository-url = "https://github.com/801labs/wasatchmesh/tree/main/"
+edit-url-template = "https://github.com/801labs/wasatchmesh/edit/main/{path}"
+hash-files = true
+
+[output.html.playground]
+editable = true
+line-numbers = true
+
