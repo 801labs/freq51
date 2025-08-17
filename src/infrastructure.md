@@ -7,7 +7,7 @@
 Location: Francis Peak (Tertiary Peak)
 
 | Node Name | Radio | Antenna | Battery | Solar | Modem Preset | Slot | Rebroadcast Mode | Firmware Version |
-|---|---|---|---|---|---|---|---|
+|---|---|---|---|---|---|---|---|---|
 | FPR - Francis Peak Router | Heltec T114V2 + Airbuddy AMP (1W) | Alfa 5 dBi Omni | 1S12P EVE 2.6V ICR18650 (30.6 Ah) | 5 W | LONG_FAST | 51 | ALL | 2.6.11 |
 
 Posses a BME680 for accurate weather and air quality reporting every 1800s
