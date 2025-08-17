@@ -17,10 +17,10 @@ Possesses a BME680 for weather & air-quality telemetry every 1800 s.
 
 #### Site survey
 **North**  
-![FPR North](./images/FPR-North.png)
+![FPR North](images/FPR-North.png)
 
 **South**  
-![FPR South](./images/FPR-South.png)
+![FPR South](images/FPR-South.png)
 
 ---
 
@@ -33,10 +33,10 @@ Possesses a BME680 for weather & air-quality telemetry every 1800 s.
 
 #### Site survey
 **North**  
-![LMR North](./images/LMR-North.png)
+![LMR North](images/LMR-North.png)
 
 **South**  
-![LMR South](./images/LMR-South.png)
+![LMR South](images/LMR-South.png)
 
 ---
 
@@ -49,10 +49,10 @@ Possesses a BME680 for weather & air-quality telemetry every 1800 s.
 
 #### Site survey
 **North**  
-![NPR North](./images/NPR-North.png)
+![NPR North](images/NPR-North.png)
 
 **South**  
-![NPR South](./images/NPR-South.png)
+![NPR South](images/NPR-South.png)
 
 ---
 
@@ -69,10 +69,10 @@ Includes BME680 telemetry every 1800 s.
 
 #### Site survey
 **North**  
-![AUR North](./images/AUR-North.png)
+![AUR North](images/AUR-North.png)
 
 **South**  
-![AUR South](./images/AUR-South.png)
+![AUR South](images/AUR-South.png)
 
 ---
 
@@ -84,7 +84,7 @@ Includes BME680 telemetry every 1800 s.
 | C6C – Aurora Ceresia   | RAK4631 + GPIO Labs ISM filter | Alfa 5 dBi Omni| 1S4P 21700 Molicel P50B (20 Ah)| 10 W  | LONG_FAST    | 51   | ALL              | 2.6.4    |
 
 #### Site survey
-![C6C](./images/C6C.png)
+![C6C](images/C6C.png)
 
 ---
 
@@ -97,10 +97,10 @@ Includes BME680 telemetry every 1800 s.
 
 #### Site survey
 **North**  
-![POTM North](./images/POTM-North.png)
+![POTM North](images/POTM-North.png)
 
 **South**  
-![POTM South](./images/POTM-South.png)
+![POTM South](images/POTM-South.png)
 
 ---
 
