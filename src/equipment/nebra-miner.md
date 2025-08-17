@@ -1,4 +1,4 @@
-# Nebra Miner → Meshtastic Build Guide (DietPi + meshtasticd)
+# Nebra Miner (DietPi + meshtasticd)
 
 ## Why repurpose a Nebra?
 
