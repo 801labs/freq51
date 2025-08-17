@@ -4,29 +4,30 @@
 
 - **Great enclosure & RF path**: sturdy case, antenna feedthrough, easy to mount. Many miners are cheap on the used market.
 - **Linux-native reliability**: running Meshtastic on a Pi with `meshtasticd` is rock-solid for infrastructure nodes (MQTT uplink, remote admin, logging).
-- **1 W class radio option**: with the community **NebraHat (SX1262)** from @wehooper4, you get a clean SPI radio layout and a drop-in hardware preset.
-
-> ⚠️ **Legal & etiquette**  
-> Stay in your country’s ISM band (US915 in Utah), avoid Ham Mode unless licensed (encryption is not allowed on ham), and keep the mesh healthy (see our Configuration page for role guidance).
+- **1 W class radio option**: with the community [**NebraHat (SX1262)**](https://github.com/wehooper4/Meshtastic-Hardware/tree/main/NebraHat) from @wehooper4, you get a clean SPI radio layout and a drop-in hardware preset.
 
 ---
 
 ## What to buy
 
 **Minimum parts**
-- Nebra Indoor (or Outdoor) Hotspot enclosure (used market is fine). Specs vary; indoor box is ~150×150×50 mm and has a panel antenna connector.
-- Raspberry Pi (3B+ or 4B recommended), 16–32 GB microSD, 5 V/3 A PSU.
-- **NebraHat (SX1262, 1 W)** by @wehooper4 (community board). See pin map/preset below.
-- Short RF pigtail/adapters as needed (SMA ↔ N/RP-SMA depending on your enclosure panel connector).
-- 915 MHz antenna; for infrastructure, a modest 3–5 dBi omni is a good start.
+- Nebra Outdoor Hotspot enclosure from Ebay. Don't spend more than $50. The nebra comes with:
+   - Raspberry Pi CM3
+   - 32 GB Emmc
+   - Built-in POE
+   - Wifi Card & Antenna
+   - 915Mhz Antenna
+   - Waterproof Aluminum Enclosure
+- **NebraHat (SX1262, 1 W)** by @wehooper4 (community board). You have to build this yourself or buy from a group buy.
+   - Right now @bashNinja has about 10 left from a previous group buy. 
 
 **Nice-to-have**
-- 915 MHz **bandpass filter** for infrastructure nodes (reduces out-of-band junk).
-- BME680 sensor for weather telemetry inside the enclosure.
-- Heatsinks or small fan if the enclosure runs warm in summer.
+- [AHT20 sensor](https://www.amazon.com/dp/B09KGY5NPG) for weather telemetry inside the enclosure.
+- A better antenna, such as the a [5dBi Alfa](https://store.rokland.com/products/alfa-aoa-915-5acm-5-dbi-omni-outdoor-915mhz-802-11ah-mini-antenna-for-lora-halow-application) from Rokland.
+- A sealant for the enclosure such as [Lexel](https://www.amazon.com/dp/B000BQPFAS) or [Permatex](https://www.amazon.com/dp/B07R4C3KJB)
 
 > ⚠️ **Heads-up on other HATs**  
-> Only **SPI radios** are supported. Some popular UART or concentrator HATs won’t work. The Waveshare SX1262 HAT is not recommended for deployment (hardware limits with long frames)—use the NebraHat or a known-good SPI SX1262 design.
+> The pinout on the nebra is different than the standard Raspberry Pi pinout. This makes most hats incompatible unless you fix the pinout.
 
 ---
 
@@ -35,7 +36,7 @@
 > We’ll use DietPi (Debian 12 base) and the official Meshtastic Debian repo for `meshtasticd`.
 
 1) **Flash DietPi**  
-   Grab the DietPi image and flash it to your microSD. First boot, set your basics (hostname, SSH, etc.).
+   Grab the [DietPi image and flash it](https://dietpi.com/docs/install/) to your microSD. First boot, set your basics (hostname, SSH, etc.).
 
 2) **Enable hardware interfaces**  
    - `dietpi-config` → **Enable SPI** and **I2C**. Reboot.
@@ -76,11 +77,9 @@
    ```yaml
    General:
      MACAddressSource: eth0   # or wlan0, or use a fixed MACAddress
-     ConfigDirectory: /etc/meshtasticd/config.d/
-
+   
    WebServer:
      Port: 9443
-     RootPath: /var/lib/meshtasticd/web
    ```
 
 6) **First boot of the service**
@@ -108,19 +107,18 @@
 
 ## Role & channel recommendations (local norms)
 
-- **Most users**: `CLIENT` or `CLIENT_MUTE`.  
-- **Infra**: `ROUTER_LATE` unless coordinated otherwise; **always** add an RF filter on infrastructure nodes.  
+- **Most users**: These are usually static and outside so choose: `CLIENT`.  
+- **Infra**: **Always** add an RF filter on infrastructure nodes; **always** talk with the rest of the Freq51 community before setting a RAUTER.  
 - Primary: **LongFast**; Secondary: **Freq51** (request details).
 
 ---
 
 ## Fitting it in the Nebra enclosure
 
-1) Remove the old miner guts (keep the panel connector and gasket).  
-2) Mount the Pi on standoffs; seat the **NebraHat** on the 40-pin header.  
-3) Route a short **SMA pigtail** from the hat to the enclosure’s bulkhead connector.  
+1) Remove the old lora module.  
+2) Remove the USB board on the 40-pin header; seat the **NebraHat** on the 40-pin header.  
+3) Route the short **SMA pigtail** from the hat to the enclosure’s bulkhead connector.  
 4) Add a small **bandpass filter** inline for infrastructure builds.  
-5) Manage heat if the box sits in full sun.
 
 ---
 
@@ -129,13 +127,10 @@
 - **Radio not detected / -707 init errors**  
   - Confirm SPI enabled; check `/dev/spidev0.*`.  
   - Verify the preset pinout (IRQ/Busy/Reset/RXen/CS).  
-  - Toggle `DIO3_TCXO_VOLTAGE` if init errors persist.
 - **Duplicate MAC complaints**  
   - Set `MACAddressSource: eth0` (or pick a fixed `MACAddress:`).
 - **Web UI issues**  
-  - Ensure `WebServer.Port` & `RootPath` set.
-- **Waveshare HAT oddities**  
-  - Not recommended; if used, keep node `CLIENT_MUTE`.
+  - Ensure `WebServer.Port` is set.
 
 ---
 
@@ -160,13 +155,3 @@ Busy: 4
 Reset: 18
 RXen: 25
 ```
-
----
-
-## Credits & further reading
-
-- meshtasticd install (Debian 12 + Raspbian 12) and repo keys  
-- Config precedence & `config.d` presets  
-- Enabling the web UI in config.yaml  
-- NebraHat preset (1 W SX1262)  
-
