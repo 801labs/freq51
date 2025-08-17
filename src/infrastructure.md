@@ -8,7 +8,7 @@ Location: Francis Peak (Tertiary Peak)
 
 | Node Name | Radio | Antenna | Battery | Solar | Modem Preset | Slot | Rebroadcast Mode | Firmware Version |
 |---|---|---|---|---|---|---|---|
-| FPR - Francis Peak Router | Heltec T114V2 + Airbuddy AMP (1W) | Alfa 5 dBi Omni | 1S12P EVE 2.6V ICR18650 (30.6 Ah) | 5 W | LONG_FAST | 51 | ALL | 2.6.11
+| FPR - Francis Peak Router | Heltec T114V2 + Airbuddy AMP (1W) | Alfa 5 dBi Omni | 1S12P EVE 2.6V ICR18650 (30.6 Ah) | 5 W | LONG_FAST | 51 | ALL | 2.6.11 |
 
 Posses a BME680 for accurate weather and air quality reporting every 1800s
 
@@ -46,7 +46,7 @@ Location: Hill AFB - Weber State - valley overlook
 
 | Node Name | Radio | Antenna | Battery | Solar | Modem Preset | Slot | Rebroadcast Mode | Firmware Version |
 |---|---|---|---|---|---|---|---|---|
-| C6C -Aurora Ceresia Router Late | RAK4631+GPIO Labs 915 ISM Filter | Alfa 5 dBi Omni | 1S4P 21700 Molicel P50B (20 Ah) | 10 W | LONG_FAST | 51 | ALL | 2.6.4
+| C6C -Aurora Ceresia Router Late | RAK4631+GPIO Labs 915 ISM Filter | Alfa 5 dBi Omni | 1S4P 21700 Molicel P50B (20 Ah) | 10 W | LONG_FAST | 51 | ALL | 2.6.4 |
 
 ### POTM - Point of the Mountain Router Late
 
@@ -64,10 +64,10 @@ Location: Desolation Peak
 
 | Node Name | Radio | Antenna | Battery | Solar | Modem Preset | Slot | Rebroadcast Mode | Firmware Version |
 |---|---|---|---|---|---|---|---|---|
-| WC1 - Wasatch Crest 1 | RAK4631 | Alfa 5 dBi Omni | 2× Molicel 21700 P42A  (8.4 Ah) | 3 W | LONG_FAST | 51 | ALL | 2.6.4
+| WC1 - Wasatch Crest 1 | RAK4631 | Alfa 5 dBi Omni | 2× Molicel 21700 P42A  (8.4 Ah) | 3 W | LONG_FAST | 51 | ALL | 2.6.4 |
 
 ### WC2 - Wasatch Crest 2
 
 | Node Name | Radio | Antenna | Battery | Solar | Modem Preset | Slot | Rebroadcast Mode | Firmware Version |
 |---|---|---|---|---|---|---|---|---|
-| WC2 - Wasatch Crest 2 | XIAO_NRF52 | Ziisor TX915-JKS-20 | 2× Samsung 35E 18650 (7 Ah) | 6 W | LONG_FAST | 51 | ALL | 2.6.11
+| WC2 - Wasatch Crest 2 | XIAO_NRF52 | Ziisor TX915-JKS-20 | 2× Samsung 35E 18650 (7 Ah) | 6 W | LONG_FAST | 51 | ALL | 2.6.11 |
