@@ -1,6 +1,6 @@
 # Summary
 
-- [Overview](/README.md)
+[Overview](/README.md)
 - [FAQ](/faq.md)
 - [Configuration](/config.md)
 - [Infrastructure](/infrastructure.md)
