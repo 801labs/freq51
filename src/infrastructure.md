@@ -1,73 +1,122 @@
 # Freq51 Infrastructure
 
+This page lists deployed routers, router lates, and strategically placed clients. Each entry has a spec table followed by a **Site survey** with associated images. North views are shown first when both are available.
+
+---
+
 ## Routers
 
-### FPR - Francis Peak Router
+### FPR — Francis Peak Router
+**Location:** Francis Peak (Tertiary Peak)
 
-Location: Francis Peak (Tertiary Peak)
+| Node Name              | Radio                            | Antenna        | Battery                           | Solar | Modem Preset | Slot | Rebroadcast Mode | Firmware |
+|------------------------|----------------------------------|----------------|-----------------------------------|-------|--------------|------|------------------|----------|
+| FPR – Francis Peak Rtr | Heltec T114V2 + Airbuddy AMP 1 W | Alfa 5 dBi Omni| 1S12P EVE ICR18650 (30.6 Ah)      | 5 W   | LONG_FAST    | 51   | ALL              | 2.6.11   |
 
-| Node Name | Radio | Antenna | Battery | Solar | Modem Preset | Slot | Rebroadcast Mode | Firmware Version |
-|---|---|---|---|---|---|---|---|---|
-| FPR - Francis Peak Router | Heltec T114V2 + Airbuddy AMP (1W) | Alfa 5 dBi Omni | 1S12P EVE 2.6V ICR18650 (30.6 Ah) | 5 W | LONG_FAST | 51 | ALL | 2.6.11 |
+Possesses a BME680 for weather & air-quality telemetry every 1800 s.
 
-Posses a BME680 for accurate weather and air quality reporting every 1800s
+#### Site survey
+**North**  
+![FPR North](images/FPR-North.png)
 
-### LMR - Lake Mountain Router
+**South**  
+![FPR South](images/FPR-South.png)
 
-Location: Lake Mountain Radio Tower
+---
 
-| Node Name | Radio | Antenna | Battery | Solar | Modem Preset | Slot | Rebroadcast Mode | Firmware Version |
-|---|---|---|---|---|---|---|---|---|
-| LAKE - Lake Moutain Router | Rasberry Pi CM3, Ebyte E22 900M30S Radio, Taoglas DBP.915.V.A.30 Filter, Nebra Miner Enclosure  | 3 dbi | Hard Wired | N/A | LONG_FAST | 51 | ALL | Latest Alpha, auto updating |
+### LMR — Lake Mountain Router
+**Location:** Lake Mountain Radio Tower
 
-### NPR - Nelson Peak Router
+| Node Name               | Radio (modules + enclosure)                                          | Antenna | Battery    | Solar | Modem Preset | Slot | Rebroadcast Mode | Firmware             |
+|--------------------------|---------------------------------------------------------------------|---------|------------|-------|--------------|------|------------------|----------------------|
+| LAKE – Lake Mountain Rtr | RPi CM3 · Ebyte E22-900M30S · Taoglas filter · Nebra Miner Enclosure| 3 dBi   | Hard-wired | N/A   | LONG_FAST    | 51   | ALL              | Latest Alpha (auto)  |
 
-Location: Nelson Peak
+#### Site survey
+**North**  
+![LMR North](images/LMR-North.png)
 
-| Node Name | Radio | Antenna | Battery | Solar | Modem Preset | Slot | Rebroadcast Mode | Firmware Version |
-|---|---|---|---|---|---|---|---|---|
-| NPR - Nelson Peak Router | RAK19003+4631, No Filter | 4 dbi| 2 x 18650 | 6 W | LONG_FAST | 51 | ALL | 2.3.2 |
+**South**  
+![LMR South](images/LMR-South.png)
+
+---
+
+### NPR — Nelson Peak Router
+**Location:** Nelson Peak
+
+| Node Name              | Radio                 | Antenna | Battery     | Solar | Modem Preset | Slot | Rebroadcast Mode | Firmware |
+|------------------------|-----------------------|---------|-------------|-------|--------------|------|------------------|----------|
+| NPR – Nelson Peak Rtr  | RAK19003 + RAK4631    | 4 dBi   | 2 × 18650   | 6 W   | LONG_FAST    | 51   | ALL              | 2.3.2    |
+
+#### Site survey
+**North**  
+![NPR North](images/NPR-North.png)
+
+**South**  
+![NPR South](images/NPR-South.png)
+
+---
 
 ## Router Lates
 
-### AUR - Aurora Uranialis Router 
+### AUR — Aurora Uranialis
+**Location:** Ensign Peak
 
-Location: Ensign Peak
+| Node Name             | Radio                          | Antenna        | Battery                        | Solar | Modem Preset | Slot | Rebroadcast Mode | Firmware |
+|-----------------------|--------------------------------|----------------|--------------------------------|-------|--------------|------|------------------|----------|
+| AUR – Aurora Uranialis| RAK4631 + GPIO Labs ISM filter | Alfa 5 dBi Omni| 1S4P 21700 Molicel P50B (20 Ah)| 10 W  | LONG_FAST    | 51   | ALL              | 2.6.4    |
 
-| Node Name | Radio | Antenna | Battery | Solar | Modem Preset | Slot | Rebroadcast Mode | Firmware Version |
-|---|---|---|---|---|---|---|---|---|
-| AUR - Aurora Uranialis Router | RAK4631+GPIO Labs 915 ISM Filter | Alfa 5 dBi Omni | 1S4P 21700 Molicel P50B (20 Ah) | 10 W | LONG_FAST | 51 | ALL | 2.6.4
+Includes BME680 telemetry every 1800 s.
 
-Posses a BME680 for accurate weather and air quality reporting every 1800s
+#### Site survey
+**North**  
+![AUR North](images/AUR-North.png)
 
-### C6C -Aurora Ceresia Router Late
+**South**  
+![AUR South](images/AUR-South.png)
 
-Location: Hill AFB - Weber State - valley overlook
+---
 
-| Node Name | Radio | Antenna | Battery | Solar | Modem Preset | Slot | Rebroadcast Mode | Firmware Version |
-|---|---|---|---|---|---|---|---|---|
-| C6C -Aurora Ceresia Router Late | RAK4631+GPIO Labs 915 ISM Filter | Alfa 5 dBi Omni | 1S4P 21700 Molicel P50B (20 Ah) | 10 W | LONG_FAST | 51 | ALL | 2.6.4 |
+### C6C — Aurora Ceresia
+**Location:** Hill AFB – Weber State overlook
 
-### POTM - Point of the Mountain Router Late
+| Node Name              | Radio                          | Antenna        | Battery                        | Solar | Modem Preset | Slot | Rebroadcast Mode | Firmware |
+|------------------------|--------------------------------|----------------|--------------------------------|-------|--------------|------|------------------|----------|
+| C6C – Aurora Ceresia   | RAK4631 + GPIO Labs ISM filter | Alfa 5 dBi Omni| 1S4P 21700 Molicel P50B (20 Ah)| 10 W  | LONG_FAST    | 51   | ALL              | 2.6.4    |
 
-Location: Point of the Mountain North Facing Ridgeline
+#### Site survey
+![C6C](images/C6C.png)
 
-| Node Name | Radio | Antenna | Battery | Solar | Modem Preset | Slot | Rebroadcast Mode | Firmware Version |
-|---|---|---|---|---|---|---|---|---|
-| POTM - POTM Router Late | RAK19003+4631, No Filter | 4 dbi| 2 x 18650 | 6 W | LONG_FAST | 51 | ALL | 2.6.10 |
+---
 
-## Strategically Place Clients
+### POTM — Point of the Mountain
+**Location:** North-facing ridgeline
 
-### WC1 - Wasatch Crest 1
+| Node Name              | Radio              | Antenna | Battery   | Solar | Modem Preset | Slot | Rebroadcast Mode | Firmware |
+|------------------------|-------------------|---------|-----------|-------|--------------|------|------------------|----------|
+| POTM – Router Late     | RAK19003 + RAK4631| 4 dBi   | 2 × 18650 | 6 W   | LONG_FAST    | 51   | ALL              | 2.6.10   |
 
-Location: Desolation Peak
+#### Site survey
+**North**  
+![POTM North](images/POTM-North.png)
 
-| Node Name | Radio | Antenna | Battery | Solar | Modem Preset | Slot | Rebroadcast Mode | Firmware Version |
-|---|---|---|---|---|---|---|---|---|
-| WC1 - Wasatch Crest 1 | RAK4631 | Alfa 5 dBi Omni | 2× Molicel 21700 P42A  (8.4 Ah) | 3 W | LONG_FAST | 51 | ALL | 2.6.4 |
+**South**  
+![POTM South](images/POTM-South.png)
 
-### WC2 - Wasatch Crest 2
+---
 
-| Node Name | Radio | Antenna | Battery | Solar | Modem Preset | Slot | Rebroadcast Mode | Firmware Version |
-|---|---|---|---|---|---|---|---|---|
-| WC2 - Wasatch Crest 2 | XIAO_NRF52 | Ziisor TX915-JKS-20 | 2× Samsung 35E 18650 (7 Ah) | 6 W | LONG_FAST | 51 | ALL | 2.6.11 |
+## Strategically Placed Clients
+
+### WC1 — Wasatch Crest 1
+**Location:** Desolation Peak
+
+| Node Name            | Radio   | Antenna        | Battery                    | Solar | Modem Preset | Slot | Rebroadcast Mode | Firmware |
+|-----------------------|---------|----------------|----------------------------|-------|--------------|------|------------------|----------|
+| WC1 – Wasatch Crest 1 | RAK4631 | Alfa 5 dBi Omni| 2× Molicel 21700 P42A 8.4Ah| 3 W   | LONG_FAST    | 51   | ALL              | 2.6.4    |
+
+---
+
+### WC2 — Wasatch Crest 2
+
+| Node Name            | Radio      | Antenna           | Battery                      | Solar | Modem Preset | Slot | Rebroadcast Mode | Firmware |
+|-----------------------|------------|-------------------|------------------------------|-------|--------------|------|------------------|----------|
+| WC2 – Wasatch Crest 2 | XIAO NRF52 | Ziisor TX915-JKS-20| 2× Samsung 35E 18650 (7 Ah) | 6 W   | LONG_FAST    | 51   | ALL              | 2.6.11   |
