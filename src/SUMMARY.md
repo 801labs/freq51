@@ -1,5 +1,5 @@
 # Summary
-
+<img src="images/IntermountainMeshLogo.png" width="200" />
 [Overview](README.md)
 - [FAQ](faq.md)
 - [Configuration](config.md)
