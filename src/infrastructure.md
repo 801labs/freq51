@@ -32,11 +32,8 @@ Possesses a BME680 for weather & air-quality telemetry every 1800 s.
 | LAKE – Lake Mountain Rtr | RPi CM3 · Ebyte E22-900M30S · Taoglas filter · Nebra Miner Enclosure| 3 dBi   | Hard-wired | N/A   | LONG_FAST    | 51   | ALL              | Latest Alpha (auto)  |
 
 #### Site survey
-**North**  
-![LMR North](images/LMR-North.png)
-
-**South**  
-![LMR South](images/LMR-South.png)
+**North/South**  
+![LMR North-South](images/LMR.png)
 
 ---
 
