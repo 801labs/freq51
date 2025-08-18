@@ -108,7 +108,7 @@
 ## Role & channel recommendations (local norms)
 
 - **Most users**: These are usually static and outside so choose: `CLIENT`.  
-- **Infra**: **Always** add an RF filter on infrastructure nodes; **always** talk with the rest of the Freq51 community before setting a RAUTER.  
+- **Infra**: **Always** add an RF filter on infrastructure nodes; **always** talk with the rest of the Freq51 community before setting a `ROUTER`.  
 - Primary: **LongFast**; Secondary: **Freq51** (request details).
 
 ---
@@ -137,8 +137,8 @@
 ## Verifying on the mesh
 
 - From another node, send a direct message to your Pi node.  
-- In the CLI: `meshtastic --host <pi-ip> --info` and `meshtastic --host <pi-ip> --nodedb` to see neighbors.
-- On maps/MQTT (if you opt in), confirm you appear and avoid downlink floods.
+- In the CLI: `meshtastic --host 127.0.0.1 --info` and `meshtastic --host 127.0.0.1 --nodedb` to see neighbors.
+- On maps/MQTT (if you opt in), confirm you appear and avoid turning on downlink.
 
 ---
 
