@@ -108,7 +108,7 @@ Includes BME680 telemetry every 1800 s.
 
 | Node Name            | Radio   | Antenna        | Battery                    | Solar | Modem Preset | Slot | Rebroadcast Mode | Firmware |
 |-----------------------|---------|----------------|----------------------------|-------|--------------|------|------------------|----------|
-| WC1 – Wasatch Crest 1 | RAK4631 | Alfa 5 dBi Omni| 2× Molicel 21700 P42A 8.4Ah| 3 W   | LONG_FAST    | 51   | ALL              | 2.6.4    |
+| WC1 – Wasatch Crest 1 | RAK4631 | Starf 7 dBi 320mm | 2× Molicel 21700 P42A 8.4Ah| 3 W   | LONG_FAST    | 51   | ALL              | 2.6.10    |
 
 ---
 
@@ -116,4 +116,4 @@ Includes BME680 telemetry every 1800 s.
 
 | Node Name            | Radio      | Antenna           | Battery                      | Solar | Modem Preset | Slot | Rebroadcast Mode | Firmware |
 |-----------------------|------------|-------------------|------------------------------|-------|--------------|------|------------------|----------|
-| WC2 – Wasatch Crest 2 | XIAO NRF52 | Ziisor TX915-JKS-20| 2× Samsung 35E 18650 (7 Ah) | 6 W   | LONG_FAST    | 51   | ALL              | 2.6.11   |
+| WC2 – Wasatch Crest 2 | XIAO NRF52 | Gizont 7dBi 450mm | 2× Molicel 21700 P45B  (9 Ah) | 6 W   | LONG_FAST    | 51   | ALL              | 2.6.11   |
