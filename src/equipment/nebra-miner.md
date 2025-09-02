@@ -33,7 +33,7 @@
 
 ## Quick start (DietPi + meshtasticd)
 
-> We’ll use DietPi (Debian 12 base) and the official Meshtastic Debian repo for `meshtasticd`.
+> We’ll use DietPi (Debian 12 base / Debian 13 base) and the official Meshtastic Debian repo for `meshtasticd`.
 
 1) **Flash DietPi**  
    Grab the [DietPi image and flash it](https://dietpi.com/docs/install/) to your microSD. First boot, set your basics (hostname, SSH, etc.).
