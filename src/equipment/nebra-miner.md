@@ -33,7 +33,7 @@
 
 ## Quick start (DietPi + meshtasticd)
 
-> We’ll use DietPi (Debian 12 base) and the official Meshtastic Debian repo for `meshtasticd`.
+> We’ll use DietPi (Debian 12 base / Debian 13 base) and the official Meshtastic Debian repo for `meshtasticd`.
 
 1) **Flash DietPi**  
    Grab the [DietPi image and flash it](https://dietpi.com/docs/install/) to your microSD. First boot, set your basics (hostname, SSH, etc.).
@@ -42,6 +42,8 @@
    - `dietpi-config` → **Enable SPI** and **I2C**. Reboot.
 
 3) **Install dependencies & meshtasticd**
+
+   *** Debain 12 - Bookworm ***
    ```bash
    sudo apt update
    sudo apt install -y libgpiod-dev libyaml-cpp-dev libbluetooth-dev openssl libssl-dev libulfius-dev liborcania-dev
@@ -52,10 +54,27 @@
    sudo apt update && sudo apt install -y meshtasticd
    ```
 
+   *** Debian 13 - Trixie ***   
+   ```bash
+   sudo apt update
+   sudo apt install -y libgpiod-dev libyaml-cpp-dev libbluetooth-dev openssl libssl-dev libulfius-dev liborcania-dev
+   curl -fsSL https://download.opensuse.org/repositories/network:Meshtastic:beta/Debian_13/Release.key \
+     | sudo gpg --dearmor -o /etc/apt/trusted.gpg.d/network_Meshtastic_beta.gpg
+   echo 'deb http://download.opensuse.org/repositories/network:/Meshtastic:/beta/Debian_13/ /' \
+     | sudo tee /etc/apt/sources.list.d/network:Meshtastic:beta.list
+   sudo apt update && sudo apt install -y meshtasticd
+   ```
+
 4) **Add the NebraHat radio preset**  
+   *** 1W NebraHat ***
    ```bash
    cd /etc/meshtasticd/config.d/
    sudo wget https://raw.githubusercontent.com/wehooper4/Meshtastic-Hardware/refs/heads/main/NebraHat/NebraHat_1W.yaml
+   ```
+   *** 2W NebraHat ***
+    ```bash
+   cd /etc/meshtasticd/config.d/
+   sudo wget https://raw.githubusercontent.com/wehooper4/Meshtastic-Hardware/refs/heads/main/NebraHat/NebraHat_2W.yaml
    ```
    Preset sets SX1262 pins for the NebraHat:
    ```
