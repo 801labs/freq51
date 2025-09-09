@@ -208,6 +208,6 @@ Router deployment is a critical responsibility that requires careful planning, c
 
 ---
 
-*For general mesh participation without router responsibilities, see the [Onboarding Guide](Onboarding.md).*
+*For general mesh participation without router responsibilities, see the [Onboarding Guide](onboarding.md).*
 *For technical configuration details, see [Configuration](config.md).*
 *For hardware recommendations, see [Equipment](equipment.md).*
