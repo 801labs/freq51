@@ -73,6 +73,8 @@ If you can’t find a setting in the app, check Meshtastic docs (each page has i
 
 ### Router Nodes
 
+Before configuring a router, review the [Router Deployment Guide](router-deployment.md).
+
 Use when node is a router
 
 **Paths to check** (App tabs may vary):  
@@ -97,6 +99,8 @@ Use when node is a router
 > Note: Neighbor Info is no longer shared across the mesh on `long_fast` and thus we require the additional Freq51 MQTT and Neighborinfo Channel.
 
 ### Router Late Nodes
+
+Before configuring a Router Late, review the [Router Deployment Guide](router-deployment.md).
 
 **Paths to check** (App tabs may vary):  
 `Radio > User`, `Radio > Device`, `Radio > Position`, `Radio > LoRa`, `Radio > Bluetooth`, `Modules > Neighbor Info`, `Modules > MQTT`

@@ -6,6 +6,8 @@ This page lists deployed routers, router lates, and strategically placed clients
 
 ## Routers
 
+For deployment guidelines, see [Router Deployment Guide](router-deployment.md).
+
 ### FPR — Francis Peak Router
 **Location:** Francis Peak (Tertiary Peak)
 
@@ -54,6 +56,8 @@ Possesses a BME680 for weather & air-quality telemetry every 1800 s.
 ---
 
 ## Router Lates
+
+For deployment guidelines, see [Router Deployment Guide](router-deployment.md).
 
 ### AUR — Aurora Uranialis
 **Location:** Ensign Peak

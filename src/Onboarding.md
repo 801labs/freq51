@@ -64,44 +64,19 @@ Understanding roles is crucial for network health:
 - **Behavior**: Still routes messages but reduces unnecessary transmissions
 - **Use when**: You're moving frequently or have limited power
 
-### 🔄 ROUTER (Coordinate with community first!)
+### 🔄 ROUTER (Advanced users only!)
 - **Best for**: Fixed installations with good coverage and reliable power
 - **Behavior**: Optimized for forwarding, stores messages longer
 - **Use when**: You have permission and a strategic location
 - **⚠️ Important**: Contact [Discord community] before deploying routers
-
-#### 📏 Router Placement Guidelines by Elevation
-
-**Strategic placement is critical for router effectiveness. Different elevations serve different purposes:**
-
-**🏔️ High Elevation Backbone Routers (~9,361' - Nelson Peak level)**
-- **Purpose**: Major backbone infrastructure for maximum coverage
-- **Coverage**: Can reach 50+ miles with line-of-sight
-- **Role**: Primary ROUTER role
-- **Coordination**: Requires extensive community planning and approval
-- **Example locations**: Mountain peaks, tall towers, strategic high points
-
-**⛰️ Regional Coverage Routers (~5,600' - Point of the Mountain/Traverse Mountains)**
-- **Purpose**: Regional coverage bridging high backbone to local nodes
-- **Coverage**: 15-30 mile radius depending on terrain
-- **Role**: ROUTER or ROUTER_CLIENT for secondary infrastructure
-- **Coordination**: Community coordination recommended
-- **Example locations**: Foothills, elevated neighborhoods, radio towers
-
-**🏠 Local/Ground Level (25-35' - House roofs/ground level)**
-- **Purpose**: Local mesh participation and user access
-- **Coverage**: 1-5 miles in typical suburban/urban terrain
-- **Role**: CLIENT or CLIENT_MUTE (NOT router roles)
-- **Why CLIENT**: Prevents network congestion from too many routers
-- **Example locations**: Home installations, portable setups, vehicle mounts
-
-**Key Principle**: Higher elevation = greater responsibility and coordination requirements. Most users should remain clients regardless of their installation height.
+- **📖 Detailed Guide**: See our comprehensive [Router Deployment Guide](router-deployment.md) for complete information
 
 ### 🚫 REPEATER (NOT RECOMMENDED for new users)
 - **❌ Do NOT use**: New users should avoid this role entirely
 - **Why avoid**: Can cause network congestion and interference without proper coordination
 - **Community policy**: Repeaters are deployed only by experienced members with specific community approval
 - **⚠️ Important**: This role should NEVER be used without explicit permission from network coordinators
+- **📖 Detailed Guide**: See our comprehensive [Router Deployment Guide](router-deployment.md) for complete information
 
 ---
 
@@ -140,6 +115,7 @@ Understanding roles is crucial for network health:
 ### Advanced Configuration
 - **Detailed settings**: See [Configuration](https://github.com/801labs/freq51/blob/main/src/config.md) guide
 - **Hardware recommendations**: Check [Equipment](https://github.com/801labs/freq51/blob/main/src/equipment.md) page
+- **Router deployment**: See [Router Deployment Guide](router-deployment.md) for advanced users
 - **Common issues**: Review [FAQ](https://github.com/801labs/freq51/blob/main/src/faq.md)
 
 ---
