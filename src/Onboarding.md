@@ -66,10 +66,11 @@ Apply these **essential settings** for optimal network participation:
 - **Use when**: You have permission and a strategic location
 - **⚠️ Important**: Contact [Discord community] before deploying routers
 
-### 📡 REPEATER (Special use only)
-- **Best for**: Coverage extension in dead zones
-- **Behavior**: Only forwards packets, doesn't originate messages
-- **Use when**: Specifically requested by community for coverage gaps
+### 🚫 REPEATER (NOT RECOMMENDED for new users)
+- **❌ Do NOT use**: New users should avoid this role entirely
+- **Why avoid**: Can cause network congestion and interference without proper coordination
+- **Community policy**: Repeaters are deployed only by experienced members with specific community approval
+- **⚠️ Important**: This role should NEVER be used without explicit permission from network coordinators
 
 ---
 
