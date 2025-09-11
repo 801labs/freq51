@@ -10,12 +10,14 @@ We currently recommend a local map (**TBD: map URL**) for nodes that opt in to s
 
 - **What firmware version should I flash?**  
   Ask in freq51 Discord; “latest” isn’t always best for local stability. We track known issues and local norms. We currently prefer 2.6.11 as of 8/16/2025
+  Please see our [firmware update guide](advanced-configuration/firmware-updates.html) for help on that.
 
 - **Where’s the QR/URL to join the local mesh?**  
   We **don’t recommend** QR codes/URLs for public channels. They silently change additional LoRa settings (e.g., TX power, hop count). Enter channel names/keys manually and verify settings after import.
 
 - **Which role should I use: ROUTER or CLIENT?**  
-  **Usually `CLIENT` or `CLIENT_MUTE`.** Router roles (`ROUTER`, `ROUTER_LATE`, etc.) rebroadcast *everything* they hear and can harm network health if overused or poorly placed. Use router roles only when coordinated with the group.
+  **Usually `CLIENT` or `CLIENT_MUTE`.** Router roles (`ROUTER`, `ROUTER_LATE`, etc.) rebroadcast *everything* they hear and can harm network health if overused or poorly placed. Use router roles only when coordinated with the group. 
+  The Comms Channel has created a great [video](https://www.youtube.com/watch?v=htjwtnjQkkE) on that.
 
   ### Device Roles
 
