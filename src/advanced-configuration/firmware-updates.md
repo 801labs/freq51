@@ -5,12 +5,12 @@ This guide provides instructions for updating firmware on various Meshtastic-com
 ---
 
 ## 📑 Table of Contents
-- [Prerequisites](#prerequisites)
-- [Using the Web Flasher](#using-the-web-flasher)
-- [Updating RAK19007/19003 Nodes](#updating-rak1900719003-nodes)
-- [Updating Heltec Nodes](#updating-heltec-nodes)
-- [Updating Seedstudio T1000E](#updating-seedstudio-t1000e)
-- [Over-the-Air (OTA) Updates for RAK Nodes](#over-the-air-ota-updates-for-rak-nodes) (**Advanced Users Only**)
+- [Prerequisites](#-prerequisites)
+- [Using the Web Flasher](#-using-the-web-flasher)
+- [Updating RAK19007/19003 Nodes](#-updating-rak1900719003-nodes)
+- [Updating Heltec Nodes](#-updating-heltec-nodes)
+- [Updating Seedstudio T1000E](#-updating-seedstudio-t1000e)
+- [Over-the-Air (OTA) Updates for RAK Nodes](#-over-the-air-ota-updates-for-rak-nodes) (**Advanced Users Only**)
 
 ---
 
@@ -65,6 +65,8 @@ The easiest way to update firmware on most Meshtastic devices is using the brows
 - 💻 Works on Windows, macOS, Linux, and ChromeOS
 - 🤖 Automatically handles bootloader mode for many devices
 - 📱 Interactive guidance for entering DFU mode when needed
+
+** [Video:](https://www.youtube.com/watch?v=Euw9ppwkbxQ) 
 
 ---
 
@@ -139,6 +141,9 @@ meshtastic --device [PORT] --flash [PATH_TO_FIRMWARE]
 ```
 
 5. 🔄 After flashing completes, reset the device.
+
+
+For more detailed instructions, visit the [Get Started with T1000-E Tracker](https://wiki.seeedstudio.com/sensecap_t1000_e/#flash-the-application-firmware)
 
 ---
 
