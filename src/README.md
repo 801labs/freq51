@@ -8,12 +8,12 @@ Meshtastic® lets you use inexpensive LoRa radios as a long-range, off-grid comm
 ## Joining
 
 1. **Get supported hardware** from the Meshtastic list.
-2. **Join our Discord** for local help and announcements.
+2. **Join our [Discord](https://discord.com/channels/867578229534359593/1197577977781821541)** for local help and announcements.
 3. Read the **[FAQ](faq.md)** and **[Configuration](config.md)** pages below.
 4. See **[Equipment](equipment.md)** for example builds / coverage once published, and **[Infrastructure](infrastructure.md)** for deployed nodes.
 
 **Links**
-- Supported Hardware: https://meshtastic.org/docs/hardware/devices/
+- Supported Hardware: [https://meshtastic.org/docs/hardware/devices/](https://meshtastic.org/docs/hardware/devices/)
 - freq51 Discord: **Official Meshtastic Discord --> Connect Forum --> US-Utah**
 
 ---
@@ -50,4 +50,4 @@ Some cool freq51-adjacent projects we love to showcase (add yours!):
 
 Meshtastic keeps a running list of local groups worldwide. If you’re traveling or collaborating across regions, check there and cross-link back to freq51 once we’re listed.
 
-- Meshtastic Local Groups Directory: https://meshtastic.org/docs/community/local-groups/
+- Meshtastic Local Groups Directory: [https://meshtastic.org/docs/community/local-groups/](https://meshtastic.org/docs/community/local-groups/)
