@@ -66,6 +66,8 @@ The easiest way to update firmware on most Meshtastic devices is using the brows
 - 🤖 Automatically handles bootloader mode for many devices
 - 📱 Interactive guidance for entering DFU mode when needed
 
+** [Video:](https://www.youtube.com/watch?v=Euw9ppwkbxQ) 
+
 ---
 
 ## 📡 Updating RAK19007/19003 Nodes
@@ -139,6 +141,9 @@ meshtastic --device [PORT] --flash [PATH_TO_FIRMWARE]
 ```
 
 5. 🔄 After flashing completes, reset the device.
+
+
+For more detailed instructions, visit the [Get Started with T1000-E Tracker](https://wiki.seeedstudio.com/sensecap_t1000_e/#flash-the-application-firmware)
 
 ---
 

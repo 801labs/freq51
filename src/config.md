@@ -21,6 +21,8 @@ A **hop** is a relay through another node. Use the **lowest hop limit** that rel
 
 Understanding how rebroadcasting works in Meshtastic helps avoid network congestion and explains why Router roles should be used carefully.
 
+**For more info on how roles work and what is suggested based on the node use case please watch this [video](https://www.youtube.com/watch?v=htjwtnjQkkE) by The Comms Channel**
+
 ### Contention Windows
 - **Clients and Routers/Repeaters** do **not** share the same contention window.  
 - **Clients and Router_Lates (RLs)** do share a window — but RLs will defer to the end of the contention window if they hear another node.
