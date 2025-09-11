@@ -89,37 +89,15 @@ Understanding roles is crucial for network health:
 
 ---
 
-## 🌐 Community Guidelines
-
-### Network Etiquette
-- **Be respectful**: This is a shared resource for emergency preparedness
-- **Test responsibly**: Avoid excessive "testing" messages during peak times
-- **Coordinate infrastructure**: Contact community before adding routers/repeaters
-- **Stay contactable**: Keep a way for the community to reach you if needed
-
-### MQTT Guidelines
-- **Default recommendation**: Disable MQTT downlink to prevent RF flooding
-- **Map participation**: Enable uplink only if you want to appear on community maps
-- **Network health first**: RF mesh takes priority over internet integrations
-
-### Emergency Use
-- **Real emergencies**: Use any necessary settings, worry about optimization later
-- **Practice regularly**: Regular use helps ensure reliability when needed
-- **Backup communications**: Mesh complements, doesn't replace, other emergency comms
-
----
-
 ## 🗺️ Local Resources
 
 ### Coverage Areas
-- **Primary**: Salt Lake Valley, Utah County
-- **Growing**: Davis County, Weber County
+- **Primary**: Salt Lake Valley
+- **Growing**: Davis County, Weber County, Utah County
 - **Planned**: See [Infrastructure](infrastructure.md) for planned node locations
 
 ### Getting Help
 - **Discord**: Official Meshtastic Discord → Connect Forum → US-Utah
-- **Local Meetups**: Check Discord for in-person events
-- **GitHub**: This repository for documentation and issues
 
 ### Advanced Configuration
 - **Detailed settings**: See [Configuration](config.md) guide
