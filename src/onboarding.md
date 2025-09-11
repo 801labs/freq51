@@ -6,10 +6,10 @@ Welcome to Freq51! This guide will get you up and running on Utah's premier Mesh
 
 ### What You'll Need
 
-- **Hardware**: Any [Meshtastic-compatible device](https://meshtastic.org/docs/getting-started/supported-hardware)
+- **Hardware**: Any [Meshtastic-compatible device](https://meshtastic.org/docs/hardware/devices/)
 - **App**: Meshtastic mobile app (iOS/Android) or web client
 - **Time**: 15-30 minutes for initial setup
-- **Location**: Salt Lake City, Utah, or Idaho regions for best coverage
+- **Location**: Salt Lake City, Utah region for best coverage
 
 ---
 
@@ -17,7 +17,7 @@ Welcome to Freq51! This guide will get you up and running on Utah's premier Mesh
 
 ### 1. Hardware Setup (5 minutes)
 
-1. **Get your device**: We recommend starting with a Heltec V3, T-Beam, or similar from the [supported hardware list](https://meshtastic.org/docs/getting-started/supported-hardware)
+1. **Get your device**: We recommend starting with a RAK device, Seeed Tracker, Station G2, XIAO, or Raspberry Pi-based device from the [supported hardware list](https://meshtastic.org/docs/hardware/devices/)
 2. **Power on**: Most devices will create a WiFi hotspot on first boot
 3. **Note the device name**: Usually displays on device screen or in WiFi networks
 
@@ -104,11 +104,11 @@ Understanding roles is crucial for network health:
 
 ### Coverage Areas
 - **Primary**: Salt Lake Valley, Utah County
-- **Growing**: Davis County, Weber County, Eastern Idaho
+- **Growing**: Davis County, Weber County
 - **Planned**: See [Infrastructure](https://github.com/801labs/freq51/blob/main/src/infrastructure.md) for planned node locations
 
 ### Getting Help
-- **Discord**: Official Meshtastic Discord → Connect Forum → US-Utah && US-ID
+- **Discord**: Official Meshtastic Discord → Connect Forum → US-Utah
 - **Local Meetups**: Check Discord for in-person events
 - **GitHub**: This repository for documentation and issues
 
