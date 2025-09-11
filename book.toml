@@ -11,6 +11,7 @@ site-url = "/"
 git-repository-url = "https://github.com/801labs/freq51/tree/main/"
 edit-url-template = "https://github.com/801labs/freq51/edit/main/{path}"
 hash-files = true
+output-dir = "book"
 
 [output.html.playground]
 editable = true
