@@ -5,12 +5,12 @@ This guide provides instructions for updating firmware on various Meshtastic-com
 ---
 
 ## 📑 Table of Contents
-- [Prerequisites](#prerequisites)
-- [Using the Web Flasher](#using-the-web-flasher)
-- [Updating RAK19007/19003 Nodes](#updating-rak1900719003-nodes)
-- [Updating Heltec Nodes](#updating-heltec-nodes)
-- [Updating Seedstudio T1000E](#updating-seedstudio-t1000e)
-- [Over-the-Air (OTA) Updates for RAK Nodes](#over-the-air-ota-updates-for-rak-nodes) (**Advanced Users Only**)
+- [Prerequisites](#-prerequisites)
+- [Using the Web Flasher](#-using-the-web-flasher)
+- [Updating RAK19007/19003 Nodes](#-updating-rak1900719003-nodes)
+- [Updating Heltec Nodes](#-updating-heltec-nodes)
+- [Updating Seedstudio T1000E](#-updating-seedstudio-t1000e)
+- [Over-the-Air (OTA) Updates for RAK Nodes](#-over-the-air-ota-updates-for-rak-nodes) (**Advanced Users Only**)
 
 ---
 
