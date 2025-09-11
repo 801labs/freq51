@@ -27,7 +27,7 @@ This guide covers everything you need to know about deploying **ROUTER** nodes o
 
 ## 📏 Strategic Placement by Elevation
 
-Where we place routers is very important
+Where we place routers is very important.
 
 ### 🏔️ High Elevation Backbone Routers (~9,361' - Nelson Peak Level)
 
