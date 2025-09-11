@@ -97,12 +97,13 @@ Understanding roles is crucial for network health:
 - **Planned**: See [Infrastructure](infrastructure.md) for planned node locations
 
 ### Getting Help
-- **Discord**: Official Meshtastic Discord → Connect Forum → US-Utah
+- **Discord**: Official Meshtastic Discord → Connect Forum → [US-Utah](https://discord.com/channels/867578229534359593/1197577977781821541)
 
 ### Advanced Configuration
 - **Detailed settings**: See [Configuration](config.md) guide
 - **Hardware recommendations**: Check [Equipment](equipment.md) page
 - **Router deployment**: See [Router Deployment Guide](advanced-configuration/router-deployment.md) for advanced users
+- **Firmware Updates**: See [Firmware Update Guide](advanced-configuration/firmware-updates.md) page
 - **Common issues**: Review [FAQ](faq.md)
 
 ---
