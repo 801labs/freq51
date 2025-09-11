@@ -87,6 +87,8 @@ Understanding roles is crucial for network health:
 - **⚠️ Important**: This mode can cause serious issues with the mesh and it's particularly hard to troubleshoot. Contact the [Discord community] before deploying repeaters
 - **📖 Detailed Guide**: See our comprehensive [Router Deployment Guide](advanced-configuration/router-deployment.md) for complete information
 
+**For more info on how roles work and what is suggested based on the node use case please watch this [video](https://www.youtube.com/watch?v=htjwtnjQkkE) by The Comms Channel**
+
 ---
 
 ## 🗺️ Local Resources
