@@ -73,7 +73,7 @@ If you can’t find a setting in the app, check Meshtastic docs (each page has i
 
 ### Router Nodes
 
-Before configuring a router, review the [Router Deployment Guide](router-deployment.md).
+Before configuring a router, review the [Router Deployment Guide](advanced-configuration/router-deployment.md).
 
 Use when node is a router
 
@@ -100,7 +100,7 @@ Use when node is a router
 
 ### Router Late Nodes
 
-Before configuring a Router Late, review the [Router Deployment Guide](router-deployment.md).
+Before configuring a Router Late, review the [Router Deployment Guide](advanced-configuration/router-deployment.md).
 
 **Paths to check** (App tabs may vary):  
 `Radio > User`, `Radio > Device`, `Radio > Position`, `Radio > LoRa`, `Radio > Bluetooth`, `Modules > Neighbor Info`, `Modules > MQTT`

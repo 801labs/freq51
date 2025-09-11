@@ -52,7 +52,7 @@ We currently recommend a local map (**TBD: map URL**) for nodes that opt in to s
 	  - It has a filter on the RF chain
     - **Rebroadcast mode:** `CORE_PORT_NUMS_ONLY`.  (we actually desire ALL so please switch. See configuration details)
     - Overuse of routers can cause congestion.  
-    - See [Router Deployment Guide](router-deployment.md) before deploying.
+    - See [Router Deployment Guide](advanced-configuration/router-deployment.md) before deploying.
 
   - **Router Late**  
     - A router that **waits briefly before retransmitting** messages.  
@@ -61,7 +61,7 @@ We currently recommend a local map (**TBD: map URL**) for nodes that opt in to s
     - Best used in **dense networks** with multiple routers to avoid collisions and connecting to geographically seperate areas
     - Should be coordinated with other router owners.  
     - **Rebroadcast mode:** `All (delayed)`.  
-    - See [Router Deployment Guide](router-deployment.md) for placement guidance.
+    - See [Router Deployment Guide](advanced-configuration/router-deployment.md) for placement guidance.
 
   #### Choosing the Right Role
   - **Most people - Outdoor:** `Client`
@@ -69,7 +69,7 @@ We currently recommend a local map (**TBD: map URL**) for nodes that opt in to s
   - **Fixed/always-on with power and good placement between 5500 ft and 8000 ft:** `Router Late`  
   - **Fixed/always-on with power and good placement above 8000 ft:** `Router`  
 
-  See [Router Deployment Guide](router-deployment.md) for deployment guidance.
+  See [Router Deployment Guide](advanced-configuration/router-deployment.md) for deployment guidance.
 
   ⚠️ **Tip:** Too many routers (or routers in bad spots) can hurt the mesh. When in doubt, stick to `Client`.  
 
