@@ -6,5 +6,5 @@
 - [Infrastructure](infrastructure.md)
 - [Equipment](equipment.md)
    - [Nebra Miner Guide](equipment/nebra-miner.md)
-- [Advanced Configuration](advanced-configuration/)
+- [Advanced Configuration](advanced-configuration.md)
    - [Router Deployment Guide](advanced-configuration/router-deployment.md)
