@@ -72,13 +72,13 @@ Understanding roles is crucial for network health:
 - **⚠️ Important**: Misplacing routers increases collisions and wastes hops. Contact the [Discord community] before deploying
 - **📖 Detailed Guide**: See our comprehensive [Router Deployment Guide](advanced-configuration/router-deployment.md) before **considering setting up a router**.
 
-### 🔄 ROUTER_LATE (Infrastructure - Safety net)
+### 🔄 ROUTER_LATE (Infrastructure - Advanced users only!)
 - **Best for**: Adding reliability/coverage for local clusters without stealing priority
 - **Behavior**: Always rebroadcasts once, but only after all other modes have had their chance (not prioritized)
 - **Visibility**: Visible in nodes list/topology
 - **Use when**: You need a "safety net" for a small area or dead spots without stealing routing priority from better infrastructure
 
-### 🚫 REPEATER (Infrastructure - Pure extender)
+### 🚫 REPEATER (**Not Used** - Advanced users only!)
 - **Best for**: Pure extenders in strategic spots
 - **Behavior**: Always rebroadcasts each packet once with minimal overhead, turns off its own broadcast chatter
 - **Visibility**: NOT visible in nodes list/topology
