@@ -8,3 +8,4 @@
    - [Nebra Miner Guide](equipment/nebra-miner.md)
 - [Advanced Configuration](advanced-configuration.md)
    - [Router Deployment Guide](advanced-configuration/router-deployment.md)
+   - [Firmware Update Guide](advanced-configuration/firmware-updates.md)
