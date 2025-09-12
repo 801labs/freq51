@@ -66,7 +66,7 @@ The easiest way to update firmware on most Meshtastic devices is using the brows
 - 🤖 Automatically handles bootloader mode for many devices
 - 📱 Interactive guidance for entering DFU mode when needed
 
-** [Video:](https://www.youtube.com/watch?v=Euw9ppwkbxQ) 
+** [Video:](https://www.youtube.com/watch?v=Euw9ppwkbxQ) ** 
 
 ---
 
