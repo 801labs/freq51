@@ -7,7 +7,7 @@ Welcome to Freq51! This guide will get you up and running on our Meshtastic netw
 ### What You'll Need
 
 - **Hardware**: Any [Meshtastic-compatible device](https://meshtastic.org/docs/hardware/devices/)
-- **App**: Meshtastic mobile app (iOS/Android) or web client
+- **App**: Meshtastic mobile app ([iOS](https://apple.co/3Auysep)/[Android](https://play.google.com/store/apps/details?id=com.geeksville.mesh)) or web client
 - **Time**: 15-30 minutes for initial setup
 - **Location**: Salt Lake City, Utah region for best coverage
 
@@ -23,6 +23,8 @@ Welcome to Freq51! This guide will get you up and running on our Meshtastic netw
 ### 2. Connect via Meshtastic App (10 minutes)
 
 1. **Download**: Get the official Meshtastic app from your app store
+   - IOS [Link](https://apple.co/3Auysep)
+   - Android [Link](https://play.google.com/store/apps/details?id=com.geeksville.mesh)
 2. **Connect**: 
    - **Bluetooth**: Most devices connect via Bluetooth (recommended method)
    - **WiFi**: Some devices also support WiFi hotspot connection for web interface
@@ -30,7 +32,8 @@ Welcome to Freq51! This guide will get you up and running on our Meshtastic netw
 
 ### 3. Configure for Freq51 (5 minutes)
 
-Apply these **essential settings** for optimal network participation:
+Apply these **essential settings** for optimal mesh network participation:
+***Keep in mind that the IOS/Android app settings layout may differ***
 
 #### Channel Settings
 - **Primary Channel**: Use default "LongFast" initially
@@ -122,7 +125,7 @@ Understanding roles is crucial for network health:
 ### Messages not getting through?
 - Check [router placements](infrastructure.md) and see if you're near the mesh
 - Network may be busy - try again later
-- Check hop limit (default 3 is usually good)
+- Check hop limit (default 3 is usually good, but 5-6 may give better results.)
 - Verify channel settings match community standards
 
 ---
@@ -131,8 +134,8 @@ Understanding roles is crucial for network health:
 
 **Need help?** The Freq51 community is here to support you:
 
-- **Meshtastic Discord**: Most active support channel
-- **Utah Mesh Discord**: A backup community in the event the main meshtastic discord doesn't work out
+- **[Meshtastic Discord](https://github.com/meshtastic)**: Most active support channel
+- **[Utah Mesh Discord](https://discord.com/channels/867578229534359593/1197577977781821541)**: A backup community in the event the main meshtastic discord doesn't work out
 
 **Welcome to the mesh!** 📡✨
 
