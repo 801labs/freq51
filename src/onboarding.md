@@ -38,7 +38,7 @@ Apply these **essential settings** for optimal mesh network participation:
 #### Channel Settings
 - **Primary Channel**: Use default "LongFast" initially
 - **Region**: Set to "US"
-- **Frequency**: 915MHz band (automatic for US region)
+- **Frequency Slot**: 51, this ends up being 914.625MHz band (automatic for US region)
 
 #### Node Configuration
 - **Node Name**: Choose something identifiable (avoid personal info)
