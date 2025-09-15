@@ -61,7 +61,7 @@ Where we place routers is very important.
 **Characteristics**:
 - **Elevation**: 5,000-7,000 feet above sea level
 - **Coverage**: 15-30 mile radius depending on terrain
-- **Role**: ROUTER or ROUTER_CLIENT for secondary infrastructure
+- **Role**: ROUTER_LATE
 - **Power**: Reliable power source (grid-tied or robust solar)
 - **Antenna**: Medium to high-gain antennas
 - **Coordination**: Community coordination recommended
