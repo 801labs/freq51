@@ -35,18 +35,28 @@ Welcome to Freq51! This guide will get you up and running on our Meshtastic netw
 Apply these **essential settings** for optimal mesh network participation:
 ***Keep in mind that the IOS/Android app settings layout may differ***
 
-#### Channel Settings
-- **Primary Channel**: Use default "LongFast" initially
-- **Region**: Set to "US"
-- **Frequency Slot**: 51, this ends up being 914.625MHz band (automatic for US region)
+### Quick Setup Guide
+Use this checklist to get your node configured and on the network as quickly as possible.  
 
-#### Node Configuration
-- **Node Name**: Choose something identifiable (avoid personal info)
-- **Role**: Start with "CLIENT" (see roles section below)
-- **Location**: Enable GPS if comfortable
+#### General Settings
+- [ ] **Region**: This is normally set the first time you connect to the node.  
+      If it hasn’t been set yet, go to the **LoRa Section** and set it to **US**.
 
-#### Freq51-Specific Settings
-- **MQTT**: Disable downlink 
+#### Node Configuration (Quick Setup)
+
+1. **User Section**
+   - [ ] **Long Name**: Choose something recognizable (avoid personal info).
+   - [ ] **Short Name**: Set a short, unique identifier (usually 3–4 letters).
+
+2. **Device Section**
+   - [ ] **Role**: Set to **CLIENT**.
+
+3. **LoRa Section**
+   - [ ] **Frequency Slot**: Set to **51**.
+   - [ ] **Hop Count**: Choose a number between **5–7** (recommended).
+
+4. **Location Section**
+   - [ ] **GPS**: Enable if you’re comfortable sharing your location.
 
 
 ---
@@ -102,7 +112,7 @@ Understanding roles is crucial for network health:
 - **Planned**: See [Infrastructure](infrastructure.md) for planned node locations
 
 ### Getting Help
-- **Discord**: Official Meshtastic Discord → Connect Forum → [US-Utah](https://discord.com/channels/867578229534359593/1197577977781821541)
+- **Discord**: Official Meshtastic Discord → Connect Forum → [US-Utah](https://discord.gg/meshtastic)
 
 ### Advanced Configuration
 - **Detailed settings**: See [Configuration](config.md) guide
@@ -135,7 +145,7 @@ Understanding roles is crucial for network health:
 **Need help?** The Freq51 community is here to support you:
 
 - **[Meshtastic Discord](https://github.com/meshtastic)**: Most active support channel
-- **[Utah Mesh Discord](https://discord.com/channels/867578229534359593/1197577977781821541)**: A backup community in the event the main meshtastic discord doesn't work out
+- **[Utah Mesh Discord](https://discord.gg/x4AQuUjm)**: A backup community in the event the main meshtastic discord doesn't work out
 
 **Welcome to the mesh!** 📡✨
 
