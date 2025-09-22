@@ -144,9 +144,7 @@ Before configuring a Router Late, review the [Router Deployment Guide](advanced-
 - **OK to MQTT**: `TRUE` (helps appear on map via others’ uplinks)
 - **Telemetry**: `1800` s per timing interval of attached peripheral
 - **Neighborinfo**: `ON, Transmit over Lora ON, 14400 Interval`
-- **Required Channels**: `LongFast and Freq51`
-
-> Note: Neighbor Info is no longer shared across the mesh on `long_fast` and thus we require the additional Freq51 MQTT and Neighborinfo Channel.
+- **Required Channels**: `LongFast`
 
 ### Clent Mute Nodes (Mobile or Indoors)
 
@@ -158,15 +156,15 @@ Before configuring a Router Late, review the [Router Deployment Guide](advanced-
 - **Licensed amateur radio**: `FALSE` (unless you’re operating in Ham Mode knowingly; encryption is disallowed on ham). HAM band operation is on Frequency Slot 45. Please do not use it on Frequency Slot 51.
 - **Role**: `Client Mute`
 - **Rebroadcast mode**: `Local Only` 
-- **Node Info Broadcast Interval**: `Whatever You Like` s
+- **Node Info Broadcast Interval**: `21600` s
 - **GPS Mode**: `ENABLED` if present, else use **Fixed Position**.
 - **Fixed Position**: Often `TRUE` for stationary nodes (set via CLI or phone). Unless GPS is desired for timekeeping. (really useful)
-- **Position Broadcast Interval**: `Whatever You Like` s
+- **Position Broadcast Interval**: `21600` s
 - **Region**: `US`
 - **Hop Limit**: `Highest Needed Number +1`
 - **OK to MQTT**: `OFF` 
 - **Ignore MQTT**: `ON`
-- **Telemetry**: `No more often than 1800` s per timing interval of attached peripheral
+- **Telemetry**: `1800` s per timing interval of attached peripheral
 - **Neighborinfo**: `OFF`
 - **Required Channels**: `LongFast`
 
@@ -232,13 +230,6 @@ Default community channel on LONG_FAST. We use this channel to connect the mesh 
 |---|---|---|---|---|
 | LongFast | `AQ==` | LONG_FAST | 51 | Off |
 
-### Freq51
-
-The trusted telemetry, neighborinfo and MQTT channel on LONG_FAST. This must be in slot 0 if you wish to use this channel properly. We use this channel to collect important metrics on the mesh network and also use it for encrypted infrastructure chat. Please speak to us on discord or through LongFast in order to obtain the details to this channel and how to utilize it. There are some stipulations involved. We dont want to control what you do with your device but this channel needs some control to maintain accurate data.
-
-| Channel Name | PSK  | Modem Preset | Slot | Ham Mode |
-|---|---|---|---|---|
-| Freq51 | `KEY UPON REQUEST` | LONG_FAST | 51 | Off |
 
 ### DC801
 
