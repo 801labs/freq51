@@ -2,6 +2,7 @@
 [Overview](README.md)
 - [Onboarding Guide](onboarding.md)
 - [FAQ](faq.md)
+   - [Glossary](glossary.md)
 - [Configuration](config.md)
 - [Infrastructure](infrastructure.md)
 - [Equipment](equipment.md)
