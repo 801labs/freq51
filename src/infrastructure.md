@@ -157,6 +157,14 @@ Infrastructure physically located within Idaho.
 ### MHR — Mount Harrison Router
 
 ### ISR — Indian Springs Router v2
+**Location**: South Hills
+
+| Node Name                      | Radio                                  | Antenna                                                                                                                                                                       | Battery                                                                                                                      | Solar                                                  | Modem Preset | Slot | Rebroadcast Mode | Firmware       |
+|--------------------------------|----------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------|--------------|------|------------------|----------------|
+| ISR — Indian Springs Router v2 | RAK WisBlock 4631 + Airbuddy Amplifier | [ALFA 5dbi Omni](https://a.co/d/gPpWxbe)                                                                                                                                      | [1S6P 3.7v 40AH](https://www.18650batterystore.com/collections/21700-batteries/products/eve-50e-21700-5000mah-15a-battery)   | [10w 18v ECO-WORTHY](https://a.co/d/eiaV03W)           | LONG_FAST    | 51   | ALL              | 2.6.11         |
+
+#### Site Survey
+![IndianSprings](images/IndianSprings.png)
 
 ## Router Lates
 
