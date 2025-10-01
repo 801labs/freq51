@@ -2,11 +2,30 @@
 
 This page lists deployed routers, router lates, and strategically placed clients. Each entry has a spec table followed by a **Site survey** with associated images. North views are shown first when both are available.
 
+For deployment guidelines, see [Router Deployment Guide](advanced-configuration/router-deployment.md).
+
 ---
 
-## Routers
+# Index
 
-For deployment guidelines, see [Router Deployment Guide](advanced-configuration/router-deployment.md).
+## [Utah Infrastructure](#utah-infrastructure-1)
+- [Routers](#routers)
+	- [FPR — Francis Peak Router](#fpr--francis-peak-router)
+	- [LMR — Lake Mountain Router](#lmr--lake-mountain-router)
+	- [NPR — Nelson Peak Router](#npr--nelson-peak-router)
+- [Router Lates](#router-lates)
+	- [AUR — Aurora Uranialis](#aur--aurora-uranialis)
+	- [C6C — Aurora Ceresia](#c6c--aurora-ceresia)
+	- [POTM — Point of the Mountain](#potm--point-of-the-mountain)
+- [Strategic Clients](#strategically-placed-clients)
+	- [WC1 — Wasatch Crest 1](#wc1--wasatch-crest-1)
+	- [WC2 — Wasatch Crest 2](#wc2--wasatch-crest-2)
+
+---
+
+# Utah Infrastructure
+Infrastructure located within Utah.
+## Routers
 
 ### FPR — Francis Peak Router
 **Location:** Francis Peak (Tertiary Peak)
@@ -57,7 +76,7 @@ Possesses a BME680 for weather & air-quality telemetry every 1800 s.
 
 ## Router Lates
 
-For deployment guidelines, see [Router Deployment Guide](advanced-configuration/router-deployment.md).
+
 
 ### AUR — Aurora Uranialis
 **Location:** Ensign Peak
