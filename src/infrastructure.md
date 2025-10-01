@@ -6,7 +6,7 @@ For deployment guidelines, see [Router Deployment Guide](advanced-configuration/
 
 ---
 
-# Index
+# Table of Contents
 
 ## [Utah Infrastructure](#utah-infrastructure-1)
 - [Routers](#routers)
@@ -21,10 +21,20 @@ For deployment guidelines, see [Router Deployment Guide](advanced-configuration/
 	- [WC1 — Wasatch Crest 1](#wc1--wasatch-crest-1)
 	- [WC2 — Wasatch Crest 2](#wc2--wasatch-crest-2)
 
+## [Idaho Infrastructure](#idaho-infrastructure-1)
+- [Routers](#routers-1)
+	- [MHR — Mount Harrison Router](#mhr--mount-harrison-router)
+    - [ISR — Indian Springs Router](#isr--indian-springs-router-v2)
+- [Router Lates](#router-lates-1)
+	- [KBS — Kimama Butte Station](#kbs--kimama-butte-station)
+- [Strategic Clients](#strategically-placed-clients-1)
+
+
 ---
 
 # Utah Infrastructure
 Infrastructure located within Utah.
+
 ## Routers
 
 ### FPR — Francis Peak Router
@@ -75,8 +85,6 @@ Possesses a BME680 for weather & air-quality telemetry every 1800 s.
 ---
 
 ## Router Lates
-
-
 
 ### AUR — Aurora Uranialis
 **Location:** Ensign Peak
@@ -140,3 +148,27 @@ Includes BME680 telemetry every 1800 s.
 | Node Name            | Radio      | Antenna           | Battery                      | Solar | Modem Preset | Slot | Rebroadcast Mode | Firmware |
 |-----------------------|------------|-------------------|------------------------------|-------|--------------|------|------------------|----------|
 | WC2 – Wasatch Crest 2 | XIAO NRF52 | Gizont 7dBi 450mm | 2× Molicel 21700 P45B  (9 Ah) | 6 W   | LONG_FAST    | 51   | ALL              | 2.6.11   |
+
+# Idaho Infrastructure
+Infrastructure physically located within Idaho. 
+
+## Routers
+
+### MHR — Mount Harrison Router
+
+### ISR — Indian Springs Router v2
+
+## Router Lates
+
+### KBS — Kimama Butte Station
+**Location**: Kimama Butte
+| Node Name                   | Radio             | Antenna                                                                                                                                     | Battery                                                                                          | Solar | Modem Preset | Slot | Rebroadcast Mode | Firmware       |
+|-----------------------------|-------------------|---------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------|-------|--------------|------|------------------|----------------|
+| KBS — Kimama Butte Station  | RAK WisBlock 4631 | [Hexa Boost 3.6ft 8dBi Omni](https://www.amazon.com/dp/B0953Z1QF3)                                                                          | [3P 3.7v 10AH](https://www.digikey.com/en/products/detail/adafruit-industries-llc/5035/14625568) | 6w    | LONG_FAST    | 51   | ALL              | 2.6.11 |
+
+
+#### Site Survey
+![Kimama](images/Kimama.png)
+
+
+## Strategically Placed Clients
