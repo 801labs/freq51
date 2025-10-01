@@ -155,6 +155,15 @@ Infrastructure physically located within Idaho.
 ## Routers
 
 ### MHR — Mount Harrison Router
+**Location**: Mount Harrison
+
+| Node Name                      | Radio                                  | Antenna                                                                                                                                                                       | Battery                                                                                                                      | Solar                                                  | Modem Preset | Slot | Rebroadcast Mode | Firmware       |
+|--------------------------------|----------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------|--------------|------|------------------|----------------|
+| MHR — Mount Harrison Router    | Femtofox Pro                           | [Rokland 10dBi Backcountry](https://store.rokland.com/products/10-dbi-backcountry-n-male-omni-outdoor-helium-915-mhz-antenna-48-for-rak-miner-2-nebra-indoor-bobcat-hotspots) | [3S8P 12.6v 40AH0](https://www.18650batterystore.com/collections/21700-batteries/products/eve-50e-21700-5000mah-15a-battery) | [25w 18v ECO-WORTHY](https://a.co/d/85LSbHV)           | LONG_FAST    | 51   | ALL              | 2.6            |
+
+
+#### Site Survey
+![Harrison](images/Harrison.png)
 
 ### ISR — Indian Springs Router v2
 **Location**: South Hills
