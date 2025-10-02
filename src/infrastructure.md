@@ -163,7 +163,11 @@ Infrastructure physically located within Idaho.
 | MHR — Mount Harrison Router    | Femtofox Pro                           | [Rokland 10dBi Backcountry](https://store.rokland.com/products/10-dbi-backcountry-n-male-omni-outdoor-helium-915-mhz-antenna-48-for-rak-miner-2-nebra-indoor-bobcat-hotspots) | [3S8P 12.6v 40AH0](https://www.18650batterystore.com/collections/21700-batteries/products/eve-50e-21700-5000mah-15a-battery) | [25w 18v ECO-WORTHY](https://a.co/d/85LSbHV)           | LONG_FAST    | 51   | ALL              | 2.6            |
 
 #### Site Survey
-![Harrison](images/Harrison.png)
+**East**
+![HarrisonEast](images/Idaho/MHR_East.webp)
+
+**West**
+![HarrisonWest](images/Idaho/MHR_West.webp)
 
 ---
 
@@ -175,7 +179,11 @@ Infrastructure physically located within Idaho.
 | ISR — Indian Springs Router v2 | RAK WisBlock 4631 + Airbuddy Amplifier | [ALFA 5dbi Omni](https://a.co/d/gPpWxbe)                                                                                                                                      | [1S6P 3.7v 40AH](https://www.18650batterystore.com/collections/21700-batteries/products/eve-50e-21700-5000mah-15a-battery)   | [10w 18v ECO-WORTHY](https://a.co/d/eiaV03W)           | LONG_FAST    | 51   | ALL              | 2.6.11         |
 
 #### Site Survey
-![IndianSprings](images/IndianSprings.png)
+**East**
+![IndianSpringsEast](images/Idaho/ISR_East.webp)
+
+**West**
+![IndianSpringsWest](images/Idaho/ISR_West.webp)
 
 ---
 
@@ -189,7 +197,11 @@ Infrastructure physically located within Idaho.
 | KBS — Kimama Butte Station     | RAK WisBlock 4631                      | [Hexa Boost 3.6ft 8dBi Omni](https://www.amazon.com/dp/B0953Z1QF3)                                                                                                            | [1S3P 3.7v 10AH](https://www.digikey.com/en/products/detail/adafruit-industries-llc/5035/14625568)                           | [6w 5v Shoshine](https://www.amazon.com/dp/B09ZL3F7CT) | LONG_FAST    | 51   | ALL              | 2.6.11         |
 
 #### Site Survey
-![Kimama](images/Kimama.png)
+**East**
+![KimamaEast](images/Idaho/KBS_East.webp)
+
+**West**
+![KimamaWest](images/Idaho/KBS_West.webp)
 
 ---
 
@@ -201,3 +213,6 @@ Infrastructure physically located within Idaho.
 | Node Name                      | Radio                                  | Antenna                                                                                                                                                                       | Battery                                                                                                                      | Solar                                                  | Modem Preset | Slot | Rebroadcast Mode | Firmware       |
 |--------------------------------|----------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------|--------------|------|------------------|----------------|
 | SSL — Second Star Labs         | Station G2                             | [Rokland 10dBi Backcountry](https://store.rokland.com/products/10-dbi-backcountry-n-male-omni-outdoor-helium-915-mhz-antenna-48-for-rak-miner-2-nebra-indoor-bobcat-hotspots) | [12v 16AH LiFePo4](https://a.co/d/hoMU9g7)                                                                                   | [25w 18v ECO-WORTHY](https://a.co/d/85LSbHV)           | LONG_FAST    | 51   | ALL              | 2.6.11         |
+
+#### Site Survey
+![SSL](images/Idaho/SSL.webp)
