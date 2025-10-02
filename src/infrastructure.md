@@ -136,19 +136,25 @@ Includes BME680 telemetry every 1800 s.
 ## Strategically Placed Clients
 
 ### WC1 — Wasatch Crest 1
-**Location:** Desolation Peak
+**Location:** Silver Peak
 
 | Node Name            | Radio   | Antenna        | Battery                    | Solar | Modem Preset | Slot | Rebroadcast Mode | Firmware |
 |-----------------------|---------|----------------|----------------------------|-------|--------------|------|------------------|----------|
 | WC1 – Wasatch Crest 1 | RAK4631 | Starf 7 dBi 320mm | 2× Molicel 21700 P42A 8.4Ah| 3 W   | LONG_FAST    | 51   | ALL              | 2.6.10    |
 
+#### Site Survey
+![WC1](images/WC1.png)
+
 ---
 
 ### WC2 — Wasatch Crest 2
-
+**Location:** Squaretop
 | Node Name            | Radio      | Antenna           | Battery                      | Solar | Modem Preset | Slot | Rebroadcast Mode | Firmware |
 |-----------------------|------------|-------------------|------------------------------|-------|--------------|------|------------------|----------|
 | WC2 – Wasatch Crest 2 | XIAO NRF52 | Gizont 7dBi 450mm | 2× Molicel 21700 P45B  (9 Ah) | 6 W   | LONG_FAST    | 51   | ALL              | 2.6.11   |
+
+#### Site Survey
+![WC2](images/WC2.png)
 
 # Idaho Infrastructure
 Infrastructure physically located within Idaho. 
