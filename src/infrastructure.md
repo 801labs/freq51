@@ -14,10 +14,10 @@ For deployment guidelines, see [Router Deployment Guide](advanced-configuration/
 	- [LMR — Lake Mountain Router](#lmr--lake-mountain-router)
 	- [NPR — Nelson Peak Router](#npr--nelson-peak-router)
 - [Router Lates](#router-lates)
-	- [AUR — Aurora Uranialis](#aur--aurora-uranialis)
-	- [C6C — Aurora Ceresia](#c6c--aurora-ceresia)
+	- [AUR — Aurora Uranialis](#aur--aurora-uranialis)	
 	- [POTM — Point of the Mountain](#potm--point-of-the-mountain)
 - [Strategic Clients](#strategically-placed-clients)
+	- [C6C — Aurora Ceresia](#c6c--aurora-ceresia)
 	- [WC1 — Wasatch Crest 1](#wc1--wasatch-crest-1)
 	- [WC2 — Wasatch Crest 2](#wc2--wasatch-crest-2)
 
@@ -105,18 +105,6 @@ Includes BME680 telemetry every 1800 s.
 
 ---
 
-### C6C — Aurora Ceresia
-**Location:** Hill AFB – Weber State overlook
-
-| Node Name              | Radio                          | Antenna        | Battery                        | Solar | Modem Preset | Slot | Rebroadcast Mode | Firmware |
-|------------------------|--------------------------------|----------------|--------------------------------|-------|--------------|------|------------------|----------|
-| C6C – Aurora Ceresia   | RAK4631 + GPIO Labs ISM filter | Alfa 5 dBi Omni| 1S4P 21700 Molicel P50B (20 Ah)| 10 W  | LONG_FAST    | 51   | ALL              | 2.6.4    |
-
-#### Site survey
-![C6C](images/C6C.png)
-
----
-
 ### POTM — Point of the Mountain
 **Location:** North-facing ridgeline
 
@@ -134,6 +122,18 @@ Includes BME680 telemetry every 1800 s.
 ---
 
 ## Strategically Placed Clients
+
+### C6C — Aurora Ceresia
+**Location:** Hill AFB – Weber State overlook
+
+| Node Name              | Radio                          | Antenna        | Battery                        | Solar | Modem Preset | Slot | Rebroadcast Mode | Firmware |
+|------------------------|--------------------------------|----------------|--------------------------------|-------|--------------|------|------------------|----------|
+| C6C – Aurora Ceresia   | RAK4631 + GPIO Labs ISM filter | Alfa 5 dBi Omni| 1S4P 21700 Molicel P50B (20 Ah)| 10 W  | LONG_FAST    | 51   | ALL              | 2.6.4    |
+
+#### Site survey
+![C6C](images/C6C.png)
+
+---
 
 ### WC1 — Wasatch Crest 1
 **Location:** Silver Peak
