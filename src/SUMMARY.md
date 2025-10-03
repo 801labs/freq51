@@ -8,6 +8,7 @@
 - [Infrastructure](infrastructure.md)
 - [Equipment](equipment.md)
    - [Nebra Miner Guide](equipment/nebra-miner.md)
+   - [Lightning Protection Guide](equipment/zeusprotection.md)
 - [Advanced Configuration](advanced-configuration.md)
    - [Router Deployment Guide](advanced-configuration/router-deployment.md)
    - [Firmware Update Guide](advanced-configuration/firmware-updates.md)
