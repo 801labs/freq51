@@ -1,6 +1,7 @@
 # Summary
 [Overview](README.md)
 - [Onboarding Guide](onboarding.md)
+   - [Migrate From LongFast](migrate.md)
 - [FAQ](faq.md)
    - [Glossary](glossary.md)
 - [Configuration](config.md)

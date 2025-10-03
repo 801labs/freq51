@@ -120,7 +120,7 @@
 
 8) **Use the Web UI**
    - Visit `https://<pi-ip>:9443/` (accept the self-signed cert).
-   - Set **Region = US**, **Short/Long Name**, and your **Primary Channel** (LongFast).
+   - Set **Region = US**, **Short/Long Name**, and your **Primary Channel** (Leave this blank).
 
 ---
 
@@ -128,7 +128,7 @@
 
 - **Most users**: These are usually static and outside so choose: `CLIENT`.  
 - **Infra**: **Always** add an RF filter on infrastructure nodes; **always** talk with the rest of the Freq51 community before setting a `ROUTER`.  
-- Primary: **LongFast**; Secondary: **Freq51** (request details).
+- Primary: **Leave The name Empty**; Secondary: N/A
 
 ---
 

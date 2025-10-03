@@ -201,7 +201,7 @@ Where we place routers is very important.
 - **Power Management**: Optimize for continuous operation
 
 **Channel Settings**:
-- **Primary Channel**: Use community standard (typically "LongFast")
+- **Primary Channel**: Use community standard (Leave the name empty)
 - **Region**: Set to "US"
 - **Frequency**: 915MHz band (automatic for US region)
 - **Hop Limit**: Set appropriately for network topology
