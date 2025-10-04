@@ -82,6 +82,17 @@ This guide will walk you through updating your Meshtastic node's modem preset fr
 
 ---
 
+## CLI instructions
+
+- This configuration can be made with the [Meshtastic Python CLI](https://meshtastic.org/docs/software/python/cli/installation/). Using the following commands:
+```
+meshtastic --set lora.modemPreset MEDIUM_FAST --set lora.channelNum 51
+meshtastic --ch-set name "Freq51" --ch-set psk "base64:1A==" --ch-index 0
+meshtastic --reset-nodedb
+```
+
+---
+
 ## Troubleshooting
 
 - If your node does not appear on the mesh after migration, double-check that the preset is **MediumFast** and that the primary channel name is Freq51 with the key size as 1byte and Key set to "1A==" No quotes.
