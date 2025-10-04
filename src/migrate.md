@@ -13,17 +13,17 @@ This guide will walk you through updating your Meshtastic node's modem preset fr
 
 ## iOS Instructions
 
-### 1. Clear the Primary Channel Name
+### 1. Change the Primary Channel Name
 
 - Go to **Settings**.
 - Then select **Channels**.
 - Tap your **Primary Channel** (Channel ID: 0, typically the name is blank, unless you have changed it in the past, then it would be "LongFast").
-- Delete the **Channel Name** so it is entirely blank.
+- Change the **Channel Name** to Freq51 then, adjust the key size to 1byte, lastly set the key to 1A==
 - Save and confirm the change.
 
-> _This step helps future migrations by letting Meshtastic auto-pick the channel name according to the preset._
+> _This step allows us to set a private channel for all the other meshtastic features to function correctly._
 
-![iOS: Clear primary channel name](images/ios-step1.png)
+![iOS: Change primary channel name](images/ios-step1.png)
 
 ---
 
@@ -50,15 +50,15 @@ This guide will walk you through updating your Meshtastic node's modem preset fr
 
 ## Android Instructions
 
-### 1. Clear the Primary Channel Name
+### 1. Change the Primary Channel Name
 
 - Go to **Settings**.
 - Then go to **Channels**.
 - Tap your **Primary Channel** (Channel ID: 0, typically the name is blank, unless you have changed it in the past, then it would be "LongFast").
-- Delete the **Channel Name** so it is entirely blank (the character count should show 0/11, meaning it is now blank).
+- Change the **Channel Name** to Freq51 then adjust the key size to 1byte, and lastly set the key to "1A==" without quotes.
 - Save and confirm the change.
 
-![Android: Clear primary channel name](images/android-step1.png)
+![Android: Change primary channel name](images/android-step1.png)
 
 ---
 
@@ -84,7 +84,7 @@ This guide will walk you through updating your Meshtastic node's modem preset fr
 
 ## Troubleshooting
 
-- If your node does not appear on the mesh after migration, double-check that the preset is **MediumFast** and that the primary channel name is blankm or shows MediumFast.
+- If your node does not appear on the mesh after migration, double-check that the preset is **MediumFast** and that the primary channel name is Freq51 with the key size as 1byte and Key set to "1A==" No quotes.
 - Reboot your node if changes do not appear to take effect.
 
 ---
