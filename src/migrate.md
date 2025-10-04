@@ -87,8 +87,7 @@ This guide will walk you through updating your Meshtastic node's modem preset fr
 - This configuration can be made with the [Meshtastic Python CLI](https://meshtastic.org/docs/software/python/cli/installation/). Using the following commands:
 ```
 meshtastic --set lora.modemPreset MEDIUM_FAST --set lora.channelNum 51
-meshtastic --ch-set name "Freq51" --ch-index 0
-meshtastic --ch-set psk "base64:1A==" --ch-index 0
+meshtastic --ch-set name "Freq51" --ch-set psk "base64:1A==" --ch-index 0
 meshtastic --reset-nodedb
 ```
 
