@@ -65,4 +65,6 @@ Nothing is foolproof—lightning is unpredictable and immensely powerful (just a
 
 Stay safe, and may your mesh be ever resilient!
 
+![Zeus meme: FPR - Zeus](../images/zeus2.png)
+
 ---

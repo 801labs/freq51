@@ -96,9 +96,9 @@ Use when node is a router
 - **OK to MQTT**: `TRUE` (helps appear on map via others’ uplinks)
 - **Telemetry**: `1800` s per timing interval of attached peripheral
 - **Neighborinfo**: `ON, Transmit over Lora ON, 14400 Interval`
-- **Required Channels**: `MediumFast`
+- **Required Channels**: `Freq51`
 
-> Note: Neighbor Info is no longer shared across the mesh on an unencrypted primary channel, thus we require the additional Freq51 MQTT and Neighborinfo Channel.
+> Note: Neighbor Info is no longer shared across the mesh on an unencrypted primary channel, thus we require the Freq51 MQTT and Neighborinfo Channel.
 
 ### Router Late Nodes
 
@@ -121,9 +121,9 @@ Before configuring a Router Late, review the [Router Deployment Guide](advanced-
 - **OK to MQTT**: `TRUE` (helps appear on map via others’ uplinks)
 - **Telemetry**: `1800` s per timing interval of attached peripheral
 - **Neighborinfo**: `ON, Transmit over Lora ON, 14400 Interval`
-- **Required Channels**: `MediumFast`
+- **Required Channels**: `Freq51`
 
-> Note: Neighbor Info is no longer shared across the mesh on an unencrypted primary channel, thus we require the additional Freq51 MQTT and Neighborinfo Channel.
+> Note: Neighbor Info is no longer shared across the mesh on an unencrypted primary channel, thus we require the Freq51 MQTT and Neighborinfo Channel.
 
 ### Clent Nodes (Stationary or Outdoors)
 
@@ -144,7 +144,7 @@ Before configuring a Router Late, review the [Router Deployment Guide](advanced-
 - **OK to MQTT**: `TRUE` (helps appear on map via others’ uplinks)
 - **Telemetry**: `1800` s per timing interval of attached peripheral
 - **Neighborinfo**: `ON, Transmit over Lora ON, 14400 Interval`
-- **Required Channels**: `MediumFast`
+- **Required Channels**: `Freq51`
 
 ### Clent Mute Nodes (Mobile or Indoors)
 
@@ -166,7 +166,7 @@ Before configuring a Router Late, review the [Router Deployment Guide](advanced-
 - **Ignore MQTT**: `ON`
 - **Telemetry**: `1800` s per timing interval of attached peripheral
 - **Neighborinfo**: `OFF`
-- **Required Channels**: `MediumFast`
+- **Required Channels**: `Freq51`
 
 ### Clent Hidden Nodes (Stealth Nodes)
 
@@ -188,7 +188,7 @@ Before configuring a Router Late, review the [Router Deployment Guide](advanced-
 - **Ignore MQTT**: `ON`
 - **Telemetry**: `OFF` s per timing interval of attached peripheral
 - **Neighborinfo**: `OFF`
-- **Required Channels**: `MediumFast`
+- **Required Channels**: `Freq51`
 
 ### Get on the Map
 
@@ -228,7 +228,7 @@ Default community channel on Medium_Fast. We use this channel to connect the mes
 
 | Channel Name | PSK  | Modem Preset | Slot | Ham Mode |
 |---|---|---|---|---|
-| MediumFast | `AQ==` | Medium_Fast | 51 | Off |
+| Freq51 | `1A==` | Medium_Fast | 51 | Off |
 
 
 ### DC801
