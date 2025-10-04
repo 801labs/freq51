@@ -94,4 +94,4 @@ If a poor location is chosen for Routers and Repeaters, it can cause some of the
   **LongFast** is the default **channel name** when using the **LONG_FAST** modem preset. **LONG_FAST** is a preset (like MEDIUM_FAST, SHORT_FAST, etc.) that bundles LoRa parameters.
 
 - **How do I know I’m connected?**  
-  Seeing other nodes in your node list is a good sign. Try a message to LongFast or a direct message to a known node.
+  Seeing other nodes in your node list is a good sign. Try a message to MediumFast or a direct message to a known node.

@@ -96,9 +96,9 @@ Use when node is a router
 - **OK to MQTT**: `TRUE` (helps appear on map via others’ uplinks)
 - **Telemetry**: `1800` s per timing interval of attached peripheral
 - **Neighborinfo**: `ON, Transmit over Lora ON, 14400 Interval`
-- **Required Channels**: `LongFast and Freq51`
+- **Required Channels**: `MediumFast`
 
-> Note: Neighbor Info is no longer shared across the mesh on `long_fast` and thus we require the additional Freq51 MQTT and Neighborinfo Channel.
+> Note: Neighbor Info is no longer shared across the mesh on an unencrypted primary channel, thus we require the additional Freq51 MQTT and Neighborinfo Channel.
 
 ### Router Late Nodes
 
@@ -121,9 +121,9 @@ Before configuring a Router Late, review the [Router Deployment Guide](advanced-
 - **OK to MQTT**: `TRUE` (helps appear on map via others’ uplinks)
 - **Telemetry**: `1800` s per timing interval of attached peripheral
 - **Neighborinfo**: `ON, Transmit over Lora ON, 14400 Interval`
-- **Required Channels**: `LongFast and Freq51`
+- **Required Channels**: `MediumFast`
 
-> Note: Neighbor Info is no longer shared across the mesh on `long_fast` and thus we require the additional Freq51 MQTT and Neighborinfo Channel.
+> Note: Neighbor Info is no longer shared across the mesh on an unencrypted primary channel, thus we require the additional Freq51 MQTT and Neighborinfo Channel.
 
 ### Clent Nodes (Stationary or Outdoors)
 
@@ -144,7 +144,7 @@ Before configuring a Router Late, review the [Router Deployment Guide](advanced-
 - **OK to MQTT**: `TRUE` (helps appear on map via others’ uplinks)
 - **Telemetry**: `1800` s per timing interval of attached peripheral
 - **Neighborinfo**: `ON, Transmit over Lora ON, 14400 Interval`
-- **Required Channels**: `LongFast`
+- **Required Channels**: `MediumFast`
 
 ### Clent Mute Nodes (Mobile or Indoors)
 
@@ -166,7 +166,7 @@ Before configuring a Router Late, review the [Router Deployment Guide](advanced-
 - **Ignore MQTT**: `ON`
 - **Telemetry**: `1800` s per timing interval of attached peripheral
 - **Neighborinfo**: `OFF`
-- **Required Channels**: `LongFast`
+- **Required Channels**: `MediumFast`
 
 ### Clent Hidden Nodes (Stealth Nodes)
 
@@ -188,7 +188,7 @@ Before configuring a Router Late, review the [Router Deployment Guide](advanced-
 - **Ignore MQTT**: `ON`
 - **Telemetry**: `OFF` s per timing interval of attached peripheral
 - **Neighborinfo**: `OFF`
-- **Required Channels**: `LongFast`
+- **Required Channels**: `MediumFast`
 
 ### Get on the Map
 
@@ -206,8 +206,8 @@ To appear on the map:
 - **Uplink Enabled**: `TRUE`
 - **Downlink Enabled**: `FALSE` (prevents pulling internet traffic into RF)
 - **Enabled**: `TRUE`
-- **MQTT Server Address**: **Message on LongFast for details or reach out on Discord**
-- **Username/Password**: **Message on LongFast for details or reach out on Discord**
+- **MQTT Server Address**: **Message on MediumFast for details or reach out on Discord**
+- **Username/Password**: **Message on MediumFast for details or reach out on Discord**
 - **Encryption**: `TRUE`
 - **JSON**: `FALSE`
 - **TLS**: `FALSE`
@@ -222,13 +222,13 @@ To appear on the map:
 
 > We will not be providing nor publish QR codes or Meshtastic URLs for public channels. They can also change LoRa settings (hop count, OK to MQTT, TX power) invisibly. Enter channel names/keys manually. If you would like to create a channel for a specific purpose but wish it to be public use; contact us and we will add it to the documentation as requested.
 
-### LongFast
+### MediumFast
 
-Default community channel on LONG_FAST. We use this channel to connect the mesh together on a unified unencrypted channel and also broadcast. This resides in our secondary channels
+Default community channel on Medium_Fast. We use this channel to connect the mesh together on a unified unencrypted channel and also broadcast. This resides in our secondary channels
 
 | Channel Name | PSK  | Modem Preset | Slot | Ham Mode |
 |---|---|---|---|---|
-| LongFast | `AQ==` | LONG_FAST | 51 | Off |
+| MediumFast | `AQ==` | Medium_Fast | 51 | Off |
 
 
 ### DC801

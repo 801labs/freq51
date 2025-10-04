@@ -32,7 +32,7 @@ Meshtastic® lets you use inexpensive LoRa radios as a long-range, off-grid comm
 - Public Map: (Placeholder)
 
 **Good practices**
-- If your node is **directly connected** to an MQTT server, **do not enable downlink** on public RF channels (e.g., LongFast). That can spam RF. Nodes not on MQTT can use “Ignore MQTT,” and that setting is requested to be on by default when operating on our mesh unless you need MQTT.
+- If your node is **directly connected** to an MQTT server, **do not enable downlink** on public RF channels (e.g., MediumFast). That can spam RF. Nodes not on MQTT can use “Ignore MQTT,” and that setting is requested to be on by default when operating on our mesh unless you need MQTT.
 
 ---
 
