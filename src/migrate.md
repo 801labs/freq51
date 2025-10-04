@@ -55,7 +55,7 @@ This guide will walk you through updating your Meshtastic node's modem preset fr
 - Go to **Settings**.
 - Then go to **Channels**.
 - Tap your **Primary Channel** (Channel ID: 0, typically the name is blank, unless you have changed it in the past, then it would be "LongFast").
-- Change the **Channel Name** to Freq51 then adjust the key size to 1byte, and lastly set the key to "1A==" without quotes.
+- Change the **Channel Name** to Freq51 then set the key to "1A==" without quotes.
 - Save and confirm the change.
 
 ![Android: Change primary channel name](images/android-step1.png)
