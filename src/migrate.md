@@ -18,7 +18,7 @@ This guide will walk you through updating your Meshtastic node's modem preset fr
 - Go to **Settings**.
 - Then select **Channels**.
 - Tap your **Primary Channel** (Channel ID: 0, typically the name is blank, unless you have changed it in the past, then it would be "LongFast").
-- Change the **Channel Name** to Freq51 then, adjust the key size to 1byte, lastly set the key to 1A==
+- Change the **Channel Name** to Freq51 then adjust the key size to 1byte, and lastly set the key to "1A==" without quotes.
 - Save and confirm the change.
 
 > _This step allows us to set a private channel for all the other meshtastic features to function correctly._
