@@ -98,7 +98,7 @@ Use when node is a router
 - **Neighborinfo**: `ON, Transmit over Lora ON, 14400 Interval`
 - **Required Channels**: `Freq51`
 
-> Note: Neighbor Info is no longer shared across the mesh on an unencrypted primary channel, thus we require the additional Freq51 MQTT and Neighborinfo Channel.
+> Note: Neighbor Info is no longer shared across the mesh on an unencrypted primary channel, thus we require the Freq51 MQTT and Neighborinfo Channel.
 
 ### Router Late Nodes
 
@@ -123,7 +123,7 @@ Before configuring a Router Late, review the [Router Deployment Guide](advanced-
 - **Neighborinfo**: `ON, Transmit over Lora ON, 14400 Interval`
 - **Required Channels**: `Freq51`
 
-> Note: Neighbor Info is no longer shared across the mesh on an unencrypted primary channel, thus we require the additional Freq51 MQTT and Neighborinfo Channel.
+> Note: Neighbor Info is no longer shared across the mesh on an unencrypted primary channel, thus we require the Freq51 MQTT and Neighborinfo Channel.
 
 ### Clent Nodes (Stationary or Outdoors)
 
