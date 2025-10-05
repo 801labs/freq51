@@ -43,7 +43,7 @@ Infrastructure located within Utah.
 
 | Node Name              | Radio                            | Antenna        | Battery                           | Solar | Modem Preset | Slot | Rebroadcast Mode | Firmware |
 |------------------------|----------------------------------|----------------|-----------------------------------|-------|--------------|------|------------------|----------|
-| FPR – Francis Peak Rtr | Heltec T114V2 + Airbuddy AMP 1 W | Alfa 5 dBi Omni| 1S12P EVE ICR18650 (30.6 Ah)      | 5 W   | LONG_FAST    | 51   | ALL              | 2.6.11   |
+| FPR – Francis Peak Rtr | Heltec T114V2 + Airbuddy AMP 1 W | Alfa 5 dBi Omni| 1S12P EVE ICR18650 (30.6 Ah)      | 5 W   | MEDIUM_FAST    | 51   | ALL              | 2.6.11   |
 
 Possesses a BME680 for weather & air-quality telemetry every 1800 s.
 
@@ -61,7 +61,7 @@ Possesses a BME680 for weather & air-quality telemetry every 1800 s.
 
 | Node Name               | Radio (modules + enclosure)                                          | Antenna | Battery    | Solar | Modem Preset | Slot | Rebroadcast Mode | Firmware             |
 |--------------------------|---------------------------------------------------------------------|---------|------------|-------|--------------|------|------------------|----------------------|
-| LAKE – Lake Mountain Rtr | RPi CM3 · Ebyte E22-900M30S · Taoglas filter · Nebra Miner Enclosure| 3 dBi   | Hard-wired | N/A   | LONG_FAST    | 51   | ALL              | Latest Alpha (auto)  |
+| LAKE – Lake Mountain Rtr | RPi CM3 · Ebyte E22-900M30S · Taoglas filter · Nebra Miner Enclosure| 3 dBi   | Hard-wired | N/A   | MEDIUM_FAST    | 51   | ALL              | Latest Alpha (auto)  |
 
 #### Site survey
 **North/South**  
@@ -92,7 +92,7 @@ Possesses a BME680 for weather & air-quality telemetry every 1800 s.
 
 | Node Name             | Radio                          | Antenna        | Battery                        | Solar | Modem Preset | Slot | Rebroadcast Mode | Firmware |
 |-----------------------|--------------------------------|----------------|--------------------------------|-------|--------------|------|------------------|----------|
-| AUR – Aurora Uranialis| RAK4631 + GPIO Labs ISM filter | Alfa 5 dBi Omni| 1S4P 21700 Molicel P50B (20 Ah)| 10 W  | LONG_FAST    | 51   | ALL              | 2.6.4    |
+| AUR – Aurora Uranialis| RAK4631 + GPIO Labs ISM filter | Alfa 5 dBi Omni| 1S4P 21700 Molicel P50B (20 Ah)| 10 W  | MEDIUM_FAST    | 51   | ALL              | 2.6.4    |
 
 Includes BME680 telemetry every 1800 s.
 
@@ -110,7 +110,7 @@ Includes BME680 telemetry every 1800 s.
 
 | Node Name              | Radio              | Antenna | Battery   | Solar | Modem Preset | Slot | Rebroadcast Mode | Firmware |
 |------------------------|-------------------|---------|-----------|-------|--------------|------|------------------|----------|
-| POTM – Router Late     | RAK19003 + RAK4631| 4 dBi   | 2 × 18650 | 6 W   | LONG_FAST    | 51   | ALL              | 2.6.10   |
+| POTM – Router Late     | RAK19003 + RAK4631| 4 dBi   | 2 × 18650 | 6 W   | MEDIUM_FAST    | 51   | ALL              | 2.6.10   |
 
 #### Site survey
 **North**  
@@ -123,12 +123,24 @@ Includes BME680 telemetry every 1800 s.
 
 ## Strategically Placed Clients
 
+### 👽 — Alien Tower 🛸
+**Location:** Alien Tower - Draper
+
+| Node Name              | Radio                          | Antenna        | Battery                        | Solar | Modem Preset | Slot | Rebroadcast Mode | Firmware |
+|------------------------|--------------------------------|----------------|--------------------------------|-------|--------------|------|------------------|----------|
+| 👽 — Alien Tower 🛸   | RAK4631 + GPIO Labs ISM filter | Alfa 5 dBi Omni | 3 x 18650 | 6 W  | MEDIUM_FAST    | 51   | ALL              | 2.7.11    |
+
+#### Site survey
+![👽](images/Alien.png)
+
+---
+
 ### C6C — Aurora Ceresia
 **Location:** Hill AFB – Weber State overlook
 
 | Node Name              | Radio                          | Antenna        | Battery                        | Solar | Modem Preset | Slot | Rebroadcast Mode | Firmware |
 |------------------------|--------------------------------|----------------|--------------------------------|-------|--------------|------|------------------|----------|
-| C6C – Aurora Ceresia   | RAK4631 + GPIO Labs ISM filter | Alfa 5 dBi Omni| 1S4P 21700 Molicel P50B (20 Ah)| 10 W  | LONG_FAST    | 51   | ALL              | 2.6.4    |
+| C6C – Aurora Ceresia   | RAK4631 + GPIO Labs ISM filter | Alfa 5 dBi Omni| 1S4P 21700 Molicel P50B (20 Ah)| 10 W  | MEDIUM_FAST    | 51   | ALL              | 2.6.4    |
 
 #### Site survey
 ![C6C](images/C6C.png)
