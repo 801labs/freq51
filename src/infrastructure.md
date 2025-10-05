@@ -17,7 +17,7 @@ For deployment guidelines, see [Router Deployment Guide](advanced-configuration/
 	- [AUR — Aurora Uranialis](#aur--aurora-uranialis)	
 	- [POTM — Point of the Mountain](#potm--point-of-the-mountain)
 - [Strategic Clients](#strategically-placed-clients)
-	- [👽 — Alien Tower 🛸](##--alien-tower-)
+	- [👽 — Alien Tower 🛸](#--alien-tower-)
 	- [C6C — Aurora Ceresia](#c6c--aurora-ceresia)
 	- [WC1 — Wasatch Crest 1](#wc1--wasatch-crest-1)
 	- [WC2 — Wasatch Crest 2](#wc2--wasatch-crest-2)
