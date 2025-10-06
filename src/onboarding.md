@@ -53,6 +53,7 @@ Use this checklist to get your node configured and on the network as quickly as 
 
 3. **LoRa Section**
    - [ ] **Frequency Slot**: Set to **51**.
+   - [ ] **Preset**: Set to **MEDIUM_FAST**.
    - [ ] **Hop Count**: Choose a number between **5–7** (recommended).
 
 4. **Location Section**
