@@ -55,6 +55,10 @@ Use this checklist to get your node configured and on the network as quickly as 
    - [ ] **Frequency Slot**: Set to **51**.
    - [ ] **Preset**: Set to **MEDIUM_FAST**.
    - [ ] **Hop Count**: Choose a number between **5–7** (recommended).
+4. **Channel Section**
+   - [ ] Set your Primary Channel (Channel ID: 0, typically the name is blank, unless you have changed it in the past, then it would be “LongFast”).
+   - [ ] **Channel Name**: `Freq51`
+   - [ ] **Key**: `1A==`
 
 4. **Location Section**
    - [ ] **GPS**: Enable if you’re comfortable sharing your location.
