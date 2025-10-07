@@ -54,7 +54,7 @@ Use this checklist to get your node configured and on the network as quickly as 
 3. **LoRa Section**
    - [ ] **Frequency Slot**: Set to **51**.
    - [ ] **Preset**: Set to **MEDIUM_FAST**.
-   - [ ] **Hop Count**: Choose a number between **5–7** (recommended).
+   - [ ] **Hop Count**: Set it to 7 (recommended).
          
 4. **Channel Section**
    - [ ] Set your Primary Channel (Channel ID: 0, typically the name is blank, unless you have changed it in the past, then it would be “LongFast”).
@@ -141,7 +141,7 @@ Understanding roles is crucial for network health:
 ### Messages not getting through?
 - Check [router placements](infrastructure.md) and see if you're near the mesh
 - Network may be busy - try again later
-- Check hop limit (default 3 is usually good, but 5-6 may give better results.)
+- Check hop limit (default 3 is usually good, but 7 may give better results.)
 - Verify channel settings match community standards
 
 ---

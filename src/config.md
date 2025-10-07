@@ -140,7 +140,7 @@ Before configuring a Router Late, review the [Router Deployment Guide](advanced-
 - **Fixed Position**: Often `TRUE` for stationary nodes (set via CLI or phone). Unless GPS is desired for timekeeping. (really useful)
 - **Position Broadcast Interval**: `21600` s
 - **Region**: `US`
-- **Hop Limit**: `Highest Needed Number +1`
+- **Hop Limit**: `7`
 - **OK to MQTT**: `TRUE` (helps appear on map via others’ uplinks)
 - **Telemetry**: `1800` s per timing interval of attached peripheral
 - **Neighborinfo**: `ON, Transmit over Lora ON, 14400 Interval`
@@ -161,7 +161,7 @@ Before configuring a Router Late, review the [Router Deployment Guide](advanced-
 - **Fixed Position**: Often `TRUE` for stationary nodes (set via CLI or phone). Unless GPS is desired for timekeeping. (really useful)
 - **Position Broadcast Interval**: `21600` s
 - **Region**: `US`
-- **Hop Limit**: `Highest Needed Number +1`
+- **Hop Limit**: `7`
 - **OK to MQTT**: `OFF` 
 - **Ignore MQTT**: `ON`
 - **Telemetry**: `1800` s per timing interval of attached peripheral
@@ -183,7 +183,7 @@ Before configuring a Router Late, review the [Router Deployment Guide](advanced-
 - **Fixed Position**: Off
 - **Position Broadcast Interval**: `OFF` 
 - **Region**: `US`
-- **Hop Limit**: `Highest Needed Number +1`
+- **Hop Limit**: `7`
 - **OK to MQTT**: `OFF` 
 - **Ignore MQTT**: `ON`
 - **Telemetry**: `OFF` s per timing interval of attached peripheral
