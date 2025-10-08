@@ -2,8 +2,8 @@
 
 These sections help you choose settings that work well **for you** and **for the mesh**. See the FAQ for troubleshooting. Locally we’re still building out on the FS51 with the default LongFast North America slot/preset (see below), but freq51 may coordinate short-term trials (e.g., ShortFast) as needed.
 
-**Freq51 LongFast** (As of 8/15/2025):
-- **LONG_FAST** preset, **slot 51** → **914.625 MHz**
+**Freq51 Medium Fast** (As of 10/05/2025):
+- **Medium_Fast** preset, **slot 51** → **914.625 MHz**
 
 > Exact slot counts and defaults depend on preset; see Meshtastic docs for details.
 
@@ -92,6 +92,7 @@ Use when node is a router
 - **Fixed Position**: Often `TRUE` for stationary nodes (set via CLI or phone). Unless GPS is desired for timekeeping. (really useful)
 - **Position Broadcast Interval**: `86400` s
 - **Region**: `US`
+- **Preset**: `Medium Fast`
 - **Hop Limit**: `7`
 - **OK to MQTT**: `TRUE` (helps appear on map via others’ uplinks)
 - **Telemetry**: `1800` s per timing interval of attached peripheral
@@ -117,6 +118,7 @@ Before configuring a Router Late, review the [Router Deployment Guide](advanced-
 - **Fixed Position**: Often `TRUE` for stationary nodes (set via CLI or phone). Unless GPS is desired for timekeeping. (really useful)
 - **Position Broadcast Interval**: `43200` s
 - **Region**: `US`
+- **Preset**: `Medium Fast`
 - **Hop Limit**: `7`
 - **OK to MQTT**: `TRUE` (helps appear on map via others’ uplinks)
 - **Telemetry**: `1800` s per timing interval of attached peripheral
@@ -140,6 +142,7 @@ Before configuring a Router Late, review the [Router Deployment Guide](advanced-
 - **Fixed Position**: Often `TRUE` for stationary nodes (set via CLI or phone). Unless GPS is desired for timekeeping. (really useful)
 - **Position Broadcast Interval**: `21600` s
 - **Region**: `US`
+- **Preset**: `Medium Fast`
 - **Hop Limit**: `7`
 - **OK to MQTT**: `TRUE` (helps appear on map via others’ uplinks)
 - **Telemetry**: `1800` s per timing interval of attached peripheral
@@ -161,6 +164,7 @@ Before configuring a Router Late, review the [Router Deployment Guide](advanced-
 - **Fixed Position**: Often `TRUE` for stationary nodes (set via CLI or phone). Unless GPS is desired for timekeeping. (really useful)
 - **Position Broadcast Interval**: `21600` s
 - **Region**: `US`
+- **Preset**: `Medium Fast`
 - **Hop Limit**: `7`
 - **OK to MQTT**: `OFF` 
 - **Ignore MQTT**: `ON`
@@ -183,6 +187,7 @@ Before configuring a Router Late, review the [Router Deployment Guide](advanced-
 - **Fixed Position**: Off
 - **Position Broadcast Interval**: `OFF` 
 - **Region**: `US`
+- **Preset**: `Medium Fast`
 - **Hop Limit**: `7`
 - **OK to MQTT**: `OFF` 
 - **Ignore MQTT**: `ON`
