@@ -204,7 +204,7 @@ Where we place routers is very important
 - **Primary Channel**: Use community standard (Leave the name empty)
 - **Region**: Set to "US"
 - **Frequency**: 915MHz band (automatic for US region)
-- **Hop Limit**: Set appropriately for network topology
+- **Hop Limit**: 7
 
 **Router-Specific Settings**:
 - **Store & Forward**: Enable for message relay capability
