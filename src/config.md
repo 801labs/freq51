@@ -166,8 +166,7 @@ Before configuring a Router Late, review the [Router Deployment Guide](advanced-
 - **Region**: `US`
 - **Preset**: `Medium Fast`
 - **Hop Limit**: `7`
-- **OK to MQTT**: `OFF` 
-- **Ignore MQTT**: `ON`
+- **OK to MQTT**: `TRUE` (helps appear on map via others’ uplinks)
 - **Telemetry**: `1800` s per timing interval of attached peripheral
 - **Neighborinfo**: `OFF`
 - **Required Channels**: `Freq51`
