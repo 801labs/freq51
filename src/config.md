@@ -1,6 +1,6 @@
 # Meshtastic Configuration
 
-These sections help you choose settings that work well **for you** and **for the mesh**. See the FAQ for troubleshooting. Locally we’re still building out on the FS51 with the default LongFast North America slot/preset (see below), but freq51 may coordinate short-term trials (e.g., ShortFast) as needed.
+These sections help you choose settings that work well **for you** and **for the mesh**. See the FAQ for troubleshooting. Locally we’re still building out on the FS51 with the default MediumFast North America slot/preset (see below), but freq51 may coordinate short-term trials (e.g., ShortFast) as needed.
 
 **Freq51 Medium Fast** (As of 10/05/2025):
 - **Medium_Fast** preset, **slot 51** → **914.625 MHz**
@@ -166,8 +166,7 @@ Before configuring a Router Late, review the [Router Deployment Guide](advanced-
 - **Region**: `US`
 - **Preset**: `Medium Fast`
 - **Hop Limit**: `7`
-- **OK to MQTT**: `OFF` 
-- **Ignore MQTT**: `ON`
+- **OK to MQTT**: `TRUE` (helps appear on map via others’ uplinks)
 - **Telemetry**: `1800` s per timing interval of attached peripheral
 - **Neighborinfo**: `OFF`
 - **Required Channels**: `Freq51`
