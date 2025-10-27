@@ -75,6 +75,7 @@ This guide will walk you through updating your Meshtastic node's modem preset fr
 - Go to **LoRa**.
 - Find presets and select **Medium Fast** (may be listed as **MEDIUM_FAST** or **MediumFast**).
 - Find "Ok to MQTT" and enable it. This allows your node to be listed on our mesh network stats sites.
+- Find "Frequency Slot" and set it to **51**. (If not set already)
 - Save your changes.
 
 ![Android: Change modem preset to MediumFast](images/android-step2.png)
