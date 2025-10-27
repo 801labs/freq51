@@ -48,19 +48,29 @@ Use this checklist to get your node configured and on the network as quickly as 
    - [ ] **Long Name**: Choose something recognizable (avoid personal info).
    - [ ] **Short Name**: Set a short, unique identifier (usually 3–4 letters).
 
+![iOS: Set Node Names](images/ios-user.png)   
+
+
 2. **Device Section**
    - [ ] **Role**: Set to **CLIENT**.
 
-3. **LoRa Section**
-   - [ ] **Frequency Slot**: Set to **51**.
+![iOS: Set Node Role](images/ios-device-role.png)   
+
+3. **LoRa Section**   
    - [ ] **Preset**: Set to **MEDIUM_FAST**.
    - [ ] **OK To MQTT**: Enabled (recommended).
    - [ ] **Hop Count**: Set it to 7 (recommended).
+   - [ ] **Frequency Slot**: Set to **51**.
+
+![iOS: Set Node Lora Settings - Preset / Slot](images/ios-lora-1.png)
+![iOS: Set Node Lora Settings - Hop / MQTT](images/ios-lora-2.png)
          
 4. **Channel Section**
    - [ ] Set your Primary Channel (Channel ID: 0, typically the name is blank, unless you have changed it in the past, then it would be “LongFast”).
    - [ ] **Channel Name**: `Freq51`
    - [ ] **Key**: `1A==`
+
+![iOS: Set Channel Settings](images/ios-channel.png)
 
 5. **Location Section**
    - [ ] **GPS**: Enable if you’re comfortable sharing your location.
