@@ -16,6 +16,7 @@ For deployment guidelines, see [Router Deployment Guide](advanced-configuration/
 - [Router Lates](#router-lates)
 	- [AUR — Aurora Uranialis](#aur--aurora-uranialis)	
 	- [POTM — Point of the Mountain](#potm--point-of-the-mountain)
+ 	- [STIR — Stansbury Island RTR](#stir--stansbury-island-rtr)
 - [Strategic Clients](#strategically-placed-clients)
 	- [👽 — Alien Tower 🛸](#--alien-tower-)
 	- [C6C — Aurora Ceresia](#c6c--aurora-ceresia)
@@ -44,7 +45,9 @@ Infrastructure located within Utah.
 
 | Node Name              | Radio                            | Antenna        | Battery                           | Solar | Modem Preset | Slot | Rebroadcast Mode | Firmware |
 |------------------------|----------------------------------|----------------|-----------------------------------|-------|--------------|------|------------------|----------|
-| FPR – Francis Peak Router v5 | Femtofox CE + Baymesh 3 filter | Alfa 5 dBi Omni| 3S3P 18650  | Eco-Worthy 25W   | MEDIUM_FAST    | 51   | ALL              | 2.6.11   |
+| FPR – Francis Peak Rtr | Heltec T114V2 + Airbuddy AMP 1 W | Alfa 5 dBi Omni| 1S12P EVE ICR18650 (30.6 Ah)      | 5 W   | MEDIUM_FAST    | 51   | ALL              | 2.6.11   |
+
+Possesses a BME680 for weather & air-quality telemetry every 1800 s.
 
 #### Site survey
 **North**  
@@ -120,6 +123,19 @@ Includes BME680 telemetry every 1800 s.
 
 ---
 
+### STIR — Stansbury Island RTR
+**Location:** Stansbury Island
+
+| Node Name              | Radio              | Antenna | Battery   | Solar | Modem Preset | Slot | Rebroadcast Mode | Firmware |
+|------------------------|-------------------|---------|-----------|-------|--------------|------|------------------|----------|
+| STIR – Stansbury Island RTR | Rak 4631 + BME 680 + GPS | Alfa 5 dBi Omni |  16AH   | 6W   | MEDIUM_FAST    | 51   | ALL              | 2.7.11   |
+
+#### Site survey
+![STIR](images/STIR.png)
+
+
+---
+
 ## Strategically Placed Clients
 
 ### 👽 — Alien Tower 🛸
@@ -151,7 +167,7 @@ Includes BME680 telemetry every 1800 s.
 
 | Node Name            | Radio   | Antenna        | Battery                    | Solar | Modem Preset | Slot | Rebroadcast Mode | Firmware |
 |-----------------------|---------|----------------|----------------------------|-------|--------------|------|------------------|----------|
-| WC1 – Wasatch Crest 1.1 | [SolarXiao Base](https://github.com/wehooper4/Meshtastic-Hardware/tree/main/XaioSeries/SolarXaio) + [Murata DFCB2915MLDJAA](https://www.mouser.com/catalog/specsheets/Murata%20DFCB_DFCH%20Series.pdf) | [Gizont 7dBi 45cm](https://www.aliexpress.us/item/3256806241790045.html) | 1S4P [Molicel P45B](https://www.molicel.com/inr-21700-p45b/)  (18Ah) | 6 W   | MEDIUM_FAST    | 51   | ALL              | 2.6.11    |
+| WC1 – Wasatch Crest 1 | RAK4631 | Starf 7 dBi 320mm | 2× Molicel 21700 P42A 8.4Ah| 3 W   | LONG_FAST    | 51   | ALL              | 2.6.10    |
 
 #### Site Survey
 ![WC1](images/WC1.png)
@@ -162,7 +178,7 @@ Includes BME680 telemetry every 1800 s.
 **Location:** Squaretop
 | Node Name            | Radio      | Antenna           | Battery                      | Solar | Modem Preset | Slot | Rebroadcast Mode | Firmware |
 |-----------------------|------------|-------------------|------------------------------|-------|--------------|------|------------------|----------|
-| WC2 – Wasatch Crest 2 | [XIAO NRF52](https://www.seeedstudio.com/XIAO-nRF52840-Wio-SX1262-Kit-for-Meshtastic-p-6400.html) + [Murata DFCB2915MLDJAA](https://www.mouser.com/catalog/specsheets/Murata%20DFCB_DFCH%20Series.pdf) | [Gizont 7dBi 45cm](https://www.aliexpress.us/item/3256806241790045.html) | 1S2P [Molicel P45B](https://www.molicel.com/inr-21700-p45b/) (9 Ah) | 6 W   | MEDIUM_FAST    | 51   | ALL              | 2.6.11   |
+| WC2 – Wasatch Crest 2 | XIAO NRF52 | Gizont 7dBi 450mm | 2× Molicel 21700 P45B  (9 Ah) | 6 W   | LONG_FAST    | 51   | ALL              | 2.6.11   |
 
 #### Site Survey
 ![WC2](images/WC2.png)
