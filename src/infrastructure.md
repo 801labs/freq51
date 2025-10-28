@@ -153,7 +153,7 @@ Includes BME680 telemetry every 1800 s.
 
 | Node Name            | Radio   | Antenna        | Battery                    | Solar | Modem Preset | Slot | Rebroadcast Mode | Firmware |
 |-----------------------|---------|----------------|----------------------------|-------|--------------|------|------------------|----------|
-| WC1 – Wasatch Crest 1.1 | [SolarXiao Base](https://github.com/wehooper4/Meshtastic-Hardware/tree/main/XaioSeries/SolarXaio) | Gizont 7dBi 450mm | 4× Molicel 21700 P45B 18Ah| 6 W   | MEDIUM_FAST    | 51   | ALL              | 2.6.11    |
+| WC1 – Wasatch Crest 1.1 | [SolarXiao Base](https://github.com/wehooper4/Meshtastic-Hardware/tree/main/XaioSeries/SolarXaio) + Murata DFCB2915MLDJAA | Gizont 7dBi 450mm | 4× Molicel 21700 P45B 18Ah| 6 W   | MEDIUM_FAST    | 51   | ALL              | 2.6.11    |
 
 #### Site Survey
 ![WC1](images/WC1.png)
@@ -164,7 +164,7 @@ Includes BME680 telemetry every 1800 s.
 **Location:** Squaretop
 | Node Name            | Radio      | Antenna           | Battery                      | Solar | Modem Preset | Slot | Rebroadcast Mode | Firmware |
 |-----------------------|------------|-------------------|------------------------------|-------|--------------|------|------------------|----------|
-| WC2 – Wasatch Crest 2 | XIAO NRF52 | Gizont 7dBi 450mm | 2× Molicel 21700 P45B  (9 Ah) | 6 W   | MEDIUM_FAST    | 51   | ALL              | 2.6.11   |
+| WC2 – Wasatch Crest 2 | XIAO NRF52 + Murata DFCB2915MLDJAA | Gizont 7dBi 450mm | 2× Molicel 21700 P45B  (9 Ah) | 6 W   | MEDIUM_FAST    | 51   | ALL              | 2.6.11   |
 
 #### Site Survey
 ![WC2](images/WC2.png)
