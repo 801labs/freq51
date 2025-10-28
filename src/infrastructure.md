@@ -133,7 +133,6 @@ Includes BME680 telemetry every 1800 s.
 #### Site survey
 ![STIR](images/STIR.png)
 
-
 ---
 
 ## Strategically Placed Clients
