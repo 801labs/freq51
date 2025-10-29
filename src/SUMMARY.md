@@ -13,3 +13,4 @@
    - [Firmware Update Guide](advanced-configuration/firmware-updates.md)
 - [FAQ](faq.md)
    - [Glossary](glossary.md)
+   - [Troubleshooting](troubleshooting.md)
