@@ -16,6 +16,7 @@ For deployment guidelines, see [Router Deployment Guide](advanced-configuration/
 - [Router Lates](#router-lates)
 	- [AUR — Aurora Uranialis](#aur--aurora-uranialis)	
 	- [POTM — Point of the Mountain](#potm--point-of-the-mountain)
+ 	- [STIR — Stansbury Island RTR](#stir--stansbury-island-rtr)
 - [Strategic Clients](#strategically-placed-clients)
 	- [👽 — Alien Tower 🛸](#--alien-tower-)
 	- [C6C — Aurora Ceresia](#c6c--aurora-ceresia)
@@ -119,6 +120,18 @@ Includes BME680 telemetry every 1800 s.
 
 **South**  
 ![POTM South](images/POTM-South.png)
+
+---
+
+### STIR — Stansbury Island RTR
+**Location:** Stansbury Island
+
+| Node Name              | Radio              | Antenna | Battery   | Solar | Modem Preset | Slot | Rebroadcast Mode | Firmware |
+|------------------------|-------------------|---------|-----------|-------|--------------|------|------------------|----------|
+| STIR – Stansbury Island RTR | Rak 4631 + BME 680 + GPS | Alfa 5 dBi Omni |  16AH   | 6W   | MEDIUM_FAST    | 51   | ALL              | 2.7.11   |
+
+#### Site survey
+![STIR](images/STIR.png)
 
 ---
 
