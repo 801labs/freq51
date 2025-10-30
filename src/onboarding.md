@@ -62,8 +62,8 @@ Use this checklist to get your node configured and on the network as quickly as 
    - [ ] **Hop Count**: Set it to 7 (recommended).
    - [ ] **Frequency Slot**: Set to **51**.
 
-![iOS: Set Node Lora Settings - Preset / Slot](images/ios-lora-1.png)
-![iOS: Set Node Lora Settings - Hop / MQTT](images/ios-lora-2.png)
+![iOS: Set Node Lora Settings - Preset / MQTT](images/ios-lora-1.png)
+![iOS: Set Node Lora Settings - Hop / Slot](images/ios-lora-2.png)
          
 4. **Channel Section**
    - [ ] Set your Primary Channel (Channel ID: 0, typically the name is blank, unless you have changed it in the past, then it would be “LongFast”).
