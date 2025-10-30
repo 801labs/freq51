@@ -17,7 +17,7 @@ Use this to configure your node to connect with local or community networks.
 
 | Channel Name | Role | PSK/Key | Description |
 |---------------|------|----------|--------------|
-| `Freq51` | **Primary** | `1A==` | Main Freq51 mesh network for general users. Enables broad communication across regions. |
+| `Freq51` | **Primary** | `1A==` | `Main Freq51 mesh network for general users. Enables broad communication across regions.` |
 
 💡 *This is the main channel most users start with. It connects you to the general Freq51 mesh.*
 
@@ -30,9 +30,9 @@ These can be added as **secondary** or **tertiary** channels for local coordinat
 
 | Channel Name | Role | PSK/Key | Description |
 |---------------|------|----------|--------------|
-| `BBBB-Alerts` | Secondary | `` | Alerts from FEMA iPAWS/EAS, NOAA, USGS Volcano Alerts, and more. |
-| `DC801` | Secondary | `MHHa9wlKe4chJ01SuTKt1RnqbSXv4UJNAP+ONcKfa0c=` | DC801 - 801 Labs |
-| `SAINTCON` | Secondary | `dFa5cC4GuZ9AnFgPKzBjzqO6Ch8doQdOMqzwlmEff0Q=` | SAINTCON |
+| `BBBB-Alerts` | Secondary | `NONE` | `Alerts from FEMA iPAWS/EAS, NOAA, USGS Volcano Alerts, and more.` |
+| `DC801` | Secondary | `MHHa9wlKe4chJ01SuTKt1RnqbSXv4UJNAP+ONcKfa0c=` | `DC801 - 801 Labs` |
+| `SAINTCON` | Secondary | `dFa5cC4GuZ9AnFgPKzBjzqO6Ch8doQdOMqzwlmEff0Q=` | `SAINTCON` |
 
 💬 *These channels help Utah users receive local alerts and coordinate within their communities.*
 
@@ -45,9 +45,9 @@ These can be added as **secondary** channels to support local groups, alerts, an
 
 | Channel Name | Role | PSK/Key | Description |
 |---------------|------|----------|--------------|
-| `2ndStarLabs` | Secondary | `BRdqPvLgcJKPN5BBCHUVxU6YavR11R3HAoy5wSZdSqc=` | Channel for members of Second Star Labs Hackerspace in Twin Falls, ID. |
-| `IDAlerts` | Secondary | `EdYPaoEzYapldDMwSIeYaLuOVhEqAj5S0Hm5owRoWEg=` | Alerts from FEMA iPAWS/EAS, NOAA, USGS Volcano Alerts, and more. |
-| `IDEmergency` | Secondary | `z/N/1qMBO9LubPEQ7tjOZfUrFuRCmni2OosuNgHpgJM=` | Monitors public channels for emergency keywords (911, fire, rescue) and relays info here. |
+| `2ndStarLabs` | Secondary | `BRdqPvLgcJKPN5BBCHUVxU6YavR11R3HAoy5wSZdSqc=` | `Channel for members of Second Star Labs Hackerspace in Twin Falls, ID.` |
+| `IDAlerts` | Secondary | `EdYPaoEzYapldDMwSIeYaLuOVhEqAj5S0Hm5owRoWEg=` | `Alerts from FEMA iPAWS/EAS, NOAA, USGS Volcano Alerts, and more.` |
+| `IDEmergency` | Secondary | `z/N/1qMBO9LubPEQ7tjOZfUrFuRCmni2OosuNgHpgJM=` | `Monitors public channels for emergency keywords (911, fire, rescue) and relays info here.` |
 
 💬 *These Idaho-specific channels extend the mesh to local emergency and community networks.*
 
