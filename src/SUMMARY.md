@@ -6,6 +6,7 @@
    - [Nebra Miner Guide](equipment/nebra-miner.md)
    - [Lightning Protection Guide](equipment/zeusprotection.md)
 - [Configuration](config.md)
+   - [Channels](channels.md)
 - [Software](software.md)
 - [Infrastructure](infrastructure.md)
 - [Advanced Configuration](advanced-configuration.md)
