@@ -4,7 +4,7 @@
    - [Migrate From LongFast](migrate.md)
 - [Hardware](equipment.md)
    - [Nebra Miner Guide](equipment/nebra-miner.md)
-   - [POE Node Guide](equipment/poe-node-build-guide.md)
+   - [POE Node Guide](equipment/poe-node.md)
    - [Lightning Protection Guide](equipment/zeusprotection.md)
 - [Configuration](config.md)
    - [Channels](channels.md)
