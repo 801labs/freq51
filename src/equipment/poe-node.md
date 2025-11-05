@@ -6,8 +6,8 @@ This guide covers the recommended hardware configurations for POE-powered nodes 
 
 We have two primary POE node configurations:
 
-1. **Raspberry Pi Zero 2W** - Compact, cost-effective option
-2. **Raspberry Pi 4B** - Higher performance option with integrated POE
+1. **Raspberry Pi 4B** - Higher performance option with integrated POE
+2. **Raspberry Pi Zero 2W** - Compact, cost-effective option
 
 Both configurations support cavity filtering for high-level repeater sites where interference management is critical.
 
@@ -16,9 +16,9 @@ Both configurations support cavity filtering for high-level repeater sites where
 ## Configuration 1: Raspberry Pi 4B Build
 
 ### High-Performance Build
-**Total Cost: ~$255**
+**Total Cost: ~$275**
 
-This configuration uses the Raspberry Pi 4B with integrated POE Hat to ensure future compatibility and the ability to run new meshtastic services in the future.
+This configuration uses the Raspberry Pi 4B, with integrated POE Hat, to ensure future compatibility and the ability to run new meshtastic services in the future.
 
 ### Parts List
 
@@ -26,7 +26,7 @@ This configuration uses the Raspberry Pi 4B with integrated POE Hat to ensure fu
 
 | Component | Price | Link |
 |-----------|-------|------|
-| Raspberry Pi 4B | ~$60.00 | [DigiKey](https://www.digikey.com/en/products/detail/raspberry-pi/SC0192-9/18634938) |
+| Raspberry Pi 4B | $40.00 | [Adafruit](https://www.adafruit.com/product/4295) |
 | Nebra LORA Hat | $25.00 | TBA |
 | Waveshare POE Hat | ~$25.00 | [Amazon](https://www.amazon.com/waveshare-Ethernet-Raspberry-Standard-Isolated/dp/B0928ZD7QQ) |
 | PNY 64GB PRO Elite High Endurance SD Card | $10.00 | [Amazon](https://www.amazon.com/PNY-64GB-EliteTM-Endurance-microSDXC/dp/B0F4LKYDBF) |
@@ -34,7 +34,7 @@ This configuration uses the Raspberry Pi 4B with integrated POE Hat to ensure fu
 | Gizont 45cm Antenna | $26.95 | [AliExpress](https://www.aliexpress.us/item/3256806241790045.html) |
 | SMA Male to N Female Bulkhead | $6.00 | [Amazon](https://www.amazon.com/dp/B00COX9MTG) |
 
-**Base Total: $173.00**
+**Base Total: $192.95**
 
 #### Additional Components for Cavity Filter (High-Level Sites Only)
 
@@ -43,14 +43,14 @@ This configuration uses the Raspberry Pi 4B with integrated POE Hat to ensure fu
 | SMA Male to SMA Male Pigtail | $2.00 | TBA |
 | Cavity Filter | $80.00 | TBA |
 
-**Filtered Build Total: $255.00** (Base + Cavity Filter components)
+**Filtered Build Total: $274.95** (Base + Cavity Filter components)
 
 ---
 
 ## Configuration 2: Raspberry Pi Zero 2W Build
 
 ### Recommended Budget Build
-**Total Cost: ~$225**
+**Total Cost: ~$234**
 
 This configuration uses the Raspberry Pi Zero 2W with a POE adapter for a compact, affordable deployment.
 
@@ -68,7 +68,7 @@ This configuration uses the Raspberry Pi Zero 2W with a POE adapter for a compac
 | Gizont 45cm Antenna | $26.95 | [AliExpress](https://www.aliexpress.us/item/3256806241790045.html) |
 | SMA Male to N Female Bulkhead | $6.00 | [Amazon](https://www.amazon.com/dp/B00COX9MTG) |
 
-**Base Total: $143.00**
+**Base Total: $151.95**
 
 #### Additional Components for Cavity Filter (High-Level Sites Only)
 
@@ -77,16 +77,16 @@ This configuration uses the Raspberry Pi Zero 2W with a POE adapter for a compac
 | SMA Male to SMA Male Pigtail | $2.00 | TBA |
 | Cavity Filter | $80.00 | TBA |
 
-**Filtered Build Total: $225.00** (Base + Cavity Filter components)
+**Filtered Build Total: $233.95** (Base + Cavity Filter components)
 
 ---
 
 ## Alternative Component Options
 
 ### Enclosures
-- **Nebra Enclosure**: [$32.06 - AliExpress](https://www.aliexpress.us/item/3256808320636390.html)
-- **NEMA Steel Enclosure**: [$29.99 - Amazon](https://www.amazon.com/VEVOR-Electrical-Weatherproof-Wall-Mounted-Electronic/dp/B09247JJQP?th=1)
-- **NEMA ABS Enclosure**: [$21.99 - Amazon](https://www.amazon.com/Gratury-Stainless-Waterproof-Electrical-290%C3%97190%C3%97140mm/dp/B08281V2RL?th=1)
+- **Nebra Enclosure**: [$32.06 - AliExpress](https://www.aliexpress.us/item/3256808320636390.html) (missing plugs)
+- **NEMA Steel Enclosure**: [$29.99 - Amazon](https://www.amazon.com/VEVOR-Electrical-Weatherproof-Wall-Mounted-Electronic/dp/B09247JJQP?th=1) (unproved for weather resistance, will need a custom mounting solution)
+- **NEMA ABS Enclosure**: [$21.99 - Amazon](https://www.amazon.com/Gratury-Stainless-Waterproof-Electrical-290%C3%97190%C3%97140mm/dp/B08281V2RL?th=1) (plastic)
 
 ### Antennas
 - **Gizont 45cm**: [$26.95 - AliExpress](https://www.aliexpress.us/item/3256806241790045.html) - Recommended
@@ -110,7 +110,6 @@ This configuration uses the Raspberry Pi Zero 2W with a POE adapter for a compac
 5. **SD Card**: Use high-endurance cards rated for continuous operation
 
 ## Additional Resources
----
 
 - [Nebra Miner Guide](nebra-miner.md)
 - [Lightning Protection Guide](zeusprotection.md)
