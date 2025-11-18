@@ -2,6 +2,8 @@
 
 This page will host **Freq51 Mesh builds** and their approximate coverage maps. Use them to align your setup if you’re inside coverage areas (red). Note that different nodes may run different software. Some builds will run the meshing around BBS system. These are select router nodes with high remote power requirements and recommended to be spaced within 5 hops of each other for consistent relaying. Other nodes are low power. We currently prefer NRF52 based infrastructure nodes for <1W TX power or femtofoxes and Nebra custom miner nodes for 1W TX power. All routers must feature a filter. Filtering is optional on non infrastructure nodes. 
 
+## Here is a list of hardware many of us use - [Freq51 Hardware](https://a.co/4PWizzG)
+
 ## NRF52 Mobile Node Example
 - SenseCAP Card Tracker T1000-E (Meshtastic)
 - [SeeedStudio Link](https://www.seeedstudio.com/SenseCAP-Card-Tracker-T1000-E-for-Meshtastic-p-5913.html)
