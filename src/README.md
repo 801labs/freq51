@@ -29,7 +29,7 @@ Meshtastic® lets you use inexpensive LoRa radios as a long-range, off-grid comm
 **Our stance:** We prioritize a healthy **RF mesh** first. MQTT is useful for mapping, analytics, but please avoid flooding RF with downlinked internet traffic.
 
 **Freq51 Map**
-- Public Map: (Placeholder)
+- Public Map: ![Intermountain Mesh Map](images/mesh-map.png)
 
 **Good practices**
 - If your node is **directly connected** to an MQTT server, **do not enable downlink** on public RF channels (e.g., MediumFast). That can spam RF. Nodes not on MQTT can use “Ignore MQTT,” and that setting is requested to be on by default when operating on our mesh unless you need MQTT.
