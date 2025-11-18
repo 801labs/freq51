@@ -72,9 +72,9 @@ Infrastructure located within Utah.
 ### NPR — Nelson Peak Router
 **Location:** Nelson Peak
 
-| Node Name              | Radio                 | Antenna | Battery     | Solar | Modem Preset | Slot | Rebroadcast Mode | Firmware |
-|------------------------|-----------------------|---------|-------------|-------|--------------|------|------------------|----------|
-| NPR – Nelson Peak Rtr  | RAK19003 + RAK4631    | 4 dBi   | 2 × 18650   | 6 W   | LONG_FAST    | 51   | ALL              | 2.3.2    |
+| Node Name                | Radio (modules + enclosure)                | Antenna            | Battery                                                         | Solar | Modem Preset | Slot | Rebroadcast Mode | Firmware |
+|--------------------------|--------------------------------------------|--------------------|-----------------------------------------------------------------|-------|--------------|------|------------------|----------|
+| NPR – Nelson Peak Router | Nebra with 1W radio and a murata filter    | 45cm gizont 7dBi   | PoE Powered, GOLDENMATE 1000VA/800W Lithium UPS Battery Backup  | None  | MEDIUM_FAST  | 51   | ALL              | 2.7.13    |
 
 #### Site survey
 **North**  
