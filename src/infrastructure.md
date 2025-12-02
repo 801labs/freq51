@@ -31,7 +31,7 @@ For deployment guidelines, see [Router Deployment Guide](advanced-configuration/
 	- [KBS — Kimama Butte Station](#kbs--kimama-butte-station)
 - [Strategic Clients](#strategically-placed-clients-1)
     - [SSL — Second Star Labs](#ssl--second-star-labs)
-	- [T2T — The 2 Towers](#t2t--the-2-towers).
+	- [T2T — The 2 Towers](#t2t--the-2-towers)
 
 ---
 
