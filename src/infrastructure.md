@@ -31,7 +31,7 @@ For deployment guidelines, see [Router Deployment Guide](advanced-configuration/
 	- [KBS — Kimama Butte Station](#kbs--kimama-butte-station)
 - [Strategic Clients](#strategically-placed-clients-1)
     - [SSL — Second Star Labs](#ssl--second-star-labs)
-
+	- [T2T — The 2 Towers](#t2t--the-2-towers)
 
 ---
 
@@ -190,7 +190,7 @@ Infrastructure physically located within Idaho.
 
 | Node Name                      | Radio                                  | Antenna                                                                                                                                                                       | Battery                                                                                                                      | Solar                                                  | Modem Preset | Slot | Rebroadcast Mode | Firmware       |
 |--------------------------------|----------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------|--------------|------|------------------|----------------|
-| MHR — Mount Harrison Router    | Femtofox Pro                           | [Rokland 10dBi Backcountry](https://store.rokland.com/products/10-dbi-backcountry-n-male-omni-outdoor-helium-915-mhz-antenna-48-for-rak-miner-2-nebra-indoor-bobcat-hotspots) | [3S8P 12.6v 40AH0](https://www.18650batterystore.com/collections/21700-batteries/products/eve-50e-21700-5000mah-15a-battery) | [25w 18v ECO-WORTHY](https://a.co/d/85LSbHV)           | LONG_FAST    | 51   | ALL              | 2.6            |
+| MHR — Mount Harrison Router    | Femtofox Pro                           |  [Rokland 8dBi Low Profile Omni](https://store.rokland.com/products/8-dbi-omni-outdoor-915mhz-fiberglass-antenna-for-lora-halow-application) | [3S8P 12.6v 40AH0](https://www.18650batterystore.com/collections/21700-batteries/products/eve-50e-21700-5000mah-15a-battery) | [25w 18v ECO-WORTHY](https://a.co/d/85LSbHV)           | LONG_FAST    | 51   | ALL              | 2.6            |
 
 #### Site Survey
 **East**
@@ -246,3 +246,13 @@ Infrastructure physically located within Idaho.
 
 #### Site Survey
 ![SSL](images/Idaho/SSL.webp)
+
+### T2T — The 2 Towers
+**Location**: Flat Top Butte
+
+| Node Name                      | Radio                                  | Antenna                                                                                                                                                                       | Battery                                                                                                                      | Solar                                                  | Modem Preset | Slot | Rebroadcast Mode | Firmware       |
+|--------------------------------|----------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------|--------------|------|------------------|----------------|
+| T2T — The 2 Towers        | Heltec T114                            | [ALFA 5dbi Omni](https://a.co/d/gPpWxbe) | [1S6P 3.7v 40AH](https://www.18650batterystore.com/collections/21700-batteries/products/eve-50e-21700-5000mah-15a-battery)| [6w 5v Shoshine](https://www.amazon.com/dp/B09ZL3F7CT)          | LONG_FAST    | 51   | ALL              | 2.6.11         |
+
+#### Site Survey
+![SSL](images/Idaho/T2T.png)
