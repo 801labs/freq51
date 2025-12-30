@@ -17,7 +17,7 @@ This guide covers everything you need to know about deploying **ROUTER** nodes o
 - **Coverage**: Should provide strategic coverage for the network
 - **Coordination**: **MANDATORY** community approval required
 
-### 🏠 CLIENT_BASE / "STRATEGIC CLIENT" Role
+### 🏠 CLIENT BASE / "STRATEGIC CLIENT" Role
 - **Purpose**: Contributes to network without over stepping Routers
 - **Behavior**: Acts as client with priority to favorited nodes. Can take advantage of zero hop routing
 - **Power**: Requires reliable, continuous power source
@@ -86,7 +86,7 @@ Where we place routers is very important.
 **Characteristics**:
 - **Elevation**: Ground level to 100 feet
 - **Coverage**: 1-5 miles in typical terrain
-- **Role**: CLIENT or CLIENT_BASE (NOT router roles)
+- **Role**: CLIENT or CLIENT_BASE or CLIENT_MUTE (NOT router roles)
 - **Why CLIENT**: Prevents network congestion from too many routers
 - **Power**: Standard residential power
 
