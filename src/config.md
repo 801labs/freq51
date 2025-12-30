@@ -139,10 +139,11 @@ Before configuring a Router Late, review the [Router Deployment Guide](advanced-
 - **Licensed amateur radio**: `FALSE` (unless you’re operating in Ham Mode knowingly; encryption is disallowed on ham). HAM band operation is on Frequency Slot 45. Please do not use it on Frequency Slot 51.
 - **Role**: `Client`
 - **Rebroadcast mode**: `ALL`
-- **Node Info Broadcast Interval**: `43200` s
+- **Node Info Broadcast Interval**: `21600` s
 - **GPS Mode**: `ENABLED` if present, else use **Fixed Position**.
 - **Fixed Position**: Often `TRUE` for stationary nodes (set via CLI or phone). Unless GPS is desired for timekeeping. (really useful)
-- **Position Broadcast Interval**: `43200` s
+- **Position Broadcast Interval**: `21600` s
+- **Smart Positioning**: 'OFF'
 - **Region**: `US`
 - **Preset**: `Medium Fast`
 - **Hop Limit**: `7`
@@ -161,10 +162,11 @@ Before configuring a Router Late, review the [Router Deployment Guide](advanced-
 - **Licensed amateur radio**: `FALSE` (unless you’re operating in Ham Mode knowingly; encryption is disallowed on ham). HAM band operation is on Frequency Slot 45. Please do not use it on Frequency Slot 51.
 - **Role**: `Client Mute`
 - **Rebroadcast mode**: `Local Only` 
-- **Node Info Broadcast Interval**: `43200` s
+- **Node Info Broadcast Interval**: `21600` s
 - **GPS Mode**: `ENABLED` if present, else use **Fixed Position**.
 - **Fixed Position**: Often `TRUE` for stationary nodes (set via CLI or phone). Unless GPS is desired for timekeeping. (really useful)
-- **Position Broadcast Interval**: `43200` s
+- **Position Broadcast Interval**: `21600` s
+- **Smart Positioning**: No more frequent than '30 minutes'
 - **Region**: `US`
 - **Preset**: `Medium Fast`
 - **Hop Limit**: `7`
@@ -247,4 +249,5 @@ This is the local hackerspace channel. The key is only found at the hackerspace.
 | Channel Name | PSK  | Modem Preset | Slot | Ham Mode |
 |---|---|---|---|---|
 | ShortFast | `access hackerspace for key` | LONG_FAST | 51 | Off |
+
 
