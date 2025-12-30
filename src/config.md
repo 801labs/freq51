@@ -30,7 +30,7 @@ Understanding how rebroadcasting works in Meshtastic helps avoid network congest
 ### Simplified Priority Order
 1. **Router & Repeater**  
    - Rebroadcast first.
-2. **Clients (Client, Client Hidden, Client Mute, Router Client)**  
+2. **Clients (Client, Client Hidden, Client Mute, Client Base)**  
    - Rebroadcast after Routers/Repeaters, but cancel if they overhear another rebroadcast.  
 3. **Router Late (RL)**  
    - Rebroadcasts last, **only if no one else has already done so**.
@@ -40,15 +40,17 @@ When a packet is received:
 1. **Check hop limit**  
    - If `hop_limit = 0`, do not rebroadcast.  
 2. **If I am a Router or Repeater:**  
-   - Wait a small random delay (shorter if SNR is poor).  
+   - Wait a small random delay, (weighted shorter if SNR is poor).  
    - Wait until the channel is clear.  
    - Transmit.  
-3. **If I am not a Router or Repeater:**  
+3. **If I am Client Base AND packet is to/from favorited node:**
+   - Follow Step 2 rules
+4. **If I am not a Router or Repeater:**
    - Wait until after the maximum possible Router/Repeater delay.  
-   - Add a slightly longer random delay (scaled by SNR).  
+   - Add a slightly longer random delay (weighted shorter if SNR is poor).  
    - If another node rebroadcasted and I am not Router_Late → cancel rebroadcast.  
    - Otherwise transmit.  
-4. **If I am Router Late:**  
+5. **If I am Router Late:**  
    - If another rebroadcast was heard:  
      - Wait until after all other possible delays, then add another random delay (scaled by SNR).  
      - Transmit only if the channel is still clear.  
@@ -75,7 +77,7 @@ If you can’t find a setting in the app, check Meshtastic docs (each page has i
 
 ### Router Nodes
 
-Before configuring a router, review the [Router Deployment Guide](advanced-configuration/router-deployment.md).
+Before configuring a router, review the [Router Deployment Guide](advanced-configuration/router-deployment.md) and reach out on Discord.
 
 Use when node is a router
 
@@ -87,10 +89,10 @@ Use when node is a router
 - **Licensed amateur radio**: `FALSE` (unless you’re operating in Ham Mode knowingly; encryption is disallowed on ham). HAM band operation is on Frequency Slot 45. Please do not use it on Frequency Slot 51.
 - **Role**: Usually `Router` but can be Router Late depending on placement. Router roles only by coordination.
 - **Rebroadcast mode**: `ALL` (We want routers to pass all traffic not be a filter)
-- **Node Info Broadcast Interval**: `86400` s
+- **Node Info Broadcast Interval**: `43200` s
 - **GPS Mode**: `ENABLED` if present, else use **Fixed Position**.
 - **Fixed Position**: Often `TRUE` for stationary nodes (set via CLI or phone). Unless GPS is desired for timekeeping. (really useful)
-- **Position Broadcast Interval**: `86400` s
+- **Position Broadcast Interval**: `43200` s
 - **Region**: `US`
 - **Preset**: `Medium Fast`
 - **Hop Limit**: `7`
@@ -99,7 +101,7 @@ Use when node is a router
 - **Neighborinfo**: `ON, Transmit over Lora ON, 14400 Interval`
 - **Required Channels**: `Freq51`
 
-> Note: Neighbor Info is no longer shared across the mesh on an unencrypted primary channel, thus we require the Freq51 MQTT and Neighborinfo Channel.
+> Note: Neighbor Info is no longer shared across the mesh on an unencrypted primary channel, hence the custom channel name and key.
 
 ### Router Late Nodes
 
@@ -125,9 +127,9 @@ Before configuring a Router Late, review the [Router Deployment Guide](advanced-
 - **Neighborinfo**: `ON, Transmit over Lora ON, 14400 Interval`
 - **Required Channels**: `Freq51`
 
-> Note: Neighbor Info is no longer shared across the mesh on an unencrypted primary channel, thus we require the Freq51 MQTT and Neighborinfo Channel.
+> Note: Neighbor Info is no longer shared across the mesh on an unencrypted primary channel, hence the custom channel name and key.
 
-### Clent Nodes (Stationary or Outdoors)
+### Client / Client Base Nodes (Stationary or Outdoors)
 
 **Paths to check** (App tabs may vary):  
 `Radio > User`, `Radio > Device`, `Radio > Position`, `Radio > LoRa`, `Radio > Bluetooth`, `Modules > Neighbor Info`, `Modules > MQTT`
@@ -137,10 +139,10 @@ Before configuring a Router Late, review the [Router Deployment Guide](advanced-
 - **Licensed amateur radio**: `FALSE` (unless you’re operating in Ham Mode knowingly; encryption is disallowed on ham). HAM band operation is on Frequency Slot 45. Please do not use it on Frequency Slot 51.
 - **Role**: `Client`
 - **Rebroadcast mode**: `ALL`
-- **Node Info Broadcast Interval**: `21600` s
+- **Node Info Broadcast Interval**: `43200` s
 - **GPS Mode**: `ENABLED` if present, else use **Fixed Position**.
 - **Fixed Position**: Often `TRUE` for stationary nodes (set via CLI or phone). Unless GPS is desired for timekeeping. (really useful)
-- **Position Broadcast Interval**: `21600` s
+- **Position Broadcast Interval**: `43200` s
 - **Region**: `US`
 - **Preset**: `Medium Fast`
 - **Hop Limit**: `7`
@@ -159,15 +161,15 @@ Before configuring a Router Late, review the [Router Deployment Guide](advanced-
 - **Licensed amateur radio**: `FALSE` (unless you’re operating in Ham Mode knowingly; encryption is disallowed on ham). HAM band operation is on Frequency Slot 45. Please do not use it on Frequency Slot 51.
 - **Role**: `Client Mute`
 - **Rebroadcast mode**: `Local Only` 
-- **Node Info Broadcast Interval**: `21600` s
+- **Node Info Broadcast Interval**: `43200` s
 - **GPS Mode**: `ENABLED` if present, else use **Fixed Position**.
 - **Fixed Position**: Often `TRUE` for stationary nodes (set via CLI or phone). Unless GPS is desired for timekeeping. (really useful)
-- **Position Broadcast Interval**: `21600` s
+- **Position Broadcast Interval**: `43200` s
 - **Region**: `US`
 - **Preset**: `Medium Fast`
 - **Hop Limit**: `7`
 - **OK to MQTT**: `TRUE` (helps appear on map via others’ uplinks)
-- **Telemetry**: `1800` s per timing interval of attached peripheral
+- **Telemetry**: `3600` s per timing interval of attached peripheral
 - **Neighborinfo**: `OFF`
 - **Required Channels**: `Freq51`
 
@@ -199,13 +201,16 @@ Before configuring a Router Late, review the [Router Deployment Guide](advanced-
 To appear on the map:
 
 **Channels > Primary**  
-**Modules > MQTT**
 
 - **Allow Position Requests**: `TRUE`
-- **Precise Location**: `TRUE`
 - **Approximate Location**: choose a value you’re comfortable with
+- **Precise Location**: `TRUE` (If wanted)
 
-#### If Enabling MQTT
+**LoRa > Advanced**
+- **Ignore MQTT**: `TRUE`
+- **Ok to MQTT**: `TRUE`
+
+#### If Enabling MQTT (Advanced)
 
 - **Uplink Enabled**: `TRUE`
 - **Downlink Enabled**: `FALSE` (prevents pulling internet traffic into RF)
@@ -242,3 +247,4 @@ This is the local hackerspace channel. The key is only found at the hackerspace.
 | Channel Name | PSK  | Modem Preset | Slot | Ham Mode |
 |---|---|---|---|---|
 | ShortFast | `access hackerspace for key` | LONG_FAST | 51 | Off |
+
