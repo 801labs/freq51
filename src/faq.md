@@ -2,21 +2,21 @@
 
 ## New User Expectations
 
-Meshtastic is **rapidly evolving**, not a fully polished product. Expect quirks. For best results with a fresh device: put it somewhere with decent LOS (a window works) and **let it run overnight**. It takes time for nodes to discover each other. Users who share their position (GPS or fixed coordinates) will show up on public maps. Its a good way to test a solar setup as well.
+Meshtastic is **rapidly evolving**, not a fully polished product. Expect quirks. For best results with a fresh device: put it somewhere with decent LOS (a window works) to mountain nodes (find the nearest on the infrastructure page) and **let it run overnight**. It takes time for nodes to discover each other. Users who share their position (GPS or fixed coordinates) will show up on public maps. Its a good way to test a solar setup as well.
 
 We currently recommend a local map (**TBD: map URL**) for nodes that opt in to share their position. You won’t see *every* node—only those that choose to appear or are heard by an MQTT-uplinking node nearby.
 
 ## FAQ’s
 
 - **What firmware version should I flash?**  
-  Ask in freq51 Discord; “latest” isn’t always best for local stability. We track known issues and local norms. We currently prefer 2.6.11 as of 8/16/2025
+  Ask in freq51 Discord; “latest” isn’t always best for local stability. We track known issues and local norms. We currently prefer the latest Beta.
   Please see our [firmware update guide](advanced-configuration/firmware-updates.html) for help on that.
 
 - **Where’s the QR/URL to join the local mesh?**  
   We **don’t recommend** QR codes/URLs for public channels. They silently change additional LoRa settings (e.g., TX power, hop count). Enter channel names/keys manually and verify settings after import.
 
 - **Which role should I use: ROUTER or CLIENT?**  
-  **Usually `CLIENT` or `CLIENT_MUTE`.** Router roles (`ROUTER`, `ROUTER_LATE`, etc.) rebroadcast *everything* they hear and can harm network health if overused or poorly placed. Use router roles only when coordinated with the group. 
+  **If in doubt, `CLIENT` works well. 'CLIENT_MUTE' is good for portable/handheld devices** Router roles (`ROUTER`, `ROUTER_LATE`, etc.) rebroadcast *everything* they hear and can harm network health if overused or poorly placed. Use router roles only when coordinated with the group. 
   The Comms Channel has created a great [video](https://www.youtube.com/watch?v=htjwtnjQkkE) on that.
 
   ### Device Roles
@@ -28,8 +28,8 @@ We currently recommend a local map (**TBD: map URL**) for nodes that opt in to s
     - Sends and receives messages normally.  
     - Shows up on maps if you share GPS or fixed position.  
     - **Rebroadcast mode:** `All` (repeats your own + direct messages when needed).  
-    - Best for portable or handheld nodes or roof nodes for relaying indoor nodes.
-
+    - Best for semi-permanent / nodes with external antennas / have a good chance of hitting infrastructure.
+      
   - **Client Mute**  
     - Same as Client, but **does not rebroadcast messages**.  
     - Saves battery and avoids adding unnecessary traffic.  
@@ -44,6 +44,13 @@ We currently recommend a local map (**TBD: map URL**) for nodes that opt in to s
 	- Best for extremely low traffic stealthy nodes
     - **Rebroadcast mode:** `Known Only` (like Client).  
 
+  - **Client Base**  
+    - Best for Roof Top Nodes and Strategic Clients.  
+    - Sends and receives messages normally, with additional priority to favorited nodes.  
+    - Shows up on maps if you share GPS or fixed position.  
+    - **Rebroadcast mode:** `All` (repeats your own nodes with priority).  
+    - Best for roof nodes for relaying indoor nodes.
+      
   - **Router**  
     - A fixed, always-on node that **rebroadcasts everything** it hears.  
     - Extends network reach and coverage for others.  
@@ -56,8 +63,10 @@ We currently recommend a local map (**TBD: map URL**) for nodes that opt in to s
     - Overuse of routers can cause congestion.  
     - See [Router Deployment Guide](advanced-configuration/router-deployment.md) before deploying.
 
-  - **Router Late**  
-    - A router that **waits briefly before retransmitting** messages.  
+  - **Router Late // Currently not recommended**
+    - A router that **waits briefly before retransmitting** messages.
+    	- We have found that it is too "polite" and is not helping to contribute to the mesh as expected
+    	- Until firmware changes  not recommended. (such as Router Priority 2)
     - Reduces “echo storms” when many routers are present.  
 	- Must posses a filter on the RF chain
     - Best used in **dense networks** with multiple routers to avoid collisions and connecting to geographically seperate areas
@@ -68,12 +77,12 @@ We currently recommend a local map (**TBD: map URL**) for nodes that opt in to s
   #### Choosing the Right Role
   - **Most people - Outdoor:** `Client`
   - **Most people - Indoor:** `Client Mute`, or `Client Hidden` 
-  - **Fixed/always-on with power and good placement between 5500 ft and 8000 ft:** `Router Late`  
+  - **Fixed/always-on with power and good placement between 5500 ft and 8000 ft:** `Client Base`  
   - **Fixed/always-on with power and good placement above 8000 ft:** `Router`  
 
   See [Router Deployment Guide](advanced-configuration/router-deployment.md) for deployment guidance.
 
-  ⚠️ **Tip:** Too many routers (or routers in bad spots) can hurt the mesh. When in doubt, stick to `Client`.  
+  ⚠️ **Tip:** Too many routers (or routers in bad spots) can hurt the mesh. When in doubt, stick to `Client` or `Client Base` or 'Client Mute'.  
 
 ### Why Improperly Applying Router and Repeater Roles Is Harmful
 
