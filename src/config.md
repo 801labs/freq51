@@ -143,7 +143,7 @@ Before configuring a Router Late, review the [Router Deployment Guide](advanced-
 - **GPS Mode**: `ENABLED` if present, else use **Fixed Position**.
 - **Fixed Position**: Often `TRUE` for stationary nodes (set via CLI or phone). Unless GPS is desired for timekeeping. (really useful)
 - **Position Broadcast Interval**: `21600` s
-- **Smart Positioning**: 'OFF'
+- **Smart Positioning**: `OFF`
 - **Region**: `US`
 - **Preset**: `Medium Fast`
 - **Hop Limit**: `7`
@@ -187,9 +187,9 @@ Before configuring a Router Late, review the [Router Deployment Guide](advanced-
 - **Rebroadcast mode**: `Known Only by default. If you have a fresh node stay on Local Only` 
 - **Node Info Broadcast Interval**: `4294967295` s
 - **GPS Mode**: `ENABLED` if present, else use **Fixed Position**.
-- **Fixed Position**: Off
+- **Fixed Position**: `OFF`
 - **Position Broadcast Interval**: `OFF`
-- **Smart Positioning**: 'OFF'
+- **Smart Positioning**: `OFF`
 - **Region**: `US`
 - **Preset**: `Medium Fast`
 - **Hop Limit**: `7`
@@ -250,6 +250,7 @@ This is the local hackerspace channel. The key is only found at the hackerspace.
 | Channel Name | PSK  | Modem Preset | Slot | Ham Mode |
 |---|---|---|---|---|
 | ShortFast | `access hackerspace for key` | LONG_FAST | 51 | Off |
+
 
 
 
