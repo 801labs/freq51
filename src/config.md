@@ -171,7 +171,7 @@ Before configuring a Router Late, review the [Router Deployment Guide](advanced-
 - **Preset**: `Medium Fast`
 - **Hop Limit**: `7`
 - **OK to MQTT**: `TRUE` (helps appear on map via others’ uplinks)
-- **Telemetry**: `3600` s per timing interval of attached peripheral
+- **Telemetry**: `1800` s per timing interval of attached peripheral
 - **Neighborinfo**: `OFF`
 - **Required Channels**: `Freq51`
 
@@ -188,7 +188,8 @@ Before configuring a Router Late, review the [Router Deployment Guide](advanced-
 - **Node Info Broadcast Interval**: `4294967295` s
 - **GPS Mode**: `ENABLED` if present, else use **Fixed Position**.
 - **Fixed Position**: Off
-- **Position Broadcast Interval**: `OFF` 
+- **Position Broadcast Interval**: `OFF`
+- **Smart Positioning**: 'OFF'
 - **Region**: `US`
 - **Preset**: `Medium Fast`
 - **Hop Limit**: `7`
@@ -249,5 +250,6 @@ This is the local hackerspace channel. The key is only found at the hackerspace.
 | Channel Name | PSK  | Modem Preset | Slot | Ham Mode |
 |---|---|---|---|---|
 | ShortFast | `access hackerspace for key` | LONG_FAST | 51 | Off |
+
 
 
