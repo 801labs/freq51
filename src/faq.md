@@ -16,7 +16,7 @@ We currently recommend a local map (**TBD: map URL**) for nodes that opt in to s
   We **don’t recommend** QR codes/URLs for public channels. They silently change additional LoRa settings (e.g., TX power, hop count). Enter channel names/keys manually and verify settings after import.
 
 - **Which role should I use: ROUTER or CLIENT?**  
-  **If in doubt, `CLIENT` works well.** Router roles (`ROUTER`, `ROUTER_LATE`, etc.) rebroadcast *everything* they hear and can harm network health if overused or poorly placed. Use router roles only when coordinated with the group. 
+  **If in doubt, `CLIENT` works well. 'CLIENT_MUTE' is good for portable/handheld devices** Router roles (`ROUTER`, `ROUTER_LATE`, etc.) rebroadcast *everything* they hear and can harm network health if overused or poorly placed. Use router roles only when coordinated with the group. 
   The Comms Channel has created a great [video](https://www.youtube.com/watch?v=htjwtnjQkkE) on that.
 
   ### Device Roles
@@ -82,7 +82,7 @@ We currently recommend a local map (**TBD: map URL**) for nodes that opt in to s
 
   See [Router Deployment Guide](advanced-configuration/router-deployment.md) for deployment guidance.
 
-  ⚠️ **Tip:** Too many routers (or routers in bad spots) can hurt the mesh. When in doubt, stick to `Client` or `Client Base`.  
+  ⚠️ **Tip:** Too many routers (or routers in bad spots) can hurt the mesh. When in doubt, stick to `Client` or `Client Base` or 'Client Mute'.  
 
 ### Why Improperly Applying Router and Repeater Roles Is Harmful
 
