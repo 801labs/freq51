@@ -1,3 +1,4 @@
+<img src="images/IntermountainMeshLogo.png" width="20%" hspace="40">
 # Summary
 [Overview](README.md)
 - [Onboarding Guide](onboarding.md)
@@ -13,7 +14,9 @@
 - [Advanced Configuration](advanced-configuration.md)
    - [Router Deployment Guide](advanced-configuration/router-deployment.md)
    - [Firmware Update Guide](advanced-configuration/firmware-updates.md)
+- [Weekly Net](weeklynet.md)
 - [FAQ](faq.md)
    - [Glossary](glossary.md)
    - [Troubleshooting](troubleshooting.md)
 - [Contact Us](contact.md)
+   - [Discord](discord.md)
