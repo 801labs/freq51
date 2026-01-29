@@ -1,4 +1,3 @@
-<img src="images/IntermountainMeshLogo.png" width="20%" hspace="40">
 # Summary
 [Overview](README.md)
 - [Onboarding Guide](onboarding.md)
