@@ -76,6 +76,8 @@ We also offer optional reminder posts on Discord for those who opt in:
 
 It’s an easy way to stay in the loop and never miss a check-in, whether you’re on RF, Discord, or both.
 
+💡 For those who want to dive deeper, the **Weekly Net bot commands** are detailed on our [Discord Commands page](discord.md#weekly-net-commands).
+
 If you’re on Discord during the NET window, hop in and say hi!
 
 ---
@@ -101,3 +103,4 @@ The mesh is better when it’s used — and **you’re part of what makes it wor
 
 See you on the airwaves.  
 **#FREQ51** 🚀
+
