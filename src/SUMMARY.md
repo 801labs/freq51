@@ -1,3 +1,4 @@
+![IntermountainMeshLogo](images/IntermountainMeshLogo-menu.png)
 # Summary
 [Overview](README.md)
 - [Onboarding Guide](onboarding.md)
