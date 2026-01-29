@@ -14,7 +14,7 @@ Meshtastic® lets you use inexpensive LoRa radios as a long-range, off-grid comm
 
 **Links**
 - Supported Hardware: [https://meshtastic.org/docs/hardware/devices/](https://meshtastic.org/docs/hardware/devices/)
--  **Official Meshtastic Discord --> Connect Forum --> [US-Utah](https://discord.gg/meshtastic)**
+-  **[Official Meshtastic Discord](https://discord.gg/meshtastic) --> [Connect Forum](https://discord.com/channels/867578229534359593/1196916552725958706) --> US-Utah**
 
 ---
 
