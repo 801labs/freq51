@@ -100,7 +100,7 @@ The Discord bot supports the Weekly Net and general mesh activity by tracking no
 - **`/mycheckins`** – See your recent check-ins! Only shows nodes assigned to your Discord username.
 - **`/usernodes`** – Get a list of all nodes assigned to you.
 - **`/checkinsbydate`** – Lists all Weekly Net check-ins by node for a specific date. Shows each node that reported in on that date, along with time and owner.
-- **`/claim_node`** – Allows you to self-assign/claim a node owned by you.
+- **`/claimnode`** – Allows you to self-assign/claim a node owned by you.
 - **`/mystreaks`** – Shows your check-in streaks.
 - **`/streakleaderboard`** – Shows the current leaderboard of check-ins.
 
