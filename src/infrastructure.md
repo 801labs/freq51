@@ -23,17 +23,17 @@ For deployment guidelines, see [Router Deployment Guide](advanced-configuration/
 	- [WC1 — Wasatch Crest 1](#wc1--wasatch-crest-1)
 	- [WC2 — Wasatch Crest 2](#wc2--wasatch-crest-2)
 
-## [Southern Idaho Infrastructure](#idaho-infrastructure-1)
+## [Southern Idaho Infrastructure](#southern-idaho-infrastructure)
 - [Routers](#routers-1)
 	- [MHR — Mount Harrison Router](#mhr--mount-harrison-router)
     - [ISR — Indian Springs Router](#isr--indian-springs-router-v2)
-- [Router Lates](#router-lates-1)
-	- [KBS — Kimama Butte Station](#kbs--kimama-butte-station)
+    - [T2T — The 2 Towers](#t2t--the-2-towers)
+    - [tcup — MH Teacup Foothills](#tcup--mh-teacup-foothills)
 - [Strategic Clients](#strategically-placed-clients-1)
     - [SSL — Second Star Labs](#ssl--second-star-labs)
-	- [T2T — The 2 Towers](#t2t--the-2-towers)
+	
 
-## [Western Idaho Infrastructure](#idaho-infrastructure-1)
+## [Western Idaho Infrastructure](#western-idaho-infrastructure)
 - [Routers](#routers-2)
   - [HPR — Hayden Peak Router](#hpr--hayden-peak-router)
   - [TVM Pearl](#tvm-pearl)
@@ -192,16 +192,23 @@ Includes BME680 telemetry every 1800 s.
 ---
 
 # Southern Idaho Infrastructure
+<sub><sup>[Return to Table of Contents](#table-of-contents)</sub></sup>
 
+---
+
+# Southern Idaho Infrastructure
+
+Infrastructure physically located within Southern Idaho west of Mountain Home through Twin Falls, Burley, and the I-84 corridor to UT.
 Infrastructure physically located within Southern Idaho west of Mountain Home through Twin Falls, Burley, and the I-84 corridor to UT.
 
 ## Routers
 
 ### MHR — Mount Harrison Router
 **Location**: Mount Harrison - Southern Idaho
+**Location**: Mount Harrison - Southern Idaho
 
 | Node Name                      | Radio                                  | Antenna                                                                                                                                                                       | Battery                                                                                                                      | Solar                                                  | Modem Preset | Slot | Rebroadcast Mode | Firmware       |
-|--------------------------------|----------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------|--------------|------|------------------|----------------|
+|-|-|-|-|-|-|-|-|-|
 | MHR — Mount Harrison Router    | Station-G2                          |  [Rokland 8dBi Low Profile Omni](https://store.rokland.com/products/8-dbi-omni-outdoor-915mhz-fiberglass-antenna-for-lora-halow-application) | [3S8P 12.6v 40AH](https://www.18650batterystore.com/collections/21700-batteries/products/eve-50e-21700-5000mah-15a-battery) | [25w 18v ECO-WORTHY](https://a.co/d/85LSbHV)           | MEDIUM_FAST    | 51   | ALL              | 2.6            |
 
 #### Site Survey
@@ -215,9 +222,10 @@ Infrastructure physically located within Southern Idaho west of Mountain Home th
 
 ### ISR — Indian Springs Router v2
 **Location**: South Hills - Sugarloaf
+**Location**: South Hills - Sugarloaf
 
 | Node Name                      | Radio                                  | Antenna                                                                                                                                                                       | Battery                                                                                                                      | Solar                                                  | Modem Preset | Slot | Rebroadcast Mode | Firmware       |
-|--------------------------------|----------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------|--------------|------|------------------|----------------|
+|-|-|-|-|-|-|-|-|-|
 | ISR — Indian Springs Router v2 | RAK WisBlock 4631 + Airbuddy Amplifier | [ALFA 5dbi Omni](https://a.co/d/gPpWxbe)                                                                                                                                      | [1S6P 3.7v 40AH](https://www.18650batterystore.com/collections/21700-batteries/products/eve-50e-21700-5000mah-15a-battery)   | [10w 18v ECO-WORTHY](https://a.co/d/eiaV03W)           | MEDIUM_FAST    | 51   | ALL              | 2.6.11         |
 
 #### Site Survey
@@ -229,33 +237,26 @@ Infrastructure physically located within Southern Idaho west of Mountain Home th
 
 ---
 
-## Router Lates
-
-### KBS — Kimama Butte Station
-**Location**: Kimama Butte
+### T2T — The 2 Towers
+**Location**: Flat Top Butte, Jerome
 
 | Node Name                      | Radio                                  | Antenna                                                                                                                                                                       | Battery                                                                                                                      | Solar                                                  | Modem Preset | Slot | Rebroadcast Mode | Firmware       |
-|--------------------------------|----------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------|--------------|------|------------------|----------------|
-| KBS — Kimama Butte Station     | RAK WisBlock 4631                      | [Hexa Boost 3.6ft 8dBi Omni](https://www.amazon.com/dp/B0953Z1QF3)                                                                                                            | [1S3P 3.7v 10AH](https://www.digikey.com/en/products/detail/adafruit-industries-llc/5035/14625568)                           | [6w 5v Shoshine](https://www.amazon.com/dp/B09ZL3F7CT) | MEDIUM_FAST    | 51   | ALL              | 2.6.11         |
+|-|-|-|-|-|-|-|-|-|
+| T2T — The 2 Towers        | wehooper4 SolarXaio 1W                            | [8dBi Omni](https://store.rokland.com/products/rakwireless-8-dbi-outdoor-fiberglass-helium-hotspot-antenna-us-868-915-mhz) + [Acasom Cavity Filter](https://acasom.com/products/915mhz-5-types-cavity-filter-for-helium-network-filter-waterproof-lora-indoor-use-high-out-band-rejection?variant=46125490405668) | [1S8P 3.7v 40AH](https://www.18650batterystore.com/collections/21700-batteries/products/eve-50e-21700-5000mah-15a-battery)| [10w 18v ECO-WORTHY](https://a.co/d/eiaV03W)             | MEDIUM_FAST    | 51   | ALL              | 2.6.11         |
 
 #### Site Survey
-**East**
-![KimamaEast](images/Idaho/KBS_East.webp)
-
-**West**
-![KimamaWest](images/Idaho/KBS_West.webp)
+![SSL](images/Idaho/T2T.png)
 
 ---
 
-### SHE — South Hills East
-**Location**: South Hills - Dry Creek
+### tcup — MH Teacup Foothills
+**Location**: Teapot Dome, Mountain Home
 
 | Node Name                      | Radio                                  | Antenna                                                                                                                                                                       | Battery                                                                                                                      | Solar                                                  | Modem Preset | Slot | Rebroadcast Mode | Firmware       |
-|--------------------------------|----------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------|--------------|------|------------------|----------------|
-| SHE — South Hills East     | RAK WisBlock 4631    | [ALFA 5dbi Omni](https://a.co/d/gPpWxbe)       | [1S6P 3.7v 40AH](https://www.18650batterystore.com/collections/21700-batteries/products/) | [6w 5v Shoshine](https://www.amazon.com/dp/B09ZL3F7CT) | MEDIUM_FAST    | 51   | ALL              | 2.6.11         |
-
+|-|-|-|-|-|-|-|-|-|
+| tcup — MH Teacup Foothills    | [Wismesh 1W Booster](https://store.rakwireless.com/products/wismesh-1w-booster-starter-kit)|  [Rokland 8dBi Low Profile Omni](https://store.rokland.com/products/8-dbi-omni-outdoor-915mhz-fiberglass-antenna-for-lora-halow-application) | [3.2v LiFePo4 20AH ](https://www.amazon.com/Solar-20000mAh-LiFePO4-Battery-Controller) | [15w5v Integrated Panel + Battery](https://www.amazon.com/Solar-20000mAh-LiFePO4-Battery-Controller)| MEDIUM_FAST   | 51   | ALL  | 2.7.15  
 #### Site Survey
-![SouthHillsEast](images/Idaho/SHE.png)
+![TeapotDome](images/Idaho/tcup.png)
 
 ---
 
@@ -265,21 +266,13 @@ Infrastructure physically located within Southern Idaho west of Mountain Home th
 **Location**: Second Star Labs
 
 | Node Name                      | Radio                                  | Antenna                                                                                                                                                                       | Battery                                                                                                                      | Solar                                                  | Modem Preset | Slot | Rebroadcast Mode | Firmware       |
-|--------------------------------|----------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------|--------------|------|------------------|----------------|
+|-|-|-|-|-|-|-|-|-|
 | SSL — Second Star Labs         | Station G2                             | [Rokland 10dBi Backcountry](https://store.rokland.com/products/10-dbi-backcountry-n-male-omni-outdoor-helium-915-mhz-antenna-48-for-rak-miner-2-nebra-indoor-bobcat-hotspots) | [12v 16AH LiFePo4](https://a.co/d/hoMU9g7)                                                                                   | [25w 18v ECO-WORTHY](https://a.co/d/85LSbHV)           | MEDIUM_FAST    | 51   | ALL              | 2.6.11         |
 
 #### Site Survey
 ![SSL](images/Idaho/SSL.webp)
 
-### T2T — The 2 Towers
-**Location**: Flat Top Butte
 
-| Node Name                      | Radio                                  | Antenna                                                                                                                                                                       | Battery                                                                                                                      | Solar                                                  | Modem Preset | Slot | Rebroadcast Mode | Firmware       |
-|--------------------------------|----------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------|--------------|------|------------------|----------------|
-| T2T — The 2 Towers        | Heltec T114                            | [ALFA 5dbi Omni](https://a.co/d/gPpWxbe) | [1S6P 3.7v 40AH](https://www.18650batterystore.com/collections/21700-batteries/products/eve-50e-21700-5000mah-15a-battery)| [6w 5v Shoshine](https://www.amazon.com/dp/B09ZL3F7CT)          | MEDIUM_FAST    | 51   | ALL              | 2.6.11         |
-
-#### Site Survey
-![SSL](images/Idaho/T2T.png)
 <sub><sup>[Return to Table of Contents](#table-of-contents)</sub></sup>
 
 ---
@@ -293,14 +286,12 @@ Infrastructure physically located within Western Idaho including Boise, Meridian
 **Location**: Hayden Peak - Boise
 
 | Node Name                      | Radio                                  | Antenna                                                                                                                                                                       | Battery                                                                                                                      | Solar                                                  | Modem Preset | Slot | Rebroadcast Mode | Firmware       |
-|--------------------------------|----------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------|--------------|------|------------------|----------------|
+|-|-|-|-|-|-|-|-|-|
 | HPR — Hayden Peak Router    | Femtofox Pro                           |  [Rokland 8dBi Low Profile Omni](https://store.rokland.com/products/8-dbi-omni-outdoor-915mhz-fiberglass-antenna-for-lora-halow-application) | [1S8P 3.7 40AH0](https://www.18650batterystore.com/collections/21700-batteries/products/eve-50e-21700-5000mah-15a-battery) | [25w 18v ECO-WORTHY](https://a.co/d/85LSbHV)           | MEDIUM_FAST   | 51   | ALL              | 2.6            |
 
-#### Site Survey
 **North**
 ![HaydenNorth](images/Idaho/HPR_North.png)
 
-**South**
 ![HaydenSouth](images/Idaho/HPR_South.png)
 
 ---
@@ -309,7 +300,7 @@ Infrastructure physically located within Western Idaho including Boise, Meridian
 **Location**: Treasure Valley - Pearl
 
 | Node Name                      | Radio                                  | Antenna                                                                                                                                                                       | Battery                                                                                                                      | Solar                                                  | Modem Preset | Slot | Rebroadcast Mode | Firmware       |
-|--------------------------------|----------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------|--------------|------|------------------|----------------|
+|-|-|-|-|-|-|-|-|-|
 | TVM Pearl   | RAK19007 + 4361                           |  10 dBi Helium Omni | 10000 mAH Lipo 3.7 | 10w 5v       | MEDIUM_FAST    | 51   | ALL              | 2.6.11          |
 
 #### Site Survey
@@ -322,7 +313,7 @@ Infrastructure physically located within Western Idaho including Boise, Meridian
 **Location**: Treasure Valley - Tablerock
 
 | Node Name                      | Radio                                  | Antenna                                                                                                                                                                       | Battery                                                                                                                      | Solar                                                  | Modem Preset | Slot | Rebroadcast Mode | Firmware       |
-|--------------------------------|----------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------|--------------|------|------------------|----------------|
+|-|-|-|-|-|-|-|-|-|
 | TVM Pearl   | RAK19007 + 4361                           |  10 dBi Helium Omni | 10000 mAH Lipo 3.7 | 10w 5v       | MEDIUM_FAST    | 51   | ALL              | 2.6.11          |
 
 #### Site Survey
