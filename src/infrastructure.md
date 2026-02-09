@@ -192,12 +192,19 @@ Includes BME680 telemetry every 1800 s.
 ---
 
 # Southern Idaho Infrastructure
+<sub><sup>[Return to Table of Contents](#table-of-contents)</sub></sup>
 
+---
+
+# Southern Idaho Infrastructure
+
+Infrastructure physically located within Southern Idaho west of Mountain Home through Twin Falls, Burley, and the I-84 corridor to UT.
 Infrastructure physically located within Southern Idaho west of Mountain Home through Twin Falls, Burley, and the I-84 corridor to UT.
 
 ## Routers
 
 ### MHR — Mount Harrison Router
+**Location**: Mount Harrison - Southern Idaho
 **Location**: Mount Harrison - Southern Idaho
 
 | Node Name                      | Radio                                  | Antenna                                                                                                                                                                       | Battery                                                                                                                      | Solar                                                  | Modem Preset | Slot | Rebroadcast Mode | Firmware       |
@@ -214,6 +221,7 @@ Infrastructure physically located within Southern Idaho west of Mountain Home th
 ---
 
 ### ISR — Indian Springs Router v2
+**Location**: South Hills - Sugarloaf
 **Location**: South Hills - Sugarloaf
 
 | Node Name                      | Radio                                  | Antenna                                                                                                                                                                       | Battery                                                                                                                      | Solar                                                  | Modem Preset | Slot | Rebroadcast Mode | Firmware       |

@@ -18,7 +18,9 @@ Welcome to Freq51! This guide will get you up and running on our Meshtastic netw
 ### 1. Hardware Setup (5 minutes)
 
 1. **Get your device**: We recommend starting with a RAK device, Seeed Tracker, Station G2, XIAO, or Raspberry Pi-based device from the [supported hardware list](https://meshtastic.org/docs/hardware/devices/)
-2. **Power on**: Some devices will create a WiFi hotspot on first boot
+2. **Update Software**: Official Meshtastic webflasher [Link](https://flasher.meshtastic.org/)
+   - Follow [Firmware Update Guide](advanced-configuration/firmware-updates.md)
+3. **Power on**: Some devices will create a WiFi hotspot on first boot, most will start pairing BLE
 
 ### 2. Connect via Meshtastic App (10 minutes)
 
@@ -28,6 +30,7 @@ Welcome to Freq51! This guide will get you up and running on our Meshtastic netw
 2. **Connect**: 
    - **Bluetooth**: Most devices connect via Bluetooth (recommended method)
    - **WiFi**: Some devices also support WiFi hotspot connection for web interface
+   - **Serial**: Alternate method
 3. **Initial setup**: Follow the in-app setup wizard
 
 ### 3. Configure for Freq51 (5 minutes)
@@ -68,6 +71,7 @@ Use this checklist to get your node configured and on the network as quickly as 
 4. **Channel Section**
    - [ ] Set your Primary Channel (Channel ID: 0, typically the name is blank, unless you have changed it in the past, then it would be “LongFast”).
    - [ ] **Channel Name**: `Freq51`
+   - [ ] **Key Size**: `1 Byte (IOS Devices)`
    - [ ] **Key**: `1A==`
 
 ![iOS: Set Channel Settings](images/ios-channel.png)
@@ -87,6 +91,12 @@ Understanding roles is crucial for network health:
 - **Behavior**: General-purpose node that rebroadcasts packets only if no other node has already done so
 - **Visibility**: Visible in nodes list/topology
 - **Use when**: This is the default/normal choice
+
+### 🏠 CLIENT_BASE (Recommended for Rooftop or Strategic Clients)
+- **Best for**: Rooftop or other well-placed nodes, that are not quite on Router leve.
+- **Behavior**: Node that rebroadcasts packets to/from favorited noded with priority, else acts as client.
+- **Visibility**: Visible in nodes list/topology
+- **Use when**: This is your best placed node or Strategic Client
 
 ### 🔇 CLIENT_MUTE (Extra/local nodes)
 - **Best for**: Additional handheld devices near better-placed nodes, Car-mounted devices, temporary deployments
@@ -108,14 +118,6 @@ Understanding roles is crucial for network health:
 - **Visibility**: Visible in nodes list/topology
 - **Use when**: You need a "safety net" for a small area or dead spots without stealing routing priority from better infrastructure
 
-### 🚫 REPEATER (**Not Used** - Advanced users only!)
-- **Best for**: Pure extenders in strategic spots
-- **Behavior**: Always rebroadcasts each packet once with minimal overhead, turns off its own broadcast chatter
-- **Visibility**: NOT visible in nodes list/topology
-- **Special**: Only role that can use ALL_SKIP_DECODING rebroadcast mode
-- **Use when**: You want a pure extender in a strategic spot and don't need the node itself to appear in topology
-- **⚠️ Important**: This mode can cause serious issues with the mesh and it's particularly hard to troubleshoot. Contact the [Discord community] before deploying repeaters
-- **📖 Detailed Guide**: See our comprehensive [Router Deployment Guide](advanced-configuration/router-deployment.md) for complete information
 
 **For more info on how roles work and what is suggested based on the node use case please watch this [video](https://www.youtube.com/watch?v=htjwtnjQkkE) by The Comms Channel**
 
@@ -124,12 +126,12 @@ Understanding roles is crucial for network health:
 ## 🗺️ Local Resources
 
 ### Coverage Areas
-- **Primary**: Salt Lake Valley
-- **Growing**: Davis County, Weber County, Utah County
-- **Planned**: See [Infrastructure](infrastructure.md) for planned node locations
+- **Primary**: Salt Lake Valley, Twin Falls, Boise
+- **Growing**: Davis County, Weber County, Utah County, and connecting isolated meshes.
+- **Planned**: See [Infrastructure](infrastructure.md) for node locations and visit Discord for current discussions.
 
 ### Getting Help
-- **Discord**: Official Meshtastic Discord → Connect Forum → [US-Utah](https://discord.gg/meshtastic)
+- **Discord**: Intermountain Mesh - Meshtastic Discord [Link](https://utahmesh.net/)
 
 ### Advanced Configuration
 - **Detailed settings**: See [Configuration](config.md) guide
@@ -143,11 +145,10 @@ Understanding roles is crucial for network health:
 ## ❓ Quick Troubleshooting
 
 ### Can't see other nodes?
-- Check region settings (must be "US")
+- Check settings [Migrate](migrate.md)
 - Verify antenna connections
 - Try different locations (higher elevation helps)
-- Ensure role is CLIENT
- - Location broadcasts are intentionally infrequent to reduce RF noise; it can take several hours for nodes to appear on your map
+- Location broadcasts are intentionally infrequent to reduce RF noise; it can take several hours for nodes to appear on your map
 
 ### Messages not getting through?
 - Check [router placements](infrastructure.md) and see if you're near the mesh
@@ -161,8 +162,8 @@ Understanding roles is crucial for network health:
 
 **Need help?** The Freq51 community is here to support you:
 
-- **[Meshtastic Discord](https://github.com/meshtastic)**: Most active support channel
-- **[Utah Mesh Discord](https://discord.gg/x4AQuUjm)**: A backup community in the event the main meshtastic discord doesn't work out
+- **[Utah Mesh Discord](http://utahmesh.net)**: Most active support channel
+- **[Meshtastic Discord](https://github.com/meshtastic)**: Offical Worldwide Meshtastic Channel
 
 **Welcome to the mesh!** 📡✨
 
