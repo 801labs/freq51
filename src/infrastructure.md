@@ -47,6 +47,16 @@ For deployment guidelines, see [Router Deployment Guide](advanced-configuration/
     - [HPR — Hayden Peak Router](#hpr--hayden-peak-router)
     - [TVM Pearl](#tvm-pearl)
     - [TVM Tablerock](#tvm-tablerock)
+    - [tcup — MH Teacup Foothills](#tcup--mh-teacup-foothills)
+- [Strategic Clients](#strategically-placed-clients-1)
+    - [SSL — Second Star Labs](#ssl--second-star-labs)
+	
+
+## [Western Idaho Infrastructure](#western-idaho-infrastructure)
+- [Routers](#routers-2)
+  - [HPR — Hayden Peak Router](#hpr--hayden-peak-router)
+  - [TVM Pearl](#tvm-pearl)
+  - [TVM Tablerock](#tvm-tablerock)
 ---
 
 
@@ -207,6 +217,8 @@ Includes BME680 telemetry every 1800 s.
 
 # Southern Idaho Infrastructure
 
+# Southern Idaho Infrastructure
+
 Infrastructure physically located within Southern Idaho west of Mountain Home through Twin Falls, Burley, and the I-84 corridor to UT.
 
 ## Routers
@@ -229,6 +241,7 @@ Infrastructure physically located within Southern Idaho west of Mountain Home th
 ---
 
 ### ISR — Indian Springs Router v2
+**Location**: South Hills - Sugarloaf
 **Location**: South Hills - Sugarloaf
 
 | Node Name| Radio| Antenna| Battery| Solar| Modem Preset | Slot | Rebroadcast Mode | Firmware       |
