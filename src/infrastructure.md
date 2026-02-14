@@ -47,16 +47,6 @@ For deployment guidelines, see [Router Deployment Guide](advanced-configuration/
     - [HPR — Hayden Peak Router](#hpr--hayden-peak-router)
     - [TVM Pearl](#tvm-pearl)
     - [TVM Tablerock](#tvm-tablerock)
-    - [tcup — MH Teacup Foothills](#tcup--mh-teacup-foothills)
-- [Strategic Clients](#strategically-placed-clients-1)
-    - [SSL — Second Star Labs](#ssl--second-star-labs)
-	
-
-## [Western Idaho Infrastructure](#western-idaho-infrastructure)
-- [Routers](#routers-2)
-  - [HPR — Hayden Peak Router](#hpr--hayden-peak-router)
-  - [TVM Pearl](#tvm-pearl)
-  - [TVM Tablerock](#tvm-tablerock)
 ---
 
 
@@ -211,20 +201,12 @@ Includes BME680 telemetry every 1800 s.
 ---
 
 # Southern Idaho Infrastructure
-<sub><sup>[Return to Table of Contents](#table-of-contents)</sub></sup>
-
----
-
-# Southern Idaho Infrastructure
-
-# Southern Idaho Infrastructure
 
 Infrastructure physically located within Southern Idaho west of Mountain Home through Twin Falls, Burley, and the I-84 corridor to UT.
 
 ## Routers
 
 ### MHR — Mount Harrison Router
-**Location**: Mount Harrison - Southern Idaho
 **Location**: Mount Harrison - Southern Idaho
 
 | Node Name| Radio| Antenna| Battery| Solar| Modem Preset | Slot | Rebroadcast Mode | Firmware|
@@ -241,7 +223,6 @@ Infrastructure physically located within Southern Idaho west of Mountain Home th
 ---
 
 ### ISR — Indian Springs Router v2
-**Location**: South Hills - Sugarloaf
 **Location**: South Hills - Sugarloaf
 
 | Node Name| Radio| Antenna| Battery| Solar| Modem Preset | Slot | Rebroadcast Mode | Firmware       |
@@ -280,6 +261,8 @@ Infrastructure physically located within Southern Idaho west of Mountain Home th
 
 #### Site Survey
 ![SSL](images/Idaho/SSL.webp)
+
+---
 
 ### STLR — Stellar
 **Location**: Falls & Blue Lakes, Twin Falls
@@ -337,12 +320,14 @@ Infrastructure physically located within Western Idaho including Boise, Meridian
 #### Site Survey
 ![RattleSnakeButte](images/Idaho/RBR.png)
 
+---
+
 #### MHR — MH Foothills Repeater
 **Location**: Mountain Home Foothills, Mountain Home
 
 | Node Name| Radio| Antenna| Battery| Solar| Modem Preset | Slot | Rebroadcast Mode | Firmware|
 |-|-|-|-|-|-|-|-|-|
-| tcup — MH Teacup Foothills    | [Wismesh 1W Booster](https://store.rakwireless.com/products/wismesh-1w-booster-starter-kit)|  [slinkdsco 5.8dBi 915MHz](https://a.co/d/0gx4CRef) | [3.2v LiFePo4 20AH ](https://www.amazon.com/Solar-20000mAh-LiFePO4-Battery-Controller) | [15w5v Integrated Panel + Battery](https://www.amazon.com/Solar-20000mAh-LiFePO4-Battery-Controller)| MEDIUM_FAST   | 51   | ALL  | 2.7.15  
+| MHR — MH Foothills Repeater    | RAK4631 |  [slinkdsco 5.8dBi 915MHz](https://a.co/d/0gx4CRef) | [3.2v LiFePo4 20AH ](https://www.amazon.com/Solar-20000mAh-LiFePO4-Battery-Controller) | [15w5v Integrated Panel + Battery](https://www.amazon.com/Solar-20000mAh-LiFePO4-Battery-Controller)| MEDIUM_FAST   | 51   | ALL  | 2.7.15  
 
 #### Site Survey
 ![MHFoothills](images/Idaho/mhfoothills.png)
