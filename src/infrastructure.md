@@ -47,6 +47,25 @@ For deployment guidelines, see [Router Deployment Guide](advanced-configuration/
     - [HPR — Hayden Peak Router](#hpr--hayden-peak-router)
     - [TVM Pearl](#tvm-pearl)
     - [TVM Tablerock](#tvm-tablerock)
+    - [tcup — MH Teacup Foothills](#tcup--mh-teacup-foothills)
+- [Strategic Clients](#strategically-placed-clients-1)
+    - [SSL — Second Star Labs](#ssl--second-star-labs)
+    - [STLR — Stellar](#stlr--stellar)
+	
+
+## [Western Idaho Infrastructure](#western-idaho-infrastructure)
+- [Mountain Home](#mountain-home)
+  - [Routers](#routers-2)
+    - [DPR — Danskin Peak Router](#dpr--danskin-peak-router) 
+    - [tcup — MH Teacup Foothills](#tcup--mh-teacup-foothills)
+   - [Router Lates](#router-lates-1)
+    - [RBR — Rattlesnake Butte Repeater](#rbr--rattlesnake-butte-repeater)
+    - [MHR — MH Foothills Repeater](#mhr--mh-foothills-repeater)
+- [Treasure Valley](#treasure-valley)
+  - [Routers](#routers-3)
+    - [HPR — Hayden Peak Router](#hpr--hayden-peak-router)
+    - [TVM Pearl](#tvm-pearl)
+    - [TVM Tablerock](#tvm-tablerock)
 ---
 
 
