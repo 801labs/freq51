@@ -13,13 +13,14 @@ Use this to configure your node to connect with local or community networks.
 
 ---
 
-## 🔹 Primary Channel (General Mesh)
+## 🔹 Primary Channels (General Mesh)
 
 | Channel Name | Role | PSK/Key | Description |
 |---------------|------|----------|--------------|
 | `Freq51` | **Primary** | `1A==` | `Main Freq51 mesh network for general users. Enables broad communication across regions.` |
+| `MediumFast` | **Secondary** | `AQ==` | `Default Channel: This is used for testing your node on the mesh by sending ping/test messages.` |
 
-💡 *This is the main channel most users start with. It connects you to the general Freq51 mesh.*
+💡 *These are the main channels most users start with. It connects you to the general Freq51 mesh, and provides another channel to test with*
 
 ---
 
