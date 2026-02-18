@@ -110,8 +110,11 @@
 
 7) **Optional: Python & CLI tools**
    ```bash
-   sudo apt install -y python3-pip
-   pip3 install --upgrade pytap2 "meshtastic[cli]"
+   sudo apt install -y python3-pip pipx
+   pipx install "meshtastic[cli]"
+   pipx ensurepath
+   pipx install contact
+   pipx ensurepath
    ```
    Verify:
    ```bash
