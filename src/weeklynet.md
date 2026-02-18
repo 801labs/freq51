@@ -48,8 +48,8 @@ You can confirm your message was received by visiting:
 🔗 **https://meshview.freq51.net/net**
 
 **Credentials:**
-- **Username:** slcmesh
-- **Password:** slcmesh
+- **Username:** mesh
+- **Password:** mesh
 
 ---
 
