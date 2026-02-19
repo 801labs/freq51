@@ -7,10 +7,10 @@ Use this to configure your node to connect with local or community networks.
 ---
 
 ## 🧭 Table of Contents
-- [Primary Channel (General Freq51 Mesh)](#primary-channel-general-mesh)  
-- [Utah Channels](#utah-channels)  
-- [Idaho Channels](#idaho-channels)
-- [Emergency Communications Channels](#emergency-communications-channels)
+- [Primary Channel (General Freq51 Mesh)](#-primary-channels-general-mesh)  
+- [Utah Channels](#-utah-channels)  
+- [Idaho Channels](#-idaho-channels)
+- [Emergency Communications Channels](#-emergency-communications-channels-coming-soon)
 
 ---
 
