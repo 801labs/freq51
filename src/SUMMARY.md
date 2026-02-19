@@ -14,6 +14,7 @@
    - [Router Deployment Guide](advanced-configuration/router-deployment.md)
    - [Firmware Update Guide](advanced-configuration/firmware-updates.md)
 - [Weekly Net](weeklynet.md)
+- [Emergency Communications](emergency-comms.md)
 - [FAQ](faq.md)
    - [Glossary](glossary.md)
    - [Troubleshooting](troubleshooting.md)
