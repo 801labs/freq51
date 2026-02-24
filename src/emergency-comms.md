@@ -7,15 +7,15 @@ The Intermountain Mesh spans two separate meshes: Meshtastic and MeshCore. All s
 
 There are several different channels utilized and there are bots that feed alerts and data into them. All EmCom channel PSKs are empty to eliminate any confusion or accidental copying of additional characters.
 
-| Channel | QR Code | Purpose                                    | EAS Relay |
-| ------- | --- | ------------------------------------------ | --------- |
-| emcom   |![emcom](images/QR-codes/emcom.png) | Mesh-wide emergency Communications channel |           |
+| Channel | Key   | QR Code                            | Purpose                                    | EAS Relay |
+| ------- | ----- | ---------------------------------- | ------------------------------------------ | --------- |
+| emcom   | empty |![emcom](images/QR-codes/emcom.png) | Mesh-wide emergency Communications channel |           |
 
 ####  Regional Channels
 
 #####   Utah
 
-| Channel | Region        | Key | QR Code | Purpose                                                                                                                                                     | EAS Relay |
+| Channel | Region        | Key   | QR Code | Purpose                                                                                                                                                   | EAS Relay |
 | ------- | ------------- | ----- | -------------------------------------- | -------------------------------------------------------------------------------------------------------------------------- | --------- |
 | ec-n-ut | Northern Utah | empty |![ec-n-ut](images/QR-codes/ec-n-ut.png) | Regional coordinating and alerts for Northern Utah including Cache, Davis, Morgan, Rich, and Weber counties.               |           |
 | ec-c-ut | Central Utah  | empty |![ec-c-ut](images/QR-codes/ec-c-ut.png) | Regional coordinating and alerts for Central Utah including Salt Lake, Sanpete, Utah, and Wasatch counties.                |           |
@@ -26,7 +26,7 @@ There are several different channels utilized and there are bots that feed alert
 
 ##### Idaho
 
-| Channel  | Region              | Key | QR Code | Purpose                                                                                                                                                                         | EAS Relay                                          |
+| Channel  | Region              | Key   | QR Code | Purpose                                                                                                                                                                       | EAS Relay                                          |
 | ------- | -------------------- | ----- | -------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------- |
 | ec-n-id  | Northern Idaho      | empty |![ec-n-id](images/QR-codes/ec-n-id.png) | Regional coordinating and alerts for Benewah, Bonner, Boundary, Clearwater, Idaho, Kootenai, Latah, Lewis, Nez Perce, and Shoshone counties.   |                                                    |
 | ec-c-id  | Central Idaho       | empty |![ec-c-id](images/QR-codes/ec-c-id.png) | Regional coordinating and alerts for Adams, Butte, Clark, Custer, Fremont, Jefferson, Lemhi, and Valley counties.                              |                                                    |
