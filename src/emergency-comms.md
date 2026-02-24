@@ -9,7 +9,7 @@ There are several different channels utilized and there are bots that feed alert
 
 | Channel | QR Code | Purpose                                    | EAS Relay |
 | ------- | --- | ------------------------------------------ | --------- |
-| emcom   |![emcom](images/QR-codes/emcom-qr-code.png) | Mesh-wide emergency Communications channel |           |
+| emcom   |![emcom](images/QR-codes/emcom.png) | Mesh-wide emergency Communications channel |           |
 
 ####  Regional Channels
 
