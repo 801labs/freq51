@@ -32,7 +32,7 @@ These can be added as **secondary** or **tertiary** channels for local coordinat
 
 | Channel Name | Role | PSK/Key | Description |
 |---------------|------|----------|--------------|
-| `BBBB-Alerts` | Secondary | `NONE` | `Alerts from FEMA iPAWS/EAS, NOAA, USGS Volcano Alerts, and more.` |
+| `BBBB-Alerts` | Secondary | `empty` | `Alerts from FEMA iPAWS/EAS, NOAA, USGS Volcano Alerts, and more.` |
 | `DC801` | Secondary | `MHHa9wlKe4chJ01SuTKt1RnqbSXv4UJNAP+ONcKfa0c=` | `DC801 - 801 Labs` |
 | `SAINTCON` | Secondary | `dFa5cC4GuZ9AnFgPKzBjzqO6Ch8doQdOMqzwlmEff0Q=` | `SAINTCON` |
 
@@ -64,9 +64,9 @@ They should only be used for legitimate emergency traffic, drills, or official c
 
 | Channel Name | Role | PSK/Key | Description |
 |---------------|------|----------|--------------|
-| `` | Secondary | `` | `` |
+| `` | Secondary | `empty` | `` |
 
-💬 These emergency channels provide structured communication during incidents while keeping the primary mesh available for general traffic.
+💬 *These emergency channels provide structured communication during incidents while keeping the primary mesh available for general traffic.*
 
 ---
 
