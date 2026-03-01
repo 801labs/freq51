@@ -1,7 +1,7 @@
 # Freq51 Discord Server
 
 **Join the community:**  
-👉 [http://utahmesh.net/](http://utahmesh.net/)
+👉 [https://utahmesh.net/](https://utahmesh.net/)
 
 The Freq51 Discord server is the central hub for our community mesh network. It's where we plan, experiment, and collaborate on real-world RF-based communication using Meshtastic.
 
