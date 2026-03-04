@@ -86,26 +86,40 @@ The Discord bot supports the Weekly Net and general mesh activity by tracking no
 
 ## Available Bot Commands
 
-### MeshDrone Commands
-- **`~ant`** – Freq51 Recommended Antennas
-- **`~fq51`** – Freq51 Website
-- **`~regions`** – Discord Regions map
-- **`~migrate`** – Freq51 Migrate page
-- **`~mv`** – Freq51 Meshview site
-- **`~ma`** – Freq51 Malla site
-- **`~mqtt`** – Freq51 MQTT sites
-- **`~pihat`** – Links to Pi-Hat hardware
+## MeshDrone Commands:
+- **~ant** – Freq51 Recommended Antennas
+- **~config** – Freq51 Config Tool
+- **~cov** – Freq51 Coverage Map
+- **~help** – Provides template for support
+- **~hopwatch** – Mesh hop channels
+- **~infra** – Freq51 Infrastructure
+- **~fq51** – Freq51 Website
+- **~regions** – Discord Regions map
+- **~migrate** – Freq51 Migrate page
+- **~mv** – Freq51 Meshview site
+- **~on** – Freq51 On-Boarding link
+- **~loss** –  Coax Line loss
+- **~ma** – Freq51 Malla site
+- **~mqtt** – Freq51 MQTT sites.
+- **~pihat** – Links to Pi-Hat hardware
 
-### Weekly-Net Commands
-- **`/mycheckins`** – See your recent check-ins! Only shows nodes assigned to your Discord username.
-- **`/usernodes`** – Get a list of all nodes assigned to you.
-- **`/checkinsbydate`** – Lists all Weekly Net check-ins by node for a specific date. Shows each node that reported in on that date, along with time and owner.
-- **`/claimnode`** – Allows you to self-assign/claim a node owned by you.
-- **`/mystreaks`** – Shows your check-in streaks.
-- **`/streakleaderboard`** – Shows the current leaderboard of check-ins.
+## Role Config Guides:
+- **~client** – Freq51 Client Role Settings
+- **~mute** – Freq51 Client Mute Role Settings
+- **~hide** – Freq51 Client Hidden Role Settings
+- **~router** – Freq51 Router Role Settings
+- **~late** – Freq51 Router Late Role Settings
 
-### HWT Commands
-- **`/hwt`** – Gives a link to check RF based on the latitude/longitude coordinates provided.
+## Weekly-Net Commands:
+- **/mycheckins** – See your recent check-ins! Only shows nodes assigned to your Discord username.
+- **/usernodes** – Get a list of all nodes assigned to you.
+- **/checkinsbydate** – Lists all Weekly-Net check-ins by node for a specific date. Shows each node that reported in on that date, along with time and owner.
+- **/claimnode** - Allows you to self assign/claim a node owned by you.
+- **/mystreaks** - Shows your checkin streaks
+- **/streakleaderboard**  - Shows the current leaderboard of checkins.
+
+## HWT Commands
+- **/hwt** - Will give a link you can check RF based on the lat/lon cords provided.
 
 ---
 
