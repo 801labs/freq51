@@ -57,7 +57,7 @@ You can confirm your message was received by visiting:
 
 We also mirror the Weekly Net activity to Discord so everyone can watch the check-ins roll in — even if you’re not on the mesh at that moment.
 
-🔗 **Join our Discord:** http://utahmesh.net/  
+🔗 **Join our Discord:** https://utahmesh.net/  
 📍 **Channel:** `#mt-weekly-net`
 
 All valid NET check-ins are automatically reported in this channel, making it easy for the community to:

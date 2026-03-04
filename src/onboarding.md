@@ -162,7 +162,7 @@ Understanding roles is crucial for network health:
 
 **Need help?** The Freq51 community is here to support you:
 
-- **[Utah Mesh Discord](http://utahmesh.net)**: Most active support channel
+- **[Utah Mesh Discord](https://utahmesh.net)**: Most active support channel
 - **[Meshtastic Discord](https://github.com/meshtastic)**: Offical Worldwide Meshtastic Channel
 
 **Welcome to the mesh!** 📡✨
