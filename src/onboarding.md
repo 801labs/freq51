@@ -4,107 +4,132 @@
 
 Welcome to Freq51! This guide will get you up and running on our Meshtastic network.
 
-### What You'll Need
+---
+
+## 📦 What You'll Need
 
 - **Hardware**: Any [Meshtastic-compatible device](https://meshtastic.org/docs/hardware/devices/)
-- **App**: Meshtastic mobile app ([iOS](https://apple.co/3Auysep)/[Android](https://play.google.com/store/apps/details?id=com.geeksville.mesh)) or web client
-- **Time**: 15-30 minutes for initial setup
-- **Location**: Salt Lake City, Utah region for best coverage
+- **App**: Meshtastic mobile app  
+  - [iOS](https://apple.co/3Auysep)  
+  - [Android](https://play.google.com/store/apps/details?id=com.geeksville.mesh)
+- **Time**: About **10–15 minutes**
+- **Location**: Utah / Idaho region for best coverage
 
 ---
 
-## 📱 Step-by-Step Setup
+## ⚡ Quick Setup
 
-### 1. Hardware Setup (5 minutes)
+### 1️⃣ Flash the Latest Firmware
 
-1. **Get your device**: We recommend starting with a RAK device, Seeed Tracker, Station G2, XIAO, or Raspberry Pi-based device from the [supported hardware list](https://meshtastic.org/docs/hardware/devices/)
-2. **Update Software**: Official Meshtastic webflasher [Link](https://flasher.meshtastic.org/)
-   - Follow [Firmware Update Guide](advanced-configuration/firmware-updates.md)
-3. **Power on**: Some devices will create a WiFi hotspot on first boot, most will start pairing BLE
+Before configuring your node, make sure it is running the **latest Meshtastic firmware**.
 
-### 2. Connect via Meshtastic App (10 minutes)
+Use the official web flasher:
 
-1. **Download**: Get the official Meshtastic app from your app store
-   - IOS [Link](https://apple.co/3Auysep)
-   - Android [Link](https://play.google.com/store/apps/details?id=com.geeksville.mesh)
-2. **Connect**: 
-   - **Bluetooth**: Most devices connect via Bluetooth (recommended method)
-   - **WiFi**: Some devices also support WiFi hotspot connection for web interface
-   - **Serial**: Alternate method
-3. **Initial setup**: Follow the in-app setup wizard
+https://flasher.meshtastic.org/
 
-### 3. Configure for Freq51 (5 minutes)
+Supported devices include:
 
-Apply these **essential settings** for optimal mesh network participation:
-***Keep in mind that the IOS/Android app settings layout may differ***
+- RAK devices
+- Seeed SenseCAP / Tracker
+- XIAO
+- Heltec
+- Raspberry Pi based nodes
 
-### Quick Setup Guide
-Use this checklist to get your node configured and on the network as quickly as possible.  
+If you need help flashing firmware see the  
+[Firmware Update Guide](advanced-configuration/firmware-updates.md).
 
-#### General Settings
-- [ ] **Region**: This is normally set the first time you connect to the node.  
-      If it hasn’t been set yet, go to the **LoRa Section** and set it to **US**.
+---
 
-#### Node Configuration (Quick Setup)
+### 2️⃣ Connect to Your Node
 
-1. **User Section**
-   - [ ] **Long Name**: Choose something recognizable (avoid personal info).
-   - [ ] **Short Name**: Set a short, unique identifier (usually 3–4 letters).
+Install the **Meshtastic mobile app** and connect to your device.
 
-![iOS: Set Node Names](images/ios-user.png)   
+Most nodes connect via:
 
+**Bluetooth (recommended)**
 
-2. **Device Section**
-   - [ ] **Role**: Set to **CLIENT**.
+Alternative connection methods include:
 
-![iOS: Set Node Role](images/ios-device-role.png)   
+- WiFi
+- USB / Serial
 
-3. **LoRa Section**   
-   - [ ] **Preset**: Set to **MEDIUM_FAST**.
-   - [ ] **OK To MQTT**: Enabled (recommended).
-   - [ ] **Hop Count**: Set it to 7 (recommended).
-   - [ ] **Frequency Slot**: Set to **51**.
+Follow the in-app pairing process until you can see your device in the Meshtastic app.
 
-![iOS: Set Node Lora Settings - Preset / MQTT](images/ios-lora-1.png)
-![iOS: Set Node Lora Settings - Hop / Slot](images/ios-lora-2.png)
-         
-4. **Channel Section**
-   - [ ] Set your Primary Channel (Channel ID: 0, typically the name is blank, unless you have changed it in the past, then it would be “LongFast”).
-   - [ ] **Channel Name**: `Freq51`
-   - [ ] **Key Size**: `1 Byte (IOS Devices)`
-   - [ ] **Key**: `1A==`
+The mobile app is used for **pairing and basic device setup**. The **Freq51 configuration tool will be used next to apply the network settings.**
 
-![iOS: Set Channel Settings](images/ios-channel.png)
+---
 
-5. **Location Section**
-   - [ ] **GPS**: Enable if you’re comfortable sharing your location.
+### 3️⃣ Load Your Freq51 Configuration
 
+Instead of manually configuring dozens of settings, use the **Freq51 Auto Config Tool**.
+
+!!! tip "Generate Your Configuration"
+    Open the configuration tool here:
+
+    https://tools.freq51.net/config/
+
+    **Before starting:** Your computer must be connected to the node using one of the following methods:
+
+    - **USB / Serial connection** to the device
+    - **WiFi/Wired Connection** to the node's ip address Depending on what type of hardware it is (ESP32/Raspberry pi)
+
+    Once connected, the tool will detect your node and apply the correct configuration automatically.
+
+The tool will generate the correct settings for:
+
+- **LoRa preset**
+- **Frequency slot**
+- **Freq51 channel**
+- **Hop limits**
+- Other required network settings
+
+Simply follow the instructions provided by the tool and apply the configuration to your node.
+
+Using the tool ensures all nodes on the network stay **compatible and correctly configured**.
 
 ---
 
 ## 🏷️ Node Roles - Choose the Right One
 
-Understanding roles is crucial for network health:
+Understanding roles is important for maintaining a healthy mesh network.
 
 ### 👤 CLIENT (Recommended for most users)
+
 - **Best for**: Handheld devices, mobile setups, most users
 - **Behavior**: General-purpose node that rebroadcasts packets only if no other node has already done so
 - **Visibility**: Visible in nodes list/topology
 - **Use when**: This is the default/normal choice
 
-### 🏠 CLIENT_BASE (Recommended for Rooftop or Strategic Clients)
+Behavior: General-purpose node that rebroadcasts packets only when needed.
+
+This is the **default role most users should choose**.
+
+---
+
+### 🏠 CLIENT_BASE (Rooftop or strategic clients)
+
 - **Best for**: Rooftop or other well-placed nodes, that are not quite on Router leve.
 - **Behavior**: Node that rebroadcasts packets to/from favorited noded with priority, else acts as client.
 - **Visibility**: Visible in nodes list/topology
 - **Use when**: This is your best placed node or Strategic Client
 
-### 🔇 CLIENT_MUTE (Extra/local nodes)
+Behavior: Prioritizes rebroadcasting packets from favorited nodes, otherwise behaves like a client.
+
+---
+
+### 🔇 CLIENT_MUTE (Extra or local nodes)
+
 - **Best for**: Additional handheld devices near better-placed nodes, Car-mounted devices, temporary deployments
 - **Behavior**: Like CLIENT but does NOT forward other devices' packets at all (no repeating/routing)
 - **Visibility**: Visible in nodes list
 - **Use when**: You have extra handheld/indoor nodes near a better-placed node and want to avoid adding needless rebroadcasts. This is particularly useful with indoor nodes.
 
-### 🔄 ROUTER (Infrastructure - Advanced users only!)
+Behavior: Does **not forward packets from other nodes**, helping reduce unnecessary network traffic.
+
+---
+
+### 🔄 ROUTER (Advanced infrastructure)
+
 - **Best for**: Strategically placed infrastructure (mountain/very tall tower with big line-of-sight)
 - **Behavior**: Always rebroadcasts each packet once and is prioritized for routing ("cuts in line" vs other roles)
 - **Visibility**: Visible in nodes list/topology
@@ -112,61 +137,101 @@ Understanding roles is crucial for network health:
 - **⚠️ Important**: Misplacing routers increases collisions and wastes hops. Contact the [Discord community] before deploying
 - **📖 Detailed Guide**: See our comprehensive [Router Deployment Guide](advanced-configuration/router-deployment.md) before **considering setting up a router**.
 
+Behavior: Always rebroadcasts each packet once and is prioritized for routing.
+
+⚠️ **Important**
+
+Incorrect router placement can **harm network performance**.
+
+Before deploying a router please review the guide:
+
+[Router Deployment Guide](advanced-configuration/router-deployment.md)
+
+---
+
 ### 🔄 ROUTER_LATE (Infrastructure - Advanced users only!)
 - **Best for**: Adding reliability/coverage for local clusters without stealing priority
 - **Behavior**: Always rebroadcasts once, but only after all other modes have had their chance (not prioritized)
 - **Visibility**: Visible in nodes list/topology
 - **Use when**: You need a "safety net" for a small area or dead spots without stealing routing priority from better infrastructure
 
+Behavior: Repeats packets **after other node types have had their chance**.
 
-**For more info on how roles work and what is suggested based on the node use case please watch this [video](https://www.youtube.com/watch?v=htjwtnjQkkE) by The Comms Channel**
+---
+
+For a deeper explanation of roles watch this video from **The Comms Channel**:
+
+https://www.youtube.com/watch?v=htjwtnjQkkE
 
 ---
 
 ## 🗺️ Local Resources
 
 ### Coverage Areas
-- **Primary**: Salt Lake Valley, Twin Falls, Boise
-- **Growing**: Davis County, Weber County, Utah County, and connecting isolated meshes.
-- **Planned**: See [Infrastructure](infrastructure.md) for node locations and visit Discord for current discussions.
 
-### Getting Help
-- **Discord**: Intermountain Mesh - Meshtastic Discord [Link](https://utahmesh.net/)
+Primary coverage currently includes:
 
-### Advanced Configuration
-- **Detailed settings**: See [Configuration](config.md) guide
-- **Hardware recommendations**: Check [Equipment](equipment.md) page
-- **Router deployment**: See [Router Deployment Guide](advanced-configuration/router-deployment.md) for advanced users
-- **Firmware Updates**: See [Firmware Update Guide](advanced-configuration/firmware-updates.md) page
-- **Common issues**: Review [FAQ](faq.md)
+- Salt Lake Valley
+- Tooele County
+- Utah County
+- Boise
+- Twin Falls
+
+Growing areas include:
+
+- Davis County
+- Weber County
+
+See the **Infrastructure page** for current node deployments.
+
+---
+
+## 💬 Getting Help
+
+The fastest place to get help is our community Discord.
+
+**Join here:**
+
+https://discord.com/invite/7ANChSNNbW
+
+Members can help with:
+
+- Device setup
+- Antennas
+- Node placement
+- Firmware issues
+- Expanding coverage
 
 ---
 
 ## ❓ Quick Troubleshooting
 
 ### Can't see other nodes?
-- Check settings [Migrate](migrate.md)
+
+- Make sure you used the **Freq51 configuration tool**
 - Verify antenna connections
-- Try different locations (higher elevation helps)
-- Location broadcasts are intentionally infrequent to reduce RF noise; it can take several hours for nodes to appear on your map
+- Try moving your node to a higher location
+- Location broadcasts are intentionally infrequent and may take **several hours** to appear on the map
+
+---
 
 ### Messages not getting through?
-- Check [router placements](infrastructure.md) and see if you're near the mesh
-- Network may be busy - try again later
-- Check hop limit (default 3 is usually good, but 7 may give better results.)
-- Verify channel settings match community standards
+
+- You may be outside mesh coverage
+- Check the infrastructure map
+- Try a higher antenna placement
+- Verify your configuration using the **Freq51 config tool**
 
 ---
 
-## 📞 Support and Community
+## 📡 Welcome to the Mesh
 
-**Need help?** The Freq51 community is here to support you:
+Freq51 is a **community-built Meshtastic network** connecting people across the Intermountain West.
 
-- **[Utah Mesh Discord](https://utahmesh.net)**: Most active support channel
-- **[Meshtastic Discord](https://github.com/meshtastic)**: Offical Worldwide Meshtastic Channel
+Using the **auto configuration tool** helps keep the network reliable and compatible for everyone.
 
-**Welcome to the mesh!** 📡✨
+👉 https://tools.freq51.net/config/
 
 ---
 
-*This guide focuses on getting you connected quickly and safely. For detailed technical information, see our other documentation pages. Questions? Ask in Discord - we're here to help!*
+*Questions? Join the Discord and say hello — we're happy to help!* 📡
