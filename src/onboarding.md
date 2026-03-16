@@ -25,7 +25,7 @@ Before configuring your node, make sure it is running the **latest Meshtastic fi
 
 Use the official web flasher:
 
-https://flasher.meshtastic.org/
+[https://flasher.meshtastic.org/](https://flasher.meshtastic.org/)
 
 Supported devices include:
 
@@ -161,7 +161,7 @@ Behavior: Repeats packets **after other node types have had their chance**.
 
 For a deeper explanation of roles watch this video from **The Comms Channel**:
 
-https://www.youtube.com/watch?v=htjwtnjQkkE
+[https://www.youtube.com/watch?v=htjwtnjQkkE](https://www.youtube.com/watch?v=htjwtnjQkkE)
 
 ---
 
@@ -192,7 +192,7 @@ The fastest place to get help is our community Discord.
 
 **Join here:**
 
-https://discord.com/invite/7ANChSNNbW
+[https://discord.com/invite/7ANChSNNbW](https://discord.com/invite/7ANChSNNbW)
 
 Members can help with:
 
@@ -230,7 +230,7 @@ Freq51 is a **community-built Meshtastic network** connecting people across the 
 
 Using the **auto configuration tool** helps keep the network reliable and compatible for everyone.
 
-👉 https://tools.freq51.net/config/
+👉 [https://tools.freq51.net/config/](https://tools.freq51.net/config/)
 
 ---
 
