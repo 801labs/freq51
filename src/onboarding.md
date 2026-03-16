@@ -63,17 +63,14 @@ The mobile app is used for **pairing and basic device setup**. The **Freq51 conf
 
 Instead of manually configuring dozens of settings, use the **Freq51 Auto Config Tool**.
 
-!!! tip "Generate Your Configuration"
-    Open the configuration tool here:
+Open the configuration tool here: [https://tools.freq51.net/config/](https://tools.freq51.net/config/)
 
-    https://tools.freq51.net/config/
+**Before starting:** Your computer must be connected to the node using one of the following methods:
 
-    **Before starting:** Your computer must be connected to the node using one of the following methods:
+- **USB / Serial connection** to the device
+- **WiFi/Wired Connection** to the node's ip address Depending on what type of hardware it is (ESP32/Raspberry pi)
 
-    - **USB / Serial connection** to the device
-    - **WiFi/Wired Connection** to the node's ip address Depending on what type of hardware it is (ESP32/Raspberry pi)
-
-    Once connected, the tool will detect your node and apply the correct configuration automatically.
+Once connected, the tool will detect your node and apply the correct configuration automatically.
 
 The tool will generate the correct settings for:
 
