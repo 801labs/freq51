@@ -1,6 +1,8 @@
 # Meshtastic Configuration
 
-These sections help you choose settings that work well **for you** and **for the mesh**. See the FAQ for troubleshooting. Locally we’re still building out on the FS51 with the default MediumFast North America slot/preset (see below), but freq51 may coordinate short-term trials (e.g., ShortFast) as needed.
+⚠️ If you are setting up a device, we recommend using the [onboarding guide](onboarding.md) which includes the Freq51 Auto Config Tool. This tool can auto apply all of these settings for you 👍
+
+These sections help you choose settings that work well **for you** and **for the mesh**. See the **[FAQ](faq.md)** for troubleshooting. Locally we’re still building out on the FS51 with the default MediumFast North America slot/preset (see below), but freq51 may coordinate short-term trials (e.g., ShortFast) as needed.
 
 **Freq51 Medium Fast** (As of 10/05/2025):
 - **Medium_Fast** preset, **slot 51** → **914.625 MHz**

@@ -9,15 +9,15 @@ Meshtastic® lets you use inexpensive LoRa radios as a long-range, off-grid comm
 | **Idaho**                       | **Utah**                     |
 ---
 
-## Joining
+## How to get started
 
-1. **Get supported hardware** from the Meshtastic list.
-2. **Join our [Discord](https://utahmesh.net)** for local help and announcements.
-3. Read the **[FAQ](faq.md)** and **[Configuration](config.md)** pages below.
-4. See **[Equipment](equipment.md)** for example builds / coverage once published, and **[Infrastructure](infrastructure.md)** for deployed nodes.
+1. **Buy or build a node** You can use any [Meshtastic supported device](https://meshtastic.org/docs/hardware/devices/) but if you are new, buying one that already has battery, antennas, GPS (if desired), and case is a solid option. Some sellers may need you to select a frequency option, in which case select 915Mhz (US region). You can fully use and configure your device from a computer or cell phone, so features like screen, keyboard, or buttons are entirely optional.
+2. **Configure your device** Our [onboarding guide](onboarding.md) will help you update your firmware, load settings to connect to the Freq51 network, and help you choose your node role.
+3. **Join our [Discord](https://utahmesh.net)** for local help and announcements.
+4. If you are curious about how the network works, read our **[FAQ](faq.md)**, **[Configuration](config.md)**, and **[Infrastructure](infrastructure.md)** for more info
+
 
 **Links**
-- Supported Hardware: [https://meshtastic.org/docs/hardware/devices/](https://meshtastic.org/docs/hardware/devices/)
 -  **[Official Meshtastic Discord](https://discord.gg/meshtastic) --> [Connect Forum](https://discord.com/channels/867578229534359593/1196916552725958706) --> US-Utah**
 
 ---

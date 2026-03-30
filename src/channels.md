@@ -1,5 +1,7 @@
 # Meshtastic Channel Setup Guide
 
+⚠️ If you are setting up a device, we recommend using the [onboarding guide](onboarding.md) which includes the Freq51 Auto Config Tool. This tool can auto apply all of these settings for you 👍
+
 A guide to setting up **private and other channels** on your Meshtastic node.  
 Each channel includes its name, key, and purpose.  
 Use this to configure your node to connect with local or community networks.
