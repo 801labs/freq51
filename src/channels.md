@@ -6,6 +6,8 @@ A guide to setting up **private and other channels** on your Meshtastic node.
 Each channel includes its name, key, and purpose.  
 Use this to configure your node to connect with local or community networks.
 
+> We will not be providing nor publish QR codes or Meshtastic URLs for public channels. They can also change LoRa settings (hop count, OK to MQTT, TX power) invisibly. Enter channel names/keys manually. If you would like to create a channel for a specific purpose but wish it to be public use; contact us and we will add it to the documentation as requested.
+
 ---
 
 ## 🧭 Table of Contents
