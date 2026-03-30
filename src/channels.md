@@ -1,8 +1,12 @@
 # Meshtastic Channel Setup Guide
 
+⚠️ If you are setting up a device, we recommend using the [onboarding guide](onboarding.md) which includes the Freq51 Auto Config Tool. This tool can auto apply all of these settings for you 👍
+
 A guide to setting up **private and other channels** on your Meshtastic node.  
 Each channel includes its name, key, and purpose.  
 Use this to configure your node to connect with local or community networks.
+
+> We will not be providing nor publish QR codes or Meshtastic URLs for public channels. They can also change LoRa settings (hop count, OK to MQTT, TX power) invisibly. Enter channel names/keys manually. If you would like to create a channel for a specific purpose but wish it to be public use; contact us and we will add it to the documentation as requested.
 
 ---
 
@@ -62,9 +66,7 @@ They should only be used for legitimate emergency traffic, drills, or official c
 
 ⚠️ Keep messages clear, concise, and relevant. Avoid general chat on these channels.
 
-| Channel Name | Role | PSK/Key | Description |
-|---------------|------|----------|--------------|
-| `` | Secondary | `empty` | `` |
+👉 [Emergency Comms Channels](emergency-comms.md)
 
 💬 *These emergency channels provide structured communication during incidents while keeping the primary mesh available for general traffic.*
 

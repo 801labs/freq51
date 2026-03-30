@@ -1,7 +1,9 @@
-<img src="images/IntermountainMeshLogo.svg" width="45%" hspace="40">
+<img src="images/IntermountainMeshLogo.svg" width="30%" hspace="40">
 
 # Freq51 - The Intermountain Mesh
-Meshtastic® lets you use inexpensive LoRa radios as a long-range, off-grid communication platform where regular infrastructure is unreliable or unavailable. It’s community-driven and open source. Radios automatically form a mesh, forwarding packets to neighbors (up to 7 hops from origin). Phones are optional. **The Freq51 community** is building an open community mesh that anyone here can join. This network is intended as a Radio Frequency tool for emergency/disaster response and off-grid (non-internet) coordination and hobbyist projects. No license is required to use Meshtastic (unless you intentionally enable Ham Mode). Meshtastic is under active development and **not** a life-critical service. 
+Meshtastic® is a network protocol that lets you use [inexpensive radios](https://meshtastic.org/docs/hardware/devices/) for long-range, off-grid communication where regular infrastructure is unreliable or unavailable. Radios (nodes) automatically share messages when using the [same settings](config.md), forwarding packets to neighbors up to 7 hops from where a message started. Phones are optional. Users can send text messages in channels or DMs, and share position or weather data if using a device with connected sensors.
+
+The [Freq51 community](https://utahmesh.net) is building one such mesh network that spans Utah and Idaho that anyone can join. The network is intended for non-life-critical emergency/disaster communication, off-grid coordination, and hobbyist projects. You don't need a license to use Meshtastic (unless you intentionally enable Ham mode), just a compatible radio.
 
 
 | ![Idaho](images/map-idaho.png) | ![Utah](images/map-utah.png) |
@@ -9,15 +11,15 @@ Meshtastic® lets you use inexpensive LoRa radios as a long-range, off-grid comm
 | **Idaho**                       | **Utah**                     |
 ---
 
-## Joining
+## How to get started
 
-1. **Get supported hardware** from the Meshtastic list.
-2. **Join our [Discord](https://utahmesh.net)** for local help and announcements.
-3. Read the **[FAQ](faq.md)** and **[Configuration](config.md)** pages below.
-4. See **[Equipment](equipment.md)** for example builds / coverage once published, and **[Infrastructure](infrastructure.md)** for deployed nodes.
+1. **Buy or build a node** You can use any [Meshtastic supported device](https://meshtastic.org/docs/hardware/devices/) but if you are new, buying one that already has battery, antennas, GPS (if desired), and case is a solid option. Some sellers may need you to select a frequency option, in which case select 915Mhz (US region). You can fully use and configure your device from a computer or cell phone, so features like screen, keyboard, or buttons are entirely optional.
+2. **Configure your device** Our [onboarding guide](onboarding.md) will help you update your firmware, load settings to connect to the Freq51 network, and help you choose your node role.
+3. **Join our [Discord](https://utahmesh.net)** for local help and announcements.
+4. If you are curious about how the network works, read our **[FAQ](faq.md)**, **[Configuration](config.md)**, and **[Infrastructure](infrastructure.md)** for more info
+
 
 **Links**
-- Supported Hardware: [https://meshtastic.org/docs/hardware/devices/](https://meshtastic.org/docs/hardware/devices/)
 -  **[Official Meshtastic Discord](https://discord.gg/meshtastic) --> [Connect Forum](https://discord.com/channels/867578229534359593/1196916552725958706) --> US-Utah**
 
 ---

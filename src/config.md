@@ -1,6 +1,8 @@
-# Meshtastic Configuration
+# Freq51 Meshtastic Configuration
 
-These sections help you choose settings that work well **for you** and **for the mesh**. See the FAQ for troubleshooting. Locally we’re still building out on the FS51 with the default MediumFast North America slot/preset (see below), but freq51 may coordinate short-term trials (e.g., ShortFast) as needed.
+⚠️ If you are setting up a device, we recommend using the [onboarding guide](onboarding.md) which includes the Freq51 Auto Config Tool. This tool can auto apply all of these settings for you 👍
+
+These sections help you choose settings that work well **for you** and **for the mesh**. See the **[FAQ](faq.md)** for troubleshooting. Locally we’re still building out on the FS51 with the default MediumFast North America slot/preset (see below), but freq51 may coordinate short-term trials (e.g., ShortFast) as needed.
 
 **Freq51 Medium Fast** (As of 10/05/2025):
 - **Medium_Fast** preset, **slot 51** → **914.625 MHz**
@@ -9,7 +11,14 @@ These sections help you choose settings that work well **for you** and **for the
 
 ---
 
-## Default Configurations (We are not using this)
+## Channels
+
+To send & receive messages on the Freq51 network, you will need to configure matching channels.
+👉 [See our channel list here](channels.md)
+
+---
+
+## We are not using the Default Configuration
 
 By default, fresh Meshtastic radios on NA region can talk on **LongFast** (channel name) using the **LONG_FAST** preset and **default slot**. A typical setup is a radio paired to your phone via Bluetooth. No internet is required. When out of direct range, your messages **hop** across other nodes.
 
@@ -77,7 +86,7 @@ If you can’t find a setting in the app, check Meshtastic docs (each page has i
 
 ### Router Nodes
 
-Before configuring a router, review the [Router Deployment Guide](advanced-configuration/router-deployment.md) and reach out on Discord.
+Before configuring a router, review the [Router Deployment Guide](advanced-configuration/router-deployment.md) and reach out on [Discord](https://utahmesh.net).
 
 Use when node is a router
 
@@ -227,30 +236,3 @@ To appear on the map:
 - **Map Reporting Enabled**: `TRUE`
 - **Map Report Publish Interval**: Fixed `Same as standard config broadcast interval` s; Portable `no more frequent than 600` s
 - **Approximate Location**: set as desired
-
----
-
-## Local Channels
-
-> We will not be providing nor publish QR codes or Meshtastic URLs for public channels. They can also change LoRa settings (hop count, OK to MQTT, TX power) invisibly. Enter channel names/keys manually. If you would like to create a channel for a specific purpose but wish it to be public use; contact us and we will add it to the documentation as requested.
-
-### MediumFast
-
-Default community channel on Medium_Fast. We use this channel to connect the mesh together on a unified unencrypted channel and also broadcast. This resides in our secondary channels
-
-| Channel Name | PSK  | Modem Preset | Slot | Ham Mode |
-|---|---|---|---|---|
-| Freq51 | `1A==` | Medium_Fast | 51 | Off |
-
-
-### DC801
-
-This is the local hackerspace channel. The key is only found at the hackerspace. Come join us!
-
-| Channel Name | PSK  | Modem Preset | Slot | Ham Mode |
-|---|---|---|---|---|
-| ShortFast | `access hackerspace for key` | LONG_FAST | 51 | Off |
-
-
-
-
