@@ -79,7 +79,7 @@ If you can’t find a setting in the app, check Meshtastic docs (each page has i
 
 ### Router Nodes
 
-Before configuring a router, review the [Router Deployment Guide](advanced-configuration/router-deployment.md) and reach out on Discord.
+Before configuring a router, review the [Router Deployment Guide](advanced-configuration/router-deployment.md) and reach out on [Discord](https://utahmesh.net).
 
 Use when node is a router
 
