@@ -1,7 +1,9 @@
-<img src="images/IntermountainMeshLogo.svg" width="45%" hspace="40">
+<img src="images/IntermountainMeshLogo.svg" width="30%" hspace="40">
 
 # Freq51 - The Intermountain Mesh
-Meshtastic® lets you use inexpensive LoRa radios as a long-range, off-grid communication platform where regular infrastructure is unreliable or unavailable. It’s community-driven and open source. Radios automatically form a mesh, forwarding packets to neighbors (up to 7 hops from origin). Phones are optional. **The Freq51 community** is building an open community mesh that anyone here can join. This network is intended as a Radio Frequency tool for emergency/disaster response and off-grid (non-internet) coordination and hobbyist projects. No license is required to use Meshtastic (unless you intentionally enable Ham Mode). Meshtastic is under active development and **not** a life-critical service. 
+Meshtastic® is a network protocol that lets you use [inexpensive radios](https://meshtastic.org/docs/hardware/devices/) for long-range, off-grid communication where regular infrastructure is unreliable or unavailable. Radios (nodes) automatically share messages when using the [same settings](config.md), forwarding packets to neighbors up to 7 hops from where a message started. Phones are optional. Users can send text messages in channels or DMs, and share position or weather data if using a device with connected sensors.
+
+The [Freq51 community](https://utahmesh.net) is building one such mesh network that spans Utah and Idaho that anyone can join. The network is intended for non-life-critical emergency/disaster communication, off-grid coordination, and hobbyist projects. You don't need a license to use Meshtastic (unless you intentionally enable Ham mode), just a compatible radio.
 
 
 | ![Idaho](images/map-idaho.png) | ![Utah](images/map-utah.png) |
