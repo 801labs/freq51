@@ -66,9 +66,7 @@ They should only be used for legitimate emergency traffic, drills, or official c
 
 ⚠️ Keep messages clear, concise, and relevant. Avoid general chat on these channels.
 
-| Channel Name | Role | PSK/Key | Description |
-|---------------|------|----------|--------------|
-| `` | Secondary | `empty` | `` |
+👉 [Emergency Comms Channels](emergency-comms.md)
 
 💬 *These emergency channels provide structured communication during incidents while keeping the primary mesh available for general traffic.*
 
