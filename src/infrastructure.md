@@ -17,7 +17,7 @@ For deployment guidelines, see [Router Deployment Guide](advanced-configuration/
 
 - [Router Lates](#router-lates)
 	- [AUR — Aurora Uranialis](#aur--aurora-uranialis)
-	- [CBT — Cache Butte Tower](#CBT--cache-butte-tower)
+	- [CBT — Cache Butte Tower](#cbt--cache-butte-tower)
 	- [POTM — Point of the Mountain](#potm--point-of-the-mountain)
    	- [STIR — Stansbury Island RTR](#stir--stansbury-island-rtr)
 
