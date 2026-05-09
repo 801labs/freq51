@@ -13,10 +13,12 @@ For deployment guidelines, see [Router Deployment Guide](advanced-configuration/
 	- [FPR — Francis Peak Router](#fpr--francis-peak-router)
 	- [LMR — Lake Mountain Router](#lmr--lake-mountain-router)
 	- [NPR — Nelson Peak Router](#npr--nelson-peak-router)
+  	- [MPR — Mendon Peak Router](#mpr--mendon-peak-router)
 - [Router Lates](#router-lates)
 	- [AUR — Aurora Uranialis](#aur--aurora-uranialis)	
 	- [POTM — Point of the Mountain](#potm--point-of-the-mountain)
- 	- [STIR — Stansbury Island RTR](#stir--stansbury-island-rtr)
+   	- [STIR — Stansbury Island RTR](#stir--stansbury-island-rtr)
+ 	- [CBT — Cache Butte Tower](#CBT--cache-butte-tower)
 - [Strategic Clients](#strategically-placed-clients)
 	- [👽 — Alien Tower 🛸](#--alien-tower-)
 	- [C6C — Aurora Ceresia](#c6c--aurora-ceresia)
@@ -101,6 +103,22 @@ Infrastructure located within Utah.
 
 ---
 
+### MPR — Mendon Peak Router
+**Location:** Mendon Peak
+
+| Node Name                | Radio (modules + enclosure)                | Antenna            | Battery                                                         | Solar | Modem Preset | Slot | Rebroadcast Mode | Firmware |
+|--------------------------|--------------------------------------------|--------------------|-----------------------------------------------------------------|-------|--------------|------|------------------|----------|
+| MPR – Mendon Peak Router | Washtastic compatable with Taoglas filter    | Alfa 5dBi   | 3S2P Samsung pack with balancing BMS  | Dual 1.5W panels  | MEDIUM_FAST  | 51   | ALL              | 2.7.18    |
+
+#### Site survey
+**North**  
+![NPR North](images/MPR-North.png)
+
+**South**  
+![NPR South](images/MPR-South.png)
+
+---
+
 ## Router Lates
 
 ### AUR — Aurora Uranialis
@@ -146,6 +164,18 @@ Includes BME680 telemetry every 1800 s.
 
 #### Site survey
 ![STIR](images/STIR.png)
+
+---
+
+### CBT — Cache Butte Tower
+**Location:** Cache Butte
+
+| Node Name              | Radio              | Antenna | Battery   | Solar | Modem Preset | Slot | Rebroadcast Mode | Firmware |
+|------------------------|-------------------|---------|-----------|-------|--------------|------|------------------|----------|
+| CBT — Cache Butte Tower | Heltec V4 | eifagur "5.8 DBi" Anteanna |  House Battery   | None   | MEDIUM_FAST    | 51   | ALL              | 2.7.21   |
+
+#### Site survey
+![STIR](images/CBT.png)
 
 ---
 
