@@ -105,7 +105,7 @@ This is the **default role most users should choose**.
 
 ### 🏠 CLIENT_BASE (Rooftop or strategic clients)
 
-- **Best for**: Rooftop or other well-placed nodes, that are not quite on Router leve.
+- **Best for**: Rooftop or other well-placed nodes, that are not quite on Router level.
 - **Behavior**: Node that rebroadcasts packets to/from favorited noded with priority, else acts as client.
 - **Visibility**: Visible in nodes list/topology
 - **Use when**: This is your best placed node or Strategic Client
