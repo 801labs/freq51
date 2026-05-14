@@ -202,22 +202,20 @@ Where we place routers is very important
 - **Power Management**: Optimize for continuous operation
 
 **Channel Settings**:
-- **Primary Channel**: Use community standard (Leave the name empty)
+- **Primary Channel**: Use community standard (Freq51)
 - **Region**: Set to "US"
 - **Frequency**: 915MHz band (automatic for US region)
+- **Frequency Slot**: 51 (Freq51 - Utah)
 - **Hop Limit**: 7
 
 **Router-Specific Settings**:
-- **Store & Forward**: Enable for message relay capability
 - **Neighbor Info**: Enable for network mapping
-- **MQTT**: Configure based on community guidelines
 - **Power Management**: Disable sleep modes for continuous operation
 
 ### Advanced Configuration
 
 **Network Optimization**:
 - **Message Routing**: Optimize for network topology
-- **Store & Forward**: Configure based on coverage area
 - **Neighbor Discovery**: Enable for network health monitoring
 - **Channel Utilization**: Monitor and optimize as needed
 
@@ -225,7 +223,6 @@ Where we place routers is very important
 - **Remote Access**: Set up secure remote management
 - **Logging**: Enable comprehensive logging
 - **Alerting**: Configure alerts for system issues
-- **Backup**: Regular configuration backups
 
 ---
 
@@ -261,19 +258,6 @@ Where we place routers is very important
 - Check device status and connectivity
 - Monitor power system performance
 - Review network traffic and performance
-- Check for any error messages or alerts
-
-**Weekly Tasks**:
-- Review system logs for issues
-- Check antenna connections and mounting
-- Verify power system operation
-- Update community on status
-
-**Monthly Tasks**:
-- Physical inspection of equipment
-- Clean antennas and equipment
-- Check weather protection
-- Review and update documentation
 
 **Quarterly Tasks**:
 - Comprehensive system testing
