@@ -1,7 +1,9 @@
-<img src="images/IntermountainMeshLogo.svg" width="45%" hspace="40">
+<img src="images/IntermountainMeshLogo.svg" width="30%" hspace="40">
 
 # Freq51 - The Intermountain Mesh
-Meshtastic® lets you use inexpensive LoRa radios as a long-range, off-grid communication platform where regular infrastructure is unreliable or unavailable. It’s community-driven and open source. Radios automatically form a mesh, forwarding packets to neighbors (up to 7 hops from origin). Phones are optional. **The Freq51 community** is building an open community mesh that anyone can join. This network is intended as a radio-frequency tool for emergency/disaster response, off-grid (non-internet) coordination, and hobbyist projects. No license is required to use Meshtastic (unless you intentionally enable Ham Mode). Meshtastic is under active development and **not** a life-critical service.
+Meshtastic® lets you use inexpensive LoRa radios for long-range, off-grid communication when regular infrastructure is unreliable or unavailable. Its nodes form a community-driven, open-source mesh, forwarding messages up to seven hops; a phone is optional. You can send channel messages or direct messages and, with compatible hardware, share position or weather data.
+
+**The Freq51 community** is building an open mesh that anyone can join across Utah and Idaho. The network is intended as a radio-frequency tool for emergency and disaster response, off-grid coordination, and hobbyist projects. No license is required to use Meshtastic unless you intentionally enable Ham Mode. Meshtastic is under active development and **not** a life-critical service.
 
 
 | ![Idaho](images/map-idaho.png) | ![Utah](images/map-utah.png) |
@@ -9,12 +11,14 @@ Meshtastic® lets you use inexpensive LoRa radios as a long-range, off-grid comm
 | **Idaho**                       | **Utah**                     |
 ---
 
-## Joining
+## Start Here
+
+New to Freq51? Start with the **[Start Here guide](start-here.md)** for device selection, Alpha firmware, community settings, testing, and help.
 
 1. **Get supported hardware** from the Meshtastic list.
 2. **Join our [Freq51 Discord](https://discord.gg/qmeeRPkq3g)** for local help and announcements.
-3. Read the **[FAQ](faq.md)** and **[Configuration](config.md)** pages below.
-4. See **[Equipment](equipment.md)** for example builds / coverage once published, and **[Infrastructure](infrastructure.md)** for deployed nodes.
+3. Read the **[FAQ](faq.md)** and **[Configuration](config.md)** pages for additional detail.
+4. See **[Equipment](equipment.md)** for example builds and **[Infrastructure](infrastructure.md)** for deployed nodes.
 
 **Links**
 - Supported Hardware: [https://meshtastic.org/docs/hardware/devices/](https://meshtastic.org/docs/hardware/devices/)

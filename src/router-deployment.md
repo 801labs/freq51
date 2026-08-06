@@ -4,7 +4,7 @@
 
 This guide covers everything you need to know about deploying **ROUTER** nodes on the Freq51 Intermountain Mesh network. Router deployment is a critical responsibility that requires careful planning, community coordination, and technical understanding.
 
-**⚠️ IMPORTANT**: Router deployment should only be undertaken by experienced community members with proper coordination. Contact the [Discord community](https://discord.gg/meshtastic) before deploying any router nodes.
+**⚠️ IMPORTANT**: Router deployment should only be undertaken by experienced community members with proper coordination. Contact [Freq51 Discord](https://discord.gg/qmeeRPkq3g) before deploying any router nodes.
 
 ---
 
@@ -202,7 +202,7 @@ Where we place routers is very important
 - **Power Management**: Optimize for continuous operation
 
 **Channel Settings**:
-- **Primary Channel**: Use community standard (Freq51)
+- **Primary Channel**: `Freq51`. See [Channels](channels.md) for the current channel details.
 - **Region**: Set to "US"
 - **Frequency**: 915MHz band (automatic for US region)
 - **Frequency Slot**: 51 (Freq51 - Utah)
