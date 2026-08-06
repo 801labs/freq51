@@ -49,7 +49,6 @@ For deployment guidelines, see [Router Deployment Guide](advanced-configuration/
 ## [Western Idaho Infrastructure](#western-idaho-infrastructure)
 - [Mountain Home](#mountain-home)
   - [Routers](#routers-2)
-    - [DPR — Danskin Peak Router](#dpr--danskin-peak-router) 
     - [tcup — MH Teacup Foothills](#tcup--mh-teacup-foothills)
     - [MHDR — MH Danskin Repeater V2](#mhdr--mh-danskin-repeater-v2)
   - [Mountain Home Router Late Nodes](#mountain-home-router-late-nodes)
@@ -395,17 +394,6 @@ Infrastructure physically located within Western Idaho including Boise, Meridian
 ## Mountain Home
 
 ### Routers
-
-#### DPR — Danskin Peak Router  
-**Location**: Danskin Peak — Mountain Home
-| Node Name| Radio| Antenna| Battery| Solar| Modem Preset | Slot | Rebroadcast Mode | Firmware|
-|-|-|-|-|-|-|-|-|-|
-| DPR — Danskin Peak Router | RAK WisBlock 4631 + Airbuddy Amplifier | [SlinkDSCO 5.8 dBi, 915 MHz](https://a.co/d/0gx4CRef) | 1S4P, 3.7 V 18650 | [10 W, 5 V Zivif](https://a.co/d/00EO1dZM) | MEDIUM_FAST | 51 | ALL | 2.7.15 |
-#### Site Survey
-**North**
-![DanskinPeak](images/Idaho/DPR_West.png)
-
----
 
 #### tcup — MH Teacup Foothills
 **Location**: Teapot Dome, Mountain Home
