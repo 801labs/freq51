@@ -10,7 +10,6 @@
 - [Configuration](config.md)
    - [Channels](channels.md)
 - [Apps & Software](software.md)
-- [MeshCore Guide](meshcore.md)
 - [Network Infrastructure](infrastructure.md)
 - [Coverage and Maps](coverage-map.md)
 - [Tools & Dashboards](tools.md)
@@ -28,3 +27,4 @@
    - [Getting Help](support.md)
 - [Contribute](contribute.md)
 - [Documentation Changelog](changelog.md)
+- [MeshCore Guide](meshcore.md)
