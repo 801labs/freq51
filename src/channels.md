@@ -1,8 +1,12 @@
 # Meshtastic Channel Setup Guide
 
+New to Freq51? Begin with the [Start Here guide](start-here.md) and use the [Freq51 configuration tool](https://tools.freq51.net/config/) before entering channel details manually.
+
 A guide to setting up **private and other channels** on your Meshtastic node.  
 Each channel includes its name, key, and purpose.  
 Use this to configure your node to connect with local or community networks.
+
+> Freq51 does not publish QR codes or Meshtastic URLs for public channels because they can silently change LoRa settings such as hop limit, MQTT permission, or transmit power. Enter the channel names and keys manually. If you would like to create a public-purpose channel, contact us to have it documented.
 
 ---
 
@@ -10,7 +14,7 @@ Use this to configure your node to connect with local or community networks.
 - [Primary Channel (General Freq51 Mesh)](#-primary-channels-general-mesh)  
 - [Utah Channels](#-utah-channels)  
 - [Idaho Channels](#-idaho-channels)
-- [Emergency Communications Channels](#-emergency-communications-channels-coming-soon)
+- [Emergency Communications Channels](#-emergency-communications-channels)
 
 ---
 
@@ -19,9 +23,9 @@ Use this to configure your node to connect with local or community networks.
 | Channel Name | Role | PSK/Key | Description |
 |---------------|------|----------|--------------|
 | `Freq51` | **Primary** | `1A==` | `Main Freq51 mesh network for general users. Enables broad communication across regions.` |
-| `MediumFast` | **Secondary** | `AQ==` | `Default Channel: This is used for testing your node on the mesh by sending ping/test messages.` |
+| `MediumFast` | **Secondary** | `AQ==` | `Default test channel for ping and test messages on the mesh.` |
 
-💡 *These are the main channels most users start with. It connects you to the general Freq51 mesh, and provides another channel to test with*
+💡 *Configure `Freq51` as your primary channel. Add `MediumFast` as a secondary channel when you need to test your node.*
 
 ---
 

@@ -17,8 +17,8 @@ This guide will walk you through updating your Meshtastic node's modem preset fr
 
 - Go to **Settings**.
 - Then select **Channels**.
-- Tap your **Primary Channel** (Channel ID: 0, typically the name is blank, unless you have changed it in the past, then it would be "LongFast").
-- Change the **Channel Name** to "Freq51" (without quotes) then adjust the key size to 1byte, and lastly set the key to "1A==" (without quotes).
+- Tap your **Primary Channel** (Channel ID: 0, typically the name is blank unless you have changed it in the past).
+- Set the primary channel name and key exactly as listed on the [Channels](channels.md) page.
 - Save and confirm the change.
 
 **Please note that the channel name has to match exactly, it will not work if it is incorrect.**
@@ -60,8 +60,8 @@ This guide will walk you through updating your Meshtastic node's modem preset fr
 
 - Go to **Settings**.
 - Then go to **Channels**.
-- Tap your **Primary Channel** (Channel ID: 0, typically the name is blank, unless you have changed it in the past, then it would be "LongFast").
-- Change the **Channel Name** to Freq51 then set the key to "1A==" without quotes.
+- Tap your **Primary Channel** (Channel ID: 0, typically the name is blank unless you have changed it in the past).
+- Set the primary channel name and key exactly as listed on the [Channels](channels.md) page.
 - Save and confirm the change.
 
 **Please note that the channel name has to match exactly, it will not work if it is incorrect.**
@@ -98,7 +98,7 @@ This guide will walk you through updating your Meshtastic node's modem preset fr
 - This configuration can be made with the [Meshtastic Python CLI](https://meshtastic.org/docs/software/python/cli/installation/). Using the following commands:
 ```
 meshtastic --set lora.modemPreset MEDIUM_FAST --set lora.channelNum 51
-meshtastic --ch-set name "Freq51" --ch-set psk "base64:1A==" --ch-index 0
+meshtastic --ch-set name "<channel-name>" --ch-set psk "base64:<channel-key>" --ch-index 0
 meshtastic --reset-nodedb
 ```
 
@@ -106,7 +106,7 @@ meshtastic --reset-nodedb
 
 ## Troubleshooting
 
-- If your node does not appear on the mesh after migration, double-check that the preset is **MediumFast** and that the primary channel name is **Freq51** with the key size as 1byte and Key set to "1A==" No quotes.
+- If your node does not appear on the mesh after migration, double-check that the preset is **MediumFast** and that the primary channel name and key match the [Channels](channels.md) page.
 - Reboot your node if changes do not appear to take effect.
 - Get your node up high (roof/tree) preferably with a clear line of sight to infrastructure.
 
