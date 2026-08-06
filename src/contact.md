@@ -7,3 +7,5 @@ Have questions, need help, or want to get involved in the mesh? We’re here for
 - Discord: [Intermountain Mesh](https://discord.gg/qmeeRPkq3g)  
 
 Thanks for being part of the network — happy meshing!  
+
+*Last edited: August 6, 2026*

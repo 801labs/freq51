@@ -1,6 +1,15 @@
 # Freq51 - Intermountain Mesh Emergency Communications Standards
 
 The Intermountain Mesh spans two separate meshes: Meshtastic and MeshCore. All settings for the configuration of mesh nodes can be found in their respective locations.
+
+> **Important:** Freq51 is a community communications network, not a replacement for 911 or other official emergency services. In an immediate emergency, use the fastest available official emergency service first.
+
+## Using Emergency Channels
+
+- Use emergency channels for real incidents, drills, and directly related coordination.
+- Keep messages brief, factual, and easy to relay: who you are, your general location, what happened, and what help is needed.
+- Do not use an emergency channel for general chat, equipment testing, or routine status updates.
+- Automated alerts are informational. Verify information through official sources when possible.
 ## Meshtastic
 
 ### Channels
@@ -44,4 +53,6 @@ There are many automated ways that the alerts are accessed and broadcast. Genera
 
 ## MeshCore
 
-TBD
+MeshCore participation is coordinated separately from Meshtastic. Join the [Freq51 Discord](https://discord.gg/qmeeRPkq3g) for the current MeshCore channels, configuration, and operating guidance.
+
+*Last edited: August 6, 2026*

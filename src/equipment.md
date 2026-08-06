@@ -1,6 +1,6 @@
 # Our Equipment
 
-This page will host **Freq51 Mesh builds** and their approximate coverage maps. Use them to align your setup if you’re inside coverage areas (red). Note that different nodes may run different software. Some builds will run the meshing around BBS system. These are select router nodes with high remote power requirements and recommended to be spaced within 5 hops of each other for consistent relaying. Other nodes are low power. We currently prefer NRF52 based infrastructure nodes for <1W TX power or femtofoxes and Nebra custom miner nodes for 1W TX power. All routers must feature a filter. Filtering is optional on non infrastructure nodes. 
+This page collects example Freq51 node builds and their approximate coverage maps. Use them as starting points, not as required designs: hardware, software, power systems, and placement must suit the site. Our infrastructure commonly uses low-power nRF52-based nodes, Femtofox nodes, and Nebra-based builds with 1 W radios. Router deployments require an appropriate RF filter; filtering is optional for non-infrastructure nodes. Coordinate any router deployment with the community before building or placing it.
 
 ## Here is a list of hardware many of us use - [Freq51 Hardware](https://a.co/4PWizzG)
 
@@ -45,12 +45,27 @@ The **SenseCAP Card Tracker T1000-E** is a compact, NRF52-based mobile Meshtasti
 > We are going to fill out standard builds as we improve the documentation. Feel free to drop by the discord and suggest yours
 
 ## Femtofox Node Example
-TBA
+
+Femtofox nodes are commonly used for low-power fixed deployments. A complete example should include the radio model, enclosure, antenna, power system, firmware version, and a photo or site-survey result. If you operate a documented Femtofox build, share it through the [Contribute page](contribute.md).
+
 ## [Nebra Node Example](equipment/nebra-miner.md)
 
 ## PiZero Node Example
-TBA
+
+A Raspberry Pi Zero 2 W can be a compact option for a fixed node when paired with supported radio hardware, a reliable power source, and a weather-appropriate enclosure. See the [Nebra Miner Guide](equipment/nebra-miner.md) for a more complete Linux-based reference build.
+
 ## Bird House Node Example
-TBA
+
+Birdhouse-style enclosures can be a practical way to conceal and weatherproof a node. Use a non-metal enclosure, keep the antenna clear of obstructions, protect cable entries from water, and make sure the enclosure can be serviced safely.
+
 ## Tips for placement
-TBA
+
+- Test the location before installing permanently.
+- Height and line of sight usually matter more than transmit power.
+- Keep antenna feed lines short and use weatherproof connectors.
+- Use a `CLIENT` role by default; coordinate before deploying a `ROUTER`.
+- For outdoor installations, plan for grounding, lightning protection, drainage, and maintenance access.
+
+See [Coverage and Maps](coverage-map.md) and the [Router Deployment Guide](advanced-configuration/router-deployment.md) before planning a permanent installation.
+
+*Last edited: August 6, 2026*

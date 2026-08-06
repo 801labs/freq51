@@ -19,9 +19,9 @@ Welcome to Freq51! This guide will get you up and running on our Meshtastic netw
 
 ## ⚡ Quick Setup
 
-### 1️⃣ Flash the Latest Firmware
+### 1️⃣ Flash the Latest Alpha Firmware
 
-Before configuring your node, make sure it is running the **latest Meshtastic firmware**.
+Before configuring your node, make sure it is running the **latest Meshtastic alpha firmware** for its hardware. Freq51 uses Alpha so members can test the newest fixes and features together. Alpha may be less stable than Beta, but it is still reliable for normal use.
 
 Use the official web flasher:
 
@@ -50,7 +50,7 @@ Most nodes connect via:
 
 Alternative connection methods include:
 
-- WiFi
+- Wi-Fi
 - USB / Serial
 
 Follow the in-app pairing process until you can see your device in the Meshtastic app.
@@ -68,7 +68,7 @@ Open the configuration tool here: [https://tools.freq51.net/config/](https://too
 **Before starting:** Your computer must be connected to the node using one of the following methods:
 
 - **USB / Serial connection** to the device
-- **WiFi/Wired Connection** to the node's ip address Depending on what type of hardware it is (ESP32/Raspberry pi)
+- **Wi-Fi or wired connection** to the node’s IP address, depending on the hardware (ESP32 or Raspberry Pi)
 
 Once connected, the tool will detect your node and apply the correct configuration automatically.
 
@@ -106,7 +106,7 @@ This is the **default role most users should choose**.
 ### 🏠 CLIENT_BASE (Rooftop or strategic clients)
 
 - **Best for**: Rooftop or other well-placed nodes, that are not quite on Router level.
-- **Behavior**: Node that rebroadcasts packets to/from favorited noded with priority, else acts as client.
+- **Behavior**: Node that rebroadcasts packets to and from favorited nodes with priority; otherwise, it acts as a client.
 - **Visibility**: Visible in nodes list/topology
 - **Use when**: This is your best placed node or Strategic Client
 
@@ -232,3 +232,5 @@ Using the **auto configuration tool** helps keep the network reliable and compat
 ---
 
 *Questions? Join the Discord and say hello — we're happy to help!* 📡
+
+*Last edited: August 6, 2026*

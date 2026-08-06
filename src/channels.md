@@ -55,18 +55,9 @@ These can be added as **secondary** channels to support local groups, alerts, an
 
 ---
 
-## 🚨 Emergency Communications Channels (Coming Soon)
+## 🚨 Emergency Communications Channels
 
-These channels are intended for emergency coordination, disaster response, and critical communications.
-They should only be used for legitimate emergency traffic, drills, or official coordination.
-
-⚠️ Keep messages clear, concise, and relevant. Avoid general chat on these channels.
-
-| Channel Name | Role | PSK/Key | Description |
-|---------------|------|----------|--------------|
-| `` | Secondary | `empty` | `` |
-
-💬 *These emergency channels provide structured communication during incidents while keeping the primary mesh available for general traffic.*
+Emergency channel names, regional coverage, and QR codes are maintained on the [Emergency Communications](emergency-comms.md) page. Use those channels only for real incidents, drills, and directly related coordination.
 
 ---
 
@@ -80,4 +71,6 @@ They should only be used for legitimate emergency traffic, drills, or official c
 5. Save and sync your settings.  
 
 💡 *Be sure all devices in your group use the same channel name and PSK.*
+
+*Last edited: August 6, 2026*
 

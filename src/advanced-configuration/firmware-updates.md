@@ -2,6 +2,8 @@
 
 This guide provides instructions for updating firmware on various Meshtastic-compatible devices.
 
+> **Freq51 recommendation:** Use the latest Meshtastic **Alpha** version that supports your hardware. Alpha may be less stable than Beta, but it is still reliable for normal use. Verify the version and arrange physical access before updating a remote or mission-critical node.
+
 ---
 
 ## 📑 Table of Contents
@@ -9,7 +11,7 @@ This guide provides instructions for updating firmware on various Meshtastic-com
 - [Using the Web Flasher](#-using-the-web-flasher)
 - [Updating RAK19007/19003 Nodes](#-updating-rak1900719003-nodes)
 - [Updating Heltec Nodes](#-updating-heltec-nodes)
-- [Updating Seedstudio T1000E](#-updating-seedstudio-t1000e)
+- [Updating Seeed Studio T1000E](#-updating-seeed-studio-t1000e)
 - [Over-the-Air (OTA) Updates for RAK Nodes](#-over-the-air-ota-updates-for-rak-nodes) (**Advanced Users Only**)
 
 ---
@@ -37,8 +39,8 @@ The easiest way to update firmware on most Meshtastic devices is using the brows
    - 🔍 **Auto-detect option**: The web flasher can automatically detect many common device types - look for "Auto" or "Auto-detect" at the top of the device selection dropdown
    - If auto-detection doesn't work, manually select your specific device model
 4. 🔄 Choose the firmware version you want to install:
-   - ✅ Select "Release" for stable firmware
-   - 🧪 Select "Alpha" for testing new features (may be unstable)
+   - 🧪 Select **"Alpha"**. This is the Freq51-recommended version and may be less stable than Beta, but it is still reliable for normal use.
+   - Select **"Beta"** only when troubleshooting or when directed by Freq51 staff.
    - 🎛️ Select "Custom" if you have a specific firmware file to upload
 5. 🔗 Click "Connect" and select your device from the popup dialog:
    - On Windows: You'll see your device listed with a COM port (e.g., "USB Serial Device (COM3)")
@@ -128,9 +130,9 @@ esptool.py --chip esp32 --port [PORT] --baud 921600 write_flash 0x10000 [PATH_TO
 
 ---
 
-## 🛰️ Updating Seedstudio T1000E
+## 🛰️ Updating Seeed Studio T1000E
 
-The Seedstudio T1000E follows a similar update process:
+The Seeed Studio T1000E follows a similar update process:
 
 1. 🔌 Connect the T1000E to your computer via USB
 2. 🔍 Identify the serial port
@@ -160,7 +162,7 @@ RAK devices with the RAK4631 chipset (nRF52840-based) can be updated over Blueto
 
 2. **📥 Obtain the Correct Firmware**:
    - Visit the [Meshtastic Github Repository](https://github.com/meshtastic/firmware/releases)
-   - For the latest beta: Select the "Meshtastic Firmware..." link at the top
+   - For the latest alpha: Select the "Meshtastic Firmware..." link at the top
    - For older versions: Select the "releases" link below that
    - Download the "firmware-nrf52840-(version).zip" file to your computer
    - Unzip the file and locate the "firmware-rak4631-(version)-ota.zip" file
@@ -274,4 +276,4 @@ For more detailed instructions, visit the [PV Mesh OTA Update Guide](https://pvm
 
 ---
 
-> 🔄 Last updated: 2025-09-11
+*Last edited: August 6, 2026*

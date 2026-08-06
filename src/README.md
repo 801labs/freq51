@@ -1,7 +1,7 @@
 <img src="images/IntermountainMeshLogo.svg" width="45%" hspace="40">
 
 # Freq51 - The Intermountain Mesh
-Meshtastic® lets you use inexpensive LoRa radios as a long-range, off-grid communication platform where regular infrastructure is unreliable or unavailable. It’s community-driven and open source. Radios automatically form a mesh, forwarding packets to neighbors (up to 7 hops from origin). Phones are optional. **The Freq51 community** is building an open community mesh that anyone here can join. This network is intended as a Radio Frequency tool for emergency/disaster response and off-grid (non-internet) coordination and hobbyist projects. No license is required to use Meshtastic (unless you intentionally enable Ham Mode). Meshtastic is under active development and **not** a life-critical service. 
+Meshtastic® lets you use inexpensive LoRa radios as a long-range, off-grid communication platform where regular infrastructure is unreliable or unavailable. It’s community-driven and open source. Radios automatically form a mesh, forwarding packets to neighbors (up to 7 hops from origin). Phones are optional. **The Freq51 community** is building an open community mesh that anyone can join. This network is intended as a radio-frequency tool for emergency/disaster response, off-grid (non-internet) coordination, and hobbyist projects. No license is required to use Meshtastic (unless you intentionally enable Ham Mode). Meshtastic is under active development and **not** a life-critical service.
 
 
 | ![Idaho](images/map-idaho.png) | ![Utah](images/map-utah.png) |
@@ -12,7 +12,7 @@ Meshtastic® lets you use inexpensive LoRa radios as a long-range, off-grid comm
 ## Joining
 
 1. **Get supported hardware** from the Meshtastic list.
-2. **Join our [Discord](https://utahmesh.net)** for local help and announcements.
+2. **Join our [Freq51 Discord](https://discord.gg/qmeeRPkq3g)** for local help and announcements.
 3. Read the **[FAQ](faq.md)** and **[Configuration](config.md)** pages below.
 4. See **[Equipment](equipment.md)** for example builds / coverage once published, and **[Infrastructure](infrastructure.md)** for deployed nodes.
 
@@ -39,11 +39,7 @@ Meshtastic® lets you use inexpensive LoRa radios as a long-range, off-grid comm
 
 ## Member Projects
 
-Some cool freq51-adjacent projects we love to showcase (add yours!):
-
-- TBD
-
-> Submit a PR to add your project here.
+Community projects, hardware builds, coverage reports, and tools are welcome. See [Contribute to Freq51](contribute.md) for what to share and how to get it reviewed.
 
 ---
 
@@ -52,6 +48,8 @@ Some cool freq51-adjacent projects we love to showcase (add yours!):
 Meshtastic keeps a running list of local groups worldwide. If you’re traveling or collaborating across regions, check there and cross-link back to freq51 once we’re listed.
 
 - Meshtastic Local Groups Directory: [https://meshtastic.org/docs/community/local-groups/](https://meshtastic.org/docs/community/local-groups/)
+
+*Last edited: August 6, 2026*
 
 
 

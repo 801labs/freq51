@@ -168,6 +168,17 @@ Where we place routers is very important.
 - [ ] Coordinate with nearby router operators
 - [ ] Plan maintenance and monitoring responsibilities
 
+### Before Requesting Router Approval
+
+Share the following in Freq51 Discord so the community can evaluate the proposed deployment:
+
+- [ ] General location and elevation
+- [ ] Intended role and the coverage gap or connection it would improve
+- [ ] Power source and expected backup/runtime
+- [ ] Antenna type, gain, height, and feed-line plan
+- [ ] Known nearby nodes or infrastructure
+- [ ] A site photo or site-survey image
+
 ### Technical Preparation
 - [ ] Test device configuration in lab environment
 - [ ] Verify power system reliability
@@ -360,3 +371,5 @@ Where we place routers is very important.
 **Remember**: Router deployment is a significant responsibility that directly impacts the entire network. Always coordinate with the community, follow best practices, and prioritize network health over individual preferences.
 
 *For questions or support, contact the Freq51 community through Discord or local meetups. We're here to help ensure successful router deployments that benefit the entire network.*
+
+*Last edited: August 6, 2026*

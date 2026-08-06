@@ -6,6 +6,20 @@ Whether you’re a longtime ham, a Meshtastic tinkerer, or brand new to the mesh
 
 ---
 
+## Check In at a Glance
+
+- **When:** Every Wednesday, **5:00 PM–11:59 PM Mountain Time**
+- **Send:** `(LONG NAME) - (CITY, STATE) #FREQ51`
+- **Verify:** [MeshView Weekly Net](https://meshview.freq51.net/net)
+
+Example:
+
+```
+bashNinja - Bluffdale, UT #FREQ51
+```
+
+---
+
 ## 🌐 What Is the Weekly Net?
 
 The Weekly Net is a **live Meshtastic check‑in** that helps bridge the gap between **ham radio operators** and **Meshtastic users**. It gives us real insight into who’s active, how well the mesh is performing, and whether messages are actually getting through.
@@ -17,7 +31,7 @@ Think of it as a roll call — but way cooler.
 ## 📅 When It Happens
 
 🗓 **Every Wednesday**  
-⏰ **5:00 PM – 11:59 PM (local time)**  
+⏰ **5:00 PM – 11:59 PM Mountain Time**
 
 The net opens at 5:00 PM and runs through the end of the day, giving everyone plenty of time to check in — whether you’re early, late, or somewhere in between.
 
@@ -57,7 +71,7 @@ You can confirm your message was received by visiting:
 
 We also mirror the Weekly Net activity to Discord so everyone can watch the check-ins roll in — even if you’re not on the mesh at that moment.
 
-🔗 **Join our Discord:** https://utahmesh.net/  
+🔗 **Join our [Freq51 Discord](https://discord.gg/qmeeRPkq3g)**
 📍 **Channel:** `#mt-weekly-net`
 
 All valid NET check-ins are automatically reported in this channel, making it easy for the community to:
@@ -103,4 +117,6 @@ The mesh is better when it’s used — and **you’re part of what makes it wor
 
 See you on the airwaves.  
 **#FREQ51** 🚀
+
+*Last edited: August 6, 2026*
 

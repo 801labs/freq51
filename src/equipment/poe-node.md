@@ -27,7 +27,7 @@ This configuration uses the Raspberry Pi 4B, with integrated POE Hat, to ensure 
 | Component | Price | Link |
 |-----------|-------|------|
 | Raspberry Pi 4B | $40.00 | [Adafruit](https://www.adafruit.com/product/4295) |
-| Nebra LORA Hat | $25.00 | TBA |
+| Nebra LoRa HAT | $25.00 | [Ask in Freq51 Discord](https://discord.gg/qmeeRPkq3g) |
 | Waveshare POE Hat | ~$25.00 | [Amazon](https://www.amazon.com/waveshare-Ethernet-Raspberry-Standard-Isolated/dp/B0928ZD7QQ) |
 | PNY 64GB PRO Elite High Endurance SD Card | $10.00 | [Amazon](https://www.amazon.com/PNY-64GB-EliteTM-Endurance-microSDXC/dp/B0F4LKYDBF) |
 | RAK Outdoor Enclosure | $60.00 | [Rokland](https://store.rokland.com/collections/enclosures/products/rak-wireless-rak-hotspot-v2-or-mntd-outdoor-enclosure-kit-weatherproof-hotspot-conversion-box-usa-only) |
@@ -40,8 +40,8 @@ This configuration uses the Raspberry Pi 4B, with integrated POE Hat, to ensure 
 
 | Component | Price | Link |
 |-----------|-------|------|
-| SMA Male to SMA Male Pigtail | $2.00 | TBA |
-| Cavity Filter | $80.00 | TBA |
+| SMA Male to SMA Male Pigtail | $2.00 | [Ask in Freq51 Discord](https://discord.gg/qmeeRPkq3g) |
+| Cavity Filter | $80.00 | [Ask in Freq51 Discord](https://discord.gg/qmeeRPkq3g) |
 
 **Filtered Build Total: $274.95** (Base + Cavity Filter components)
 
@@ -61,7 +61,7 @@ This configuration uses the Raspberry Pi Zero 2W with a POE adapter for a compac
 | Component | Price | Link |
 |-----------|-------|------|
 | Raspberry Pi Zero 2W | $15.00 | [DigiKey](https://www.digikey.com/en/products/detail/raspberry-pi/SC1176/15298147) |
-| Nebra LORA Hat | $25.00 | TBA |
+| Nebra LoRa HAT | $25.00 | [Ask in Freq51 Discord](https://discord.gg/qmeeRPkq3g) |
 | POE Adapter | ~$9.00 | [Amazon](https://www.amazon.com/dp/B0876N3PMZ) |
 | PNY 64GB PRO Elite High Endurance SD Card | $10.00 | [Amazon](https://www.amazon.com/PNY-64GB-EliteTM-Endurance-microSDXC/dp/B0F4LKYDBF) |
 | RAK Outdoor Enclosure | $60.00 | [Rokland](https://store.rokland.com/collections/enclosures/products/rak-wireless-rak-hotspot-v2-or-mntd-outdoor-enclosure-kit-weatherproof-hotspot-conversion-box-usa-only) |
@@ -74,8 +74,8 @@ This configuration uses the Raspberry Pi Zero 2W with a POE adapter for a compac
 
 | Component | Price | Link |
 |-----------|-------|------|
-| SMA Male to SMA Male Pigtail | $2.00 | TBA |
-| Cavity Filter | $80.00 | TBA |
+| SMA Male to SMA Male Pigtail | $2.00 | [Ask in Freq51 Discord](https://discord.gg/qmeeRPkq3g) |
+| Cavity Filter | $80.00 | [Ask in Freq51 Discord](https://discord.gg/qmeeRPkq3g) |
 
 **Filtered Build Total: $233.95** (Base + Cavity Filter components)
 
@@ -115,3 +115,5 @@ This configuration uses the Raspberry Pi Zero 2W with a POE adapter for a compac
 - [Lightning Protection Guide](zeusprotection.md)
 
 ---
+
+*Last edited: August 6, 2026*
