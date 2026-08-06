@@ -2,15 +2,15 @@
 
 ## New User Expectations
 
-Meshtastic is **rapidly evolving**, not a fully polished product. Expect quirks. For best results with a fresh device: put it somewhere with decent LOS (a window works) to mountain nodes (find the nearest on the infrastructure page) and **let it run overnight**. It takes time for nodes to discover each other. Users who share their position (GPS or fixed coordinates) will show up on public maps. Its a good way to test a solar setup as well.
+Meshtastic is **rapidly evolving**, not a fully polished product. Expect quirks. For best results with a fresh device, put it somewhere with decent line of sight (LoS)—a window works—to mountain nodes (find the nearest on the infrastructure page) and **let it run overnight**. It takes time for nodes to discover each other. Users who share their position (GPS or fixed coordinates) will show up on public maps. It’s also a good way to test a solar setup.
 
-We currently recommend a local map (**TBD: map URL**) for nodes that opt in to share their position. You won’t see *every* node—only those that choose to appear or are heard by an MQTT-uplinking node nearby.
+Use [MeshView](https://meshview.freq51.net/) to explore nodes that opt in to share their position. You won’t see *every* node—only those that choose to appear or are heard by an MQTT-uplinking node nearby. See [Coverage and Maps](coverage-map.md) for context on what map data can and cannot show.
 
 ## FAQ’s
 
 - **What firmware version should I flash?**  
-  Ask in freq51 Discord; “latest” isn’t always best for local stability. We track known issues and local norms. We currently prefer the latest Beta.
-  Please see our [firmware update guide](advanced-configuration/firmware-updates.html) for help on that.
+  Freq51 recommends the latest **Alpha** version that supports your hardware. Alpha may be less stable than Beta, but it is still reliable for normal use. Ask in the Freq51 Discord before updating a remote or mission-critical node.
+  Please see our [firmware update guide](advanced-configuration/firmware-updates.md) for help.
 
 - **Where’s the QR/URL to join the local mesh?**  
   We **don’t recommend** QR codes/URLs for public channels. They silently change additional LoRa settings (e.g., TX power, hop count). Enter channel names/keys manually and verify settings after import.
@@ -57,7 +57,7 @@ We currently recommend a local map (**TBD: map URL**) for nodes that opt in to s
     - Should only be used when:  
       - The node is in a **good location** (elevation, clear and wide Line of Sight).  
       - It has **reliable power** (mains power or solar-battery (large pack) ).  
-      - It has a **stable, high gain, preferably lightning arrested antenna setup**.  
+      - It has a **stable, high-gain antenna setup protected by a lightning arrestor**.
 	  - It has a filter on the RF chain
     - **Rebroadcast mode:** `CORE_PORT_NUMS_ONLY`.  (we actually desire ALL so please switch. See configuration details)
     - Overuse of routers can cause congestion.  
@@ -104,3 +104,5 @@ If a poor location is chosen for Routers and Repeaters, it can cause some of the
 
 - **How do I know I’m connected?**  
   Seeing other nodes in your node list is a good sign. Try a message to MediumFast or a direct message to a known node.
+
+*Last edited: August 6, 2026*

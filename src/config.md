@@ -251,6 +251,8 @@ This is the local hackerspace channel. The key is only found at the hackerspace.
 |---|---|---|---|---|
 | ShortFast | `access hackerspace for key` | LONG_FAST | 51 | Off |
 
+*Last edited: August 6, 2026*
+
 
 
 

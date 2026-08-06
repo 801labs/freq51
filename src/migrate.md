@@ -115,3 +115,5 @@ meshtastic --reset-nodedb
 ## Need Help?
 
 If you get stuck, please reach out in the community Discord.
+
+*Last edited: August 6, 2026*

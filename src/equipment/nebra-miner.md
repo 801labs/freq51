@@ -11,23 +11,23 @@
 ## What to buy
 
 **Minimum parts**
-- Nebra Outdoor Hotspot enclosure from Ebay. Don't spend more than $50. The nebra comes with:
+- Nebra Outdoor Hotspot enclosure from eBay. Don’t spend more than $50. The Nebra comes with:
    - Raspberry Pi CM3
-   - 32 GB Emmc
-   - Built-in POE
-   - Wifi Card & Antenna
-   - 915Mhz Antenna
-   - Waterproof Aluminum Enclosure
+   - 32 GB eMMC
+   - Built-in PoE
+   - Wi-Fi card and antenna
+   - 915 MHz antenna
+   - Waterproof aluminum enclosure
 - **NebraHat (SX1262, 1 W)** by @wehooper4 (community board). You have to build this yourself or buy from a group buy.
    - Right now @bashNinja has about 10 left from a previous group buy. 
 
 **Nice-to-have**
 - [AHT20 sensor](https://www.amazon.com/dp/B09KGY5NPG) for weather telemetry inside the enclosure.
-- A better antenna, such as the a [5dBi Alfa](https://store.rokland.com/products/alfa-aoa-915-5acm-5-dbi-omni-outdoor-915mhz-802-11ah-mini-antenna-for-lora-halow-application) from Rokland.
+- A better antenna, such as a [5 dBi Alfa](https://store.rokland.com/products/alfa-aoa-915-5acm-5-dbi-omni-outdoor-915mhz-802-11ah-mini-antenna-for-lora-halow-application) from Rokland.
 - A sealant for the enclosure such as [Lexel](https://www.amazon.com/dp/B000BQPFAS) or [Permatex](https://www.amazon.com/dp/B07R4C3KJB)
 
 > ⚠️ **Heads-up on other HATs**  
-> The pinout on the nebra is different than the standard Raspberry Pi pinout. This makes most hats incompatible unless you fix the pinout.
+> The pinout on the Nebra is different from the standard Raspberry Pi pinout. This makes most HATs incompatible unless you adapt the pinout.
 
 ---
 
@@ -43,7 +43,7 @@
 
 3) **Install dependencies & meshtasticd**
 
-   *** Debain 12 - Bookworm ***
+   *** Debian 12 - Bookworm ***
    ```bash
    sudo apt update
    sudo apt install -y libgpiod-dev libyaml-cpp-dev libbluetooth-dev openssl libssl-dev libulfius-dev liborcania-dev
@@ -182,3 +182,5 @@ Busy: 4
 Reset: 18
 RXen: 25
 ```
+
+*Last edited: August 6, 2026*

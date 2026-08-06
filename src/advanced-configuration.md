@@ -6,3 +6,5 @@ This section contains advanced configuration guides for experienced users who wa
 
 - [Router Deployment Guide](advanced-configuration/router-deployment.md) - Comprehensive guide for deploying router nodes
 - [Firmware Update Guide](advanced-configuration/firmware-updates.md) - Comprehensive guide for updating Node Firmware
+
+*Last edited: August 6, 2026*

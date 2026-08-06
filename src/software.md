@@ -88,4 +88,4 @@ This page lists recommended software for the Meshtastic mesh network: official a
 
 ---
 
-*Last updated: October 2025*  
+*Last edited: August 6, 2026*

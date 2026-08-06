@@ -1,6 +1,8 @@
 # Freq51 Infrastructure
 
-This page lists deployed routers, router lates, and strategically placed clients. Each entry has a spec table followed by a **Site survey** with associated images. North views are shown first when both are available.
+This page lists deployed routers, router late nodes, and strategically placed clients. Each entry has a spec table followed by a **site survey** with associated images. North views are shown first when both are available.
+
+**Last verified:** August 6, 2026. Entries marked **Unverified/incomplete** have a current MeshView reference but still need deployment details confirmed.
 
 For deployment guidelines, see [Router Deployment Guide](advanced-configuration/router-deployment.md).
 
@@ -8,7 +10,7 @@ For deployment guidelines, see [Router Deployment Guide](advanced-configuration/
 
 # Table of Contents
 
-## [Utah Infrastructure](#utah-infrastructure-1)
+## [Utah Infrastructure](#utah-infrastructure)
 - [Routers](#routers)
 	- [FPR — Francis Peak Router](#fpr--francis-peak-router)
 	- [LMR — Lake Mountain Router](#lmr--lake-mountain-router)
@@ -18,7 +20,7 @@ For deployment guidelines, see [Router Deployment Guide](advanced-configuration/
 	- [KYHV — Kyhv Router V2](#kyhv--kyhv-router-v2)
 	- [🐞 — Wasatch Plateau](#--wasatch-plateau)
 
-- [Router Lates](#router-lates)
+- [Utah Router Late Nodes](#utah-router-late-nodes)
 	- [AUR — Aurora Uranialis](#aur--aurora-uranialis)
 	- [CBT — Cache Butte Tower](#cbt--cache-butte-tower)
 	- [POTM — Point of the Mountain](#potm--point-of-the-mountain)
@@ -50,7 +52,7 @@ For deployment guidelines, see [Router Deployment Guide](advanced-configuration/
     - [DPR — Danskin Peak Router](#dpr--danskin-peak-router) 
     - [tcup — MH Teacup Foothills](#tcup--mh-teacup-foothills)
     - [MHDR — MH Danskin Repeater V2](#mhdr--mh-danskin-repeater-v2)
-  - [Router Lates](#router-lates-1)
+  - [Mountain Home Router Late Nodes](#mountain-home-router-late-nodes)
     - [RBR — Rattlesnake Butte Repeater](#rbr--rattlesnake-butte-repeater)
     - [MHR — MH Foothills Repeater](#mhr--mh-foothills-repeater)
 - [Treasure Valley](#treasure-valley)
@@ -104,7 +106,7 @@ Infrastructure located within Utah.
 
 | Node Name                | Radio (modules + enclosure)                | Antenna            | Battery                                                         | Solar | Modem Preset | Slot | Rebroadcast Mode | Firmware |
 |--------------------------|--------------------------------------------|--------------------|-----------------------------------------------------------------|-------|--------------|------|------------------|----------|
-| MPR – Mendon Peak Router | Washtastic compatable with Taoglas filter    | Alfa 5dBi   | 3S2P Samsung pack with balancing BMS  | Dual 1.5W panels  | MEDIUM_FAST  | 51   | ALL              | 2.7.18    |
+| MPR – Mendon Peak Router | Washtastic compatible with Taoglas filter    | Alfa 5 dBi   | 3S2P Samsung pack with balancing BMS  | Dual 1.5 W panels  | MEDIUM_FAST  | 51   | ALL              | 2.7.18    |
 
 #### Site survey
 **North**  
@@ -122,7 +124,7 @@ Infrastructure located within Utah.
 
 | Node Name                | Radio (modules + enclosure)                | Antenna            | Battery                                                         | Solar | Modem Preset | Slot | Rebroadcast Mode | Firmware |
 |--------------------------|--------------------------------------------|--------------------|-----------------------------------------------------------------|-------|--------------|------|------------------|----------|
-| NPR – Nelson Peak Router | Nebra with 1W radio and a murata filter    | 45cm gizont 7dBi   | PoE Powered, GOLDENMATE 1000VA/800W Lithium UPS Battery Backup  | None  | MEDIUM_FAST  | 51   | ALL              | 2.7.13    |
+| NPR – Nelson Peak Router | Nebra with 1 W radio and a Murata filter    | 45 cm Gizont 7 dBi   | PoE-powered GOLDENMATE 1000 VA/800 W lithium UPS battery backup  | None  | MEDIUM_FAST  | 51   | ALL              | 2.7.13    |
 
 #### Site survey
 **North**  
@@ -136,25 +138,25 @@ Infrastructure located within Utah.
 ### fcre — Fool Creek
 [View in MeshView](https://meshview.freq51.net/node/2560057003)
 
-> Placeholder — Router. Current MeshView GPS: 39.39000, -112.20000. Deployment details pending.
+> **Unverified/incomplete — Router.** Current MeshView GPS: 39.39000, -112.20000. Deployment details pending.
 
 ---
 
 ### KYHV — Kyhv Router V2
 [View in MeshView](https://meshview.freq51.net/node/2864785128)
 
-> Placeholder — Router. Current MeshView GPS: 40.27000, -111.61000. Deployment details pending.
+> **Unverified/incomplete — Router.** Current MeshView GPS: 40.27000, -111.61000. Deployment details pending.
 
 ---
 
 ### 🐞 — Wasatch Plateau
 [View in MeshView](https://meshview.freq51.net/node/3806656848)
 
-> Placeholder — Router. Current MeshView GPS: 39.48000, -111.33000. Deployment details pending.
+> **Unverified/incomplete — Router.** Current MeshView GPS: 39.48000, -111.33000. Deployment details pending.
 
 ---
 
-## Router Lates
+## Utah Router Late Nodes
 
 ### AUR — Aurora Uranialis
 [View in MeshView](https://meshview.freq51.net/node/3579472290)
@@ -201,7 +203,7 @@ Includes BME680 telemetry every 1800 s.
 
 | Node Name              | Radio              | Antenna | Battery   | Solar | Modem Preset | Slot | Rebroadcast Mode | Firmware |
 |------------------------|-------------------|---------|-----------|-------|--------------|------|------------------|----------|
-| STIR – Stansbury Island RTR | Rak 4631 + BME 680 + GPS | Alfa 5 dBi Omni |  16AH   | 6W   | MEDIUM_FAST    | 51   | ALL              | 2.7.11   |
+| STIR – Stansbury Island RTR | RAK4631 + BME680 + GPS | Alfa 5 dBi Omni | 16 Ah | 6 W | MEDIUM_FAST | 51 | ALL | 2.7.11 |
 
 #### Site survey
 ![STIR](images/STIR.png)
@@ -211,21 +213,21 @@ Includes BME680 telemetry every 1800 s.
 ### ☀ — Murray Suncatcher
 [View in MeshView](https://meshview.freq51.net/node/3938360070)
 
-> Placeholder — Router Late. Current MeshView GPS: 40.65000, -111.85000. Deployment details pending.
+> **Unverified/incomplete — Router Late.** Current MeshView GPS: 40.65000, -111.85000. Deployment details pending.
 
 ---
 
 ### ROCK — The Rock 🪨
 [View in MeshView](https://meshview.freq51.net/node/2642097705)
 
-> Placeholder — Router Late. Current MeshView GPS: 41.19000, -111.92000. Deployment details pending.
+> **Unverified/incomplete — Router Late.** Current MeshView GPS: 41.19000, -111.92000. Deployment details pending.
 
 ---
 
 ### WMTN — West Mountain
 [View in MeshView](https://meshview.freq51.net/node/4253670681)
 
-> Placeholder — Router Late. Current MeshView GPS: 40.07000, -111.83000. Deployment details pending.
+> **Unverified/incomplete — Router Late.** Current MeshView GPS: 40.07000, -111.83000. Deployment details pending.
 
 ---
 
@@ -237,7 +239,7 @@ Includes BME680 telemetry every 1800 s.
 | CBT — Cache Butte Tower | Heltec V4 | eifagur "5.8 DBi" Anteanna |  House Battery   | None   | MEDIUM_FAST    | 51   | ALL              | 2.7.21   |
 
 #### Site survey
-![STIR](images/CBT.png)
+![CBT](images/CBT.png)
 
 ---
 
@@ -276,7 +278,7 @@ Includes BME680 telemetry every 1800 s.
 
 | Node Name            | Radio   | Antenna        | Battery                    | Solar | Modem Preset | Slot | Rebroadcast Mode | Firmware |
 |-----------------------|---------|----------------|----------------------------|-------|--------------|------|------------------|----------|
-| WC1 – Wasatch Crest 1.1 | [SolarXiao Base](https://github.com/wehooper4/Meshtastic-Hardware/tree/main/XaioSeries/SolarXaio) + [Murata DFCB2915MLDJAA](https://www.mouser.com/catalog/specsheets/Murata%20DFCB_DFCH%20Series.pdf) | [Gizont 7dBi 45cm](https://www.aliexpress.us/item/3256806241790045.html) | 1S4P [Molicel P45B](https://www.molicel.com/inr-21700-p45b/)  (18Ah) | 6 W   | MEDIUM_FAST    | 51   | ALL              | 2.6.11    |
+| WC1 – Wasatch Crest 1.1 | [SolarXiao Base](https://github.com/wehooper4/Meshtastic-Hardware/tree/main/XaioSeries/SolarXaio) + [Murata DFCB2915MLDJAA](https://www.mouser.com/catalog/specsheets/Murata%20DFCB_DFCH%20Series.pdf) | [Gizont 7 dBi, 45 cm](https://www.aliexpress.us/item/3256806241790045.html) | 1S4P [Molicel P45B](https://www.molicel.com/inr-21700-p45b/) (18 Ah) | 6 W | MEDIUM_FAST | 51 | ALL | 2.6.11 |
 
 #### Site Survey
 ![WC1](images/WC1.png)
@@ -289,7 +291,7 @@ Includes BME680 telemetry every 1800 s.
 **Location:** Squaretop
 | Node Name            | Radio      | Antenna           | Battery                      | Solar | Modem Preset | Slot | Rebroadcast Mode | Firmware |
 |-----------------------|------------|-------------------|------------------------------|-------|--------------|------|------------------|----------|
-| WC2 – Wasatch Crest 2 | [XIAO NRF52](https://www.seeedstudio.com/XIAO-nRF52840-Wio-SX1262-Kit-for-Meshtastic-p-6400.html) + [Murata DFCB2915MLDJAA](https://www.mouser.com/catalog/specsheets/Murata%20DFCB_DFCH%20Series.pdf) | [Gizont 7dBi 45cm](https://www.aliexpress.us/item/3256806241790045.html) | 1S2P [Molicel P45B](https://www.molicel.com/inr-21700-p45b/) (9 Ah) | 6 W   | MEDIUM_FAST    | 51   | ALL              | 2.6.11   |
+| WC2 – Wasatch Crest 2 | [XIAO NRF52](https://www.seeedstudio.com/XIAO-nRF52840-Wio-SX1262-Kit-for-Meshtastic-p-6400.html) + [Murata DFCB2915MLDJAA](https://www.mouser.com/catalog/specsheets/Murata%20DFCB_DFCH%20Series.pdf) | [Gizont 7 dBi, 45 cm](https://www.aliexpress.us/item/3256806241790045.html) | 1S2P [Molicel P45B](https://www.molicel.com/inr-21700-p45b/) (9 Ah) | 6 W | MEDIUM_FAST | 51 | ALL | 2.6.11 |
 
 #### Site Survey
 ![WC2](images/WC2.png)
@@ -308,7 +310,7 @@ Infrastructure physically located within Southern Idaho west of Mountain Home th
 
 | Node Name| Radio| Antenna| Battery| Solar| Modem Preset | Slot | Rebroadcast Mode | Firmware|
 |-|-|-|-|-|-|-|-|-|
-| MHR — Mount Harrison Router    | Station-G2                          |  [Rokland 8dBi Low Profile Omni](https://store.rokland.com/products/8-dbi-omni-outdoor-915mhz-fiberglass-antenna-for-lora-halow-application) | [3S8P 12.6v 40AH](https://www.18650batterystore.com/collections/21700-batteries/products/eve-50e-21700-5000mah-15a-battery) | [25w 18v ECO-WORTHY](https://a.co/d/85LSbHV)           | MEDIUM_FAST    | 51   | ALL              | 2.6            |
+| MHR — Mount Harrison Router | Station-G2 | [Rokland 8 dBi low-profile omni](https://store.rokland.com/products/8-dbi-omni-outdoor-915mhz-fiberglass-antenna-for-lora-halow-application) | [3S8P, 12.6 V, 40 Ah](https://www.18650batterystore.com/collections/21700-batteries/products/eve-50e-21700-5000mah-15a-battery) | [25 W, 18 V ECO-WORTHY](https://a.co/d/85LSbHV) | MEDIUM_FAST | 51 | ALL | 2.6 |
 
 #### Site Survey
 **East**
@@ -326,7 +328,7 @@ Infrastructure physically located within Southern Idaho west of Mountain Home th
 
 | Node Name| Radio| Antenna| Battery| Solar| Modem Preset | Slot | Rebroadcast Mode | Firmware       |
 |-|-|-|-|-|-|-|-|-|
-| ISR — Indian Springs Router v2 | RAK WisBlock 4631 + Airbuddy Amplifier | [ALFA 5dbi Omni](https://a.co/d/gPpWxbe)                                                                                                                                      | [1S6P 3.7v 40AH](https://www.18650batterystore.com/collections/21700-batteries/products/eve-50e-21700-5000mah-15a-battery)   | [10w 18v ECO-WORTHY](https://a.co/d/eiaV03W)           | MEDIUM_FAST    | 51   | ALL              | 2.6.11         |
+| ISR — Indian Springs Router v2 | RAK WisBlock 4631 + Airbuddy Amplifier | [ALFA 5 dBi omni](https://a.co/d/gPpWxbe) | [1S6P, 3.7 V, 40 Ah](https://www.18650batterystore.com/collections/21700-batteries/products/eve-50e-21700-5000mah-15a-battery) | [10 W, 18 V ECO-WORTHY](https://a.co/d/eiaV03W) | MEDIUM_FAST | 51 | ALL | 2.6.11 |
 
 #### Site Survey
 **East**
@@ -344,7 +346,7 @@ Infrastructure physically located within Southern Idaho west of Mountain Home th
 
 | Node Name                      | Radio                                  | Antenna                                                                                                                                                                       | Battery                                                                                                                      | Solar                                                  | Modem Preset | Slot | Rebroadcast Mode | Firmware       |
 |-|-|-|-|-|-|-|-|-|
-| T2T — The 2 Towers        | [wehooper4 SolarXaio Advanced + 1W](https://github.com/wehooper4/Meshtastic-Hardware/tree/main/XaioSeries/SolarXaio)                        | [8dBi Omni](https://store.rokland.com/products/rakwireless-8-dbi-outdoor-fiberglass-helium-hotspot-antenna-us-868-915-mhz) + [Acasom Cavity Filter](https://acasom.com/products/915mhz-5-types-cavity-filter-for-helium-network-filter-waterproof-lora-indoor-use-high-out-band-rejection?variant=46125490405668) | [1S8P 3.7v 40AH](https://www.18650batterystore.com/collections/21700-batteries/products/eve-50e-21700-5000mah-15a-battery)| [10w 18v ECO-WORTHY](https://a.co/d/eiaV03W)             | MEDIUM_FAST    | 51   | ALL              | 2.6.11         |
+| T2T — The 2 Towers | [wehooper4 SolarXiao Advanced + 1 W](https://github.com/wehooper4/Meshtastic-Hardware/tree/main/XaioSeries/SolarXaio) | [8 dBi omni](https://store.rokland.com/products/rakwireless-8-dbi-outdoor-fiberglass-helium-hotspot-antenna-us-868-915-mhz) + [Acasom cavity filter](https://acasom.com/products/915mhz-5-types-cavity-filter-for-helium-network-filter-waterproof-lora-indoor-use-high-out-band-rejection?variant=46125490405668) | [1S8P, 3.7 V, 40 Ah](https://www.18650batterystore.com/collections/21700-batteries/products/eve-50e-21700-5000mah-15a-battery) | [10 W, 18 V ECO-WORTHY](https://a.co/d/eiaV03W) | MEDIUM_FAST | 51 | ALL | 2.6.11 |
 
 #### Site Survey
 ![SSL](images/Idaho/T2T.png)
@@ -354,7 +356,7 @@ Infrastructure physically located within Southern Idaho west of Mountain Home th
 ### PMR — Pioneer Mountain Router
 [View in MeshView](https://meshview.freq51.net/node/3377436007)
 
-> Placeholder — Router. Current MeshView GPS: 43.40000, -113.96000. Deployment details pending.
+> **Unverified/incomplete — Router.** Current MeshView GPS: 43.40000, -113.96000. Deployment details pending.
 
 ---
 
@@ -365,7 +367,7 @@ Infrastructure physically located within Southern Idaho west of Mountain Home th
 
 | Node Name| Radio| Antenna| Battery| Solar| Modem Preset | Slot | Rebroadcast Mode | Firmware|
 |-|-|-|-|-|-|-|-|-|
-| SSL — Second Star Labs         | Station G2                             | [Rokland 10dBi Backcountry](https://store.rokland.com/products/10-dbi-backcountry-n-male-omni-outdoor-helium-915-mhz-antenna-48-for-rak-miner-2-nebra-indoor-bobcat-hotspots) | [12v 16AH LiFePo4](https://a.co/d/hoMU9g7)                                                                                   | [25w 18v ECO-WORTHY](https://a.co/d/85LSbHV)           | MEDIUM_FAST    | 51   | ALL              | 2.6.11         |
+| SSL — Second Star Labs | Station G2 | [Rokland 10 dBi Backcountry](https://store.rokland.com/products/10-dbi-backcountry-n-male-omni-outdoor-helium-915-mhz-antenna-48-for-rak-miner-2-nebra-indoor-bobcat-hotspots) | [12 V, 16 Ah LiFePO4](https://a.co/d/hoMU9g7) | [25 W, 18 V ECO-WORTHY](https://a.co/d/85LSbHV) | MEDIUM_FAST | 51 | ALL | 2.6.11 |
 
 #### Site Survey
 ![SSL](images/Idaho/SSL.webp)
@@ -377,7 +379,7 @@ Infrastructure physically located within Southern Idaho west of Mountain Home th
 
 | Node Name| Radio| Antenna| Battery| Solar| Modem Preset | Slot | Rebroadcast Mode | Firmware|
 |-|-|-|-|-|-|-|-|-|
-| SSL — Second Star Labs         | RPi Zero 2 W + [1W Wehooper Zebrahat](https://github.com/wehooper4/Meshtastic-Hardware/tree/main/ZebraHAT)| [8dBi Omni](https://store.rokland.com/products/rakwireless-8-dbi-outdoor-fiberglass-helium-hotspot-antenna-us-868-915-mhz) | N/A Grid PoE | N/A Grid PoE| MEDIUM_FAST    | 51   | ALL              | 2.6.11         |
+| STLR — Stellar | RPi Zero 2 W + [1 W Wehooper ZebraHAT](https://github.com/wehooper4/Meshtastic-Hardware/tree/main/ZebraHAT) | [8 dBi omni](https://store.rokland.com/products/rakwireless-8-dbi-outdoor-fiberglass-helium-hotspot-antenna-us-868-915-mhz) | Grid PoE | Grid PoE | MEDIUM_FAST | 51 | ALL | 2.6.11 |
 
 #### Site Survey
 ![SSL](images/Idaho/STLR.png)
@@ -395,10 +397,10 @@ Infrastructure physically located within Western Idaho including Boise, Meridian
 ### Routers
 
 #### DPR — Danskin Peak Router  
-**Location**: Danksin Peak - Mountain Home
+**Location**: Danskin Peak — Mountain Home
 | Node Name| Radio| Antenna| Battery| Solar| Modem Preset | Slot | Rebroadcast Mode | Firmware|
 |-|-|-|-|-|-|-|-|-|
-| DPR — Danskin Peak Router  | RAK WisBlock 4631 + Airbuddy Amplifier | [slinkdsco 5.8dBi 915MHz](https://a.co/d/0gx4CRef)| 1S4P 3.7v 18650   | [10w5v Zivif](https://a.co/d/00EO1dZM)| MEDIUM_FAST    | 51   | ALL              | 2.7.15   |
+| DPR — Danskin Peak Router | RAK WisBlock 4631 + Airbuddy Amplifier | [SlinkDSCO 5.8 dBi, 915 MHz](https://a.co/d/0gx4CRef) | 1S4P, 3.7 V 18650 | [10 W, 5 V Zivif](https://a.co/d/00EO1dZM) | MEDIUM_FAST | 51 | ALL | 2.7.15 |
 #### Site Survey
 **North**
 ![DanskinPeak](images/Idaho/DPR_West.png)
@@ -410,7 +412,7 @@ Infrastructure physically located within Western Idaho including Boise, Meridian
 
 | Node Name| Radio| Antenna| Battery| Solar| Modem Preset | Slot | Rebroadcast Mode | Firmware|
 |-|-|-|-|-|-|-|-|-|
-| tcup — MH Teacup Foothills    | [Wismesh 1W Booster](https://store.rakwireless.com/products/wismesh-1w-booster-starter-kit)|  [Rokland 8dBi Low Profile Omni](https://store.rokland.com/products/8-dbi-omni-outdoor-915mhz-fiberglass-antenna-for-lora-halow-application) | [3.2v LiFePo4 20AH ](https://www.amazon.com/Solar-20000mAh-LiFePO4-Battery-Controller) | [15w5v Integrated Panel + Battery](https://www.amazon.com/Solar-20000mAh-LiFePO4-Battery-Controller)| MEDIUM_FAST   | 51   | ALL  | 2.7.15  
+| tcup — MH Teacup Foothills | [WisMesh 1 W Booster](https://store.rakwireless.com/products/wismesh-1w-booster-starter-kit) | [Rokland 8 dBi low-profile omni](https://store.rakwireless.com/products/8-dbi-omni-outdoor-915mhz-fiberglass-antenna-for-lora-halow-application) | [3.2 V, 20 Ah LiFePO4](https://www.amazon.com/Solar-20000mAh-LiFePO4-Battery-Controller) | [15 W, 5 V integrated panel and battery](https://www.amazon.com/Solar-20000mAh-LiFePO4-Battery-Controller) | MEDIUM_FAST | 51 | ALL | 2.7.15 |
 #### Site Survey
 ![TeapotDome](images/Idaho/tcup.png)
 
@@ -419,11 +421,11 @@ Infrastructure physically located within Western Idaho including Boise, Meridian
 #### MHDR — MH Danskin Repeater V2
 [View in MeshView](https://meshview.freq51.net/node/935622448)
 
-> Placeholder — Router. Current MeshView GPS: 43.41000, -115.66000. Deployment details pending.
+> **Unverified/incomplete — Router.** Current MeshView GPS: 43.41000, -115.66000. Deployment details pending.
 
 ---
 
-### Router Lates
+### Mountain Home Router Late Nodes
 
 #### RBR — Rattlesnake Butte Repeater
 [View in MeshView](https://meshview.freq51.net/node/185915364)
@@ -432,7 +434,7 @@ Infrastructure physically located within Western Idaho including Boise, Meridian
 
 | Node Name| Radio| Antenna| Battery| Solar| Modem Preset | Slot | Rebroadcast Mode | Firmware  |
 |-|-|-|-|-|-|-|-|-|
-| RBR — Rattlesnake Butte Repeater    | [wehooper4 SolarXaio Advanced + 1W](https://github.com/wehooper4/Meshtastic-Hardware/tree/main/XaioSeries/SolarXaio)|  [slinkdsco 5.8dBi 915MHz](https://a.co/d/0gx4CRef) | [3.2v LiFePo4 20AH ](https://www.amazon.com/Solar-20000mAh-LiFePO4-Battery-Controller) | [15w5v Integrated Panel + Battery](https://www.amazon.com/Solar-20000mAh-LiFePO4-Battery-Controller)| MEDIUM_FAST   | 51   | ALL  | 2.7.15  
+| RBR — Rattlesnake Butte Repeater | [wehooper4 SolarXiao Advanced + 1 W](https://github.com/wehooper4/Meshtastic-Hardware/tree/main/XaioSeries/SolarXaio) | [SlinkDSCO 5.8 dBi, 915 MHz](https://a.co/d/0gx4CRef) | [3.2 V, 20 Ah LiFePO4](https://www.amazon.com/Solar-20000mAh-LiFePO4-Battery-Controller) | [15 W, 5 V integrated panel and battery](https://www.amazon.com/Solar-20000mAh-LiFePO4-Battery-Controller) | MEDIUM_FAST | 51 | ALL | 2.7.15 |
 
 #### Site Survey
 ![RattleSnakeButte](images/Idaho/RBR.png)
@@ -444,7 +446,7 @@ Infrastructure physically located within Western Idaho including Boise, Meridian
 
 | Node Name| Radio| Antenna| Battery| Solar| Modem Preset | Slot | Rebroadcast Mode | Firmware|
 |-|-|-|-|-|-|-|-|-|
-| MHR — MH Foothills Repeater    | RAK4631 |  [slinkdsco 5.8dBi 915MHz](https://a.co/d/0gx4CRef) | [3.2v LiFePo4 20AH ](https://www.amazon.com/Solar-20000mAh-LiFePO4-Battery-Controller) | [15w5v Integrated Panel + Battery](https://www.amazon.com/Solar-20000mAh-LiFePO4-Battery-Controller)| MEDIUM_FAST   | 51   | ALL  | 2.7.15  
+| MHR — MH Foothills Repeater | RAK4631 | [SlinkDSCO 5.8 dBi, 915 MHz](https://a.co/d/0gx4CRef) | [3.2 V, 20 Ah LiFePO4](https://www.amazon.com/Solar-20000mAh-LiFePO4-Battery-Controller) | [15 W, 5 V integrated panel and battery](https://www.amazon.com/Solar-20000mAh-LiFePO4-Battery-Controller) | MEDIUM_FAST | 51 | ALL | 2.7.15 |
 
 #### Site Survey
 ![MHFoothills](images/Idaho/mhfoothills.png)
@@ -463,7 +465,7 @@ Infrastructure physically located within Western Idaho including Boise, Meridian
 
 | Node Name| Radio| Antenna| Battery| Solar| Modem Preset | Slot | Rebroadcast Mode | Firmware|
 |-|-|-|-|-|-|-|-|-|
-| HPR — Hayden Peak Router    | Femtofox Pro                           |  [Rokland 8dBi Low Profile Omni](https://store.rokland.com/products/8-dbi-omni-outdoor-915mhz-fiberglass-antenna-for-lora-halow-application) | [1S8P 3.7 40AH0](https://www.18650batterystore.com/collections/21700-batteries/products/eve-50e-21700-5000mah-15a-battery) | [25w 18v ECO-WORTHY](https://a.co/d/85LSbHV)           | MEDIUM_FAST   | 51   | ALL              | 2.6            |
+| HPR — Hayden Peak Router | Femtofox Pro | [Rokland 8 dBi low-profile omni](https://store.rokland.com/products/8-dbi-omni-outdoor-915mhz-fiberglass-antenna-for-lora-halow-application) | [1S8P, 3.7 V, 40 Ah](https://www.18650batterystore.com/collections/21700-batteries/products/eve-50e-21700-5000mah-15a-battery) | [25 W, 18 V ECO-WORTHY](https://a.co/d/85LSbHV) | MEDIUM_FAST | 51 | ALL | 2.6 |
 
 **North**
 ![HaydenNorth](images/Idaho/HPR_North.png)
@@ -479,7 +481,7 @@ Infrastructure physically located within Western Idaho including Boise, Meridian
 
 | Node Name| Radio| Antenna| Battery| Solar| Modem Preset | Slot | Rebroadcast Mode | Firmware       |
 |-|-|-|-|-|-|-|-|-|
-| TVM Pearl   | RAK19007 + 4361                           |  10 dBi Helium Omni | 10000 mAH Lipo 3.7 | 10w 5v       | MEDIUM_FAST    | 51   | ALL              | 2.6.11          |
+| TVM Pearl | RAK19007 + 4361 | 10 dBi Helium omni | 10,000 mAh LiPo, 3.7 V | 10 W, 5 V | MEDIUM_FAST | 51 | ALL | 2.6.11 |
 
 #### Site Survey
 **TVM Pearl**
@@ -492,7 +494,7 @@ Infrastructure physically located within Western Idaho including Boise, Meridian
 
 | Node Name                      | Radio                                  | Antenna                                                                                                                                                                       | Battery                                                                                                                      | Solar                                                  | Modem Preset | Slot | Rebroadcast Mode | Firmware       |
 |-|-|-|-|-|-|-|-|-|
-| TVM Tablerock   | RAK19007 + 4361                           |  10 dBi Helium Omni | 10000 mAH Lipo 3.7 | 10w 5v       | MEDIUM_FAST    | 51   | ALL              | 2.6.11          |
+| TVM Tablerock | RAK19007 + 4361 | 10 dBi Helium omni | 10,000 mAh LiPo, 3.7 V | 10 W, 5 V | MEDIUM_FAST | 51 | ALL | 2.6.11 |
 
 #### Site Survey
 **TVM Tablerock**
@@ -504,6 +506,8 @@ Infrastructure physically located within Western Idaho including Boise, Meridian
 #### SQB — SWIARC-SQB
 [View in MeshView](https://meshview.freq51.net/node/1770277916)
 
-> Placeholder — Router. Current MeshView GPS: 43.98000, -116.41000. Deployment details pending.
+> **Unverified/incomplete — Router.** Current MeshView GPS: 43.98000, -116.41000. Deployment details pending.
+
+*Last edited: August 6, 2026*
 
 ---
