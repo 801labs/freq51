@@ -14,12 +14,19 @@ For deployment guidelines, see [Router Deployment Guide](advanced-configuration/
 	- [LMR — Lake Mountain Router](#lmr--lake-mountain-router)
   	- [MPR — Mendon Peak Router](#mpr--mendon-peak-router)
   	- [NPR — Nelson Peak Router](#npr--nelson-peak-router)
+	- [Fool Creek](#fcre--fool-creek)
+	- [KYHV — Kyhv Router V2](#kyhv--kyhv-router-v2)
+	- [🐞 — Wasatch Plateau](#--wasatch-plateau)
 
 - [Router Lates](#router-lates)
 	- [AUR — Aurora Uranialis](#aur--aurora-uranialis)
 	- [CBT — Cache Butte Tower](#cbt--cache-butte-tower)
 	- [POTM — Point of the Mountain](#potm--point-of-the-mountain)
    	- [STIR — Stansbury Island RTR](#stir--stansbury-island-rtr)
+	- [D801 — DC801C6](#d801--dc801c6)
+	- [☀ — Murray Suncatcher](#--murray-suncatcher)
+	- [ROCK — The Rock](#rock--the-rock)
+	- [WMTN — West Mountain](#wmtn--west-mountain)
 
 - [Strategic Clients](#strategically-placed-clients)
 	- [👽 — Alien Tower 🛸](#--alien-tower-)
@@ -32,6 +39,7 @@ For deployment guidelines, see [Router Deployment Guide](advanced-configuration/
 	- [MHR — Mount Harrison Router](#mhr--mount-harrison-router)
     - [ISR — Indian Springs Router](#isr--indian-springs-router-v2)
     - [T2T — The 2 Towers](#t2t--the-2-towers)
+    - [PMR — Pioneer Mountain Router](#pmr--pioneer-mountain-router)
 
 - [Strategic Clients](#strategically-placed-clients-1)
     - [SSL — Second Star Labs](#ssl--second-star-labs)
@@ -42,6 +50,7 @@ For deployment guidelines, see [Router Deployment Guide](advanced-configuration/
   - [Routers](#routers-2)
     - [DPR — Danskin Peak Router](#dpr--danskin-peak-router) 
     - [tcup — MH Teacup Foothills](#tcup--mh-teacup-foothills)
+    - [MHDR — MH Danskin Repeater V2](#mhdr--mh-danskin-repeater-v2)
   - [Router Lates](#router-lates-1)
     - [RBR — Rattlesnake Butte Repeater](#rbr--rattlesnake-butte-repeater)
     - [MHR — MH Foothills Repeater](#mhr--mh-foothills-repeater)
@@ -50,6 +59,10 @@ For deployment guidelines, see [Router Deployment Guide](advanced-configuration/
     - [HPR — Hayden Peak Router](#hpr--hayden-peak-router)
     - [TVM Pearl](#tvm-pearl)
     - [TVM Tablerock](#tvm-tablerock)
+    - [SQB — SWIARC-SQB](#sqb--swiarc-sqb)
+  - [Router Lates](#router-lates-2)
+    - [🍕 — Pizza Home](#--pizza-home)
+
 ---
 
 
@@ -106,6 +119,8 @@ Infrastructure located within Utah.
 ---
 
 ### NPR — Nelson Peak Router
+[View in MeshView](https://meshview.freq51.net/node/3699380305)
+
 **Location:** Nelson Peak
 
 | Node Name                | Radio (modules + enclosure)                | Antenna            | Battery                                                         | Solar | Modem Preset | Slot | Rebroadcast Mode | Firmware |
@@ -121,9 +136,32 @@ Infrastructure located within Utah.
 
 ---
 
+### fcre — Fool Creek
+[View in MeshView](https://meshview.freq51.net/node/2560057003)
+
+> Placeholder — Router. Current MeshView GPS: 39.39000, -112.20000. Deployment details pending.
+
+---
+
+### KYHV — Kyhv Router V2
+[View in MeshView](https://meshview.freq51.net/node/2864785128)
+
+> Placeholder — Router. Current MeshView GPS: 40.27000, -111.61000. Deployment details pending.
+
+---
+
+### 🐞 — Wasatch Plateau
+[View in MeshView](https://meshview.freq51.net/node/3806656848)
+
+> Placeholder — Router. Current MeshView GPS: 39.48000, -111.33000. Deployment details pending.
+
+---
+
 ## Router Lates
 
 ### AUR — Aurora Uranialis
+[View in MeshView](https://meshview.freq51.net/node/3579472290)
+
 **Location:** Ensign Peak
 
 | Node Name             | Radio                          | Antenna        | Battery                        | Solar | Modem Preset | Slot | Rebroadcast Mode | Firmware |
@@ -142,6 +180,8 @@ Includes BME680 telemetry every 1800 s.
 ---
 
 ### POTM — Point of the Mountain
+[View in MeshView](https://meshview.freq51.net/node/1999056159)
+
 **Location:** North-facing ridgeline
 
 | Node Name              | Radio              | Antenna | Battery   | Solar | Modem Preset | Slot | Rebroadcast Mode | Firmware |
@@ -158,6 +198,8 @@ Includes BME680 telemetry every 1800 s.
 ---
 
 ### STIR — Stansbury Island RTR
+[View in MeshView](https://meshview.freq51.net/node/4168094141)
+
 **Location:** Stansbury Island
 
 | Node Name              | Radio              | Antenna | Battery   | Solar | Modem Preset | Slot | Rebroadcast Mode | Firmware |
@@ -166,6 +208,34 @@ Includes BME680 telemetry every 1800 s.
 
 #### Site survey
 ![STIR](images/STIR.png)
+
+---
+
+### D801 — DC801C6
+[View in MeshView](https://meshview.freq51.net/node/1736609882)
+
+> Placeholder — Router Late. Current MeshView GPS: 40.77000, -111.88000. Deployment details pending.
+
+---
+
+### ☀ — Murray Suncatcher
+[View in MeshView](https://meshview.freq51.net/node/3938360070)
+
+> Placeholder — Router Late. Current MeshView GPS: 40.65000, -111.85000. Deployment details pending.
+
+---
+
+### ROCK — The Rock 🪨
+[View in MeshView](https://meshview.freq51.net/node/2642097705)
+
+> Placeholder — Router Late. Current MeshView GPS: 41.19000, -111.92000. Deployment details pending.
+
+---
+
+### WMTN — West Mountain
+[View in MeshView](https://meshview.freq51.net/node/4253670681)
+
+> Placeholder — Router Late. Current MeshView GPS: 40.07000, -111.83000. Deployment details pending.
 
 ---
 
@@ -184,6 +254,8 @@ Includes BME680 telemetry every 1800 s.
 ## Strategically Placed Clients
 
 ### 👽 — Alien Tower 🛸
+[View in MeshView](https://meshview.freq51.net/node/3808683670)
+
 **Location:** Alien Tower - Draper
 
 | Node Name              | Radio                          | Antenna        | Battery                        | Solar | Modem Preset | Slot | Rebroadcast Mode | Firmware |
@@ -208,6 +280,8 @@ Includes BME680 telemetry every 1800 s.
 ---
 
 ### WC1 — Wasatch Crest 1
+[View in MeshView](https://meshview.freq51.net/node/4276995144)
+
 **Location:** Silver Peak
 
 | Node Name            | Radio   | Antenna        | Battery                    | Solar | Modem Preset | Slot | Rebroadcast Mode | Firmware |
@@ -220,6 +294,8 @@ Includes BME680 telemetry every 1800 s.
 ---
 
 ### WC2 — Wasatch Crest 2
+[View in MeshView](https://meshview.freq51.net/node/1009212011)
+
 **Location:** Squaretop
 | Node Name            | Radio      | Antenna           | Battery                      | Solar | Modem Preset | Slot | Rebroadcast Mode | Firmware |
 |-----------------------|------------|-------------------|------------------------------|-------|--------------|------|------------------|----------|
@@ -254,6 +330,8 @@ Infrastructure physically located within Southern Idaho west of Mountain Home th
 ---
 
 ### ISR — Indian Springs Router v2
+[View in MeshView](https://meshview.freq51.net/node/2732684740)
+
 **Location**: South Hills - Sugarloaf
 
 | Node Name| Radio| Antenna| Battery| Solar| Modem Preset | Slot | Rebroadcast Mode | Firmware       |
@@ -270,6 +348,8 @@ Infrastructure physically located within Southern Idaho west of Mountain Home th
 ---
 
 ### T2T — The 2 Towers
+[View in MeshView](https://meshview.freq51.net/node/470270179)
+
 **Location**: Flat Top Butte, Jerome
 
 | Node Name                      | Radio                                  | Antenna                                                                                                                                                                       | Battery                                                                                                                      | Solar                                                  | Modem Preset | Slot | Rebroadcast Mode | Firmware       |
@@ -278,6 +358,13 @@ Infrastructure physically located within Southern Idaho west of Mountain Home th
 
 #### Site Survey
 ![SSL](images/Idaho/T2T.png)
+
+---
+
+### PMR — Pioneer Mountain Router
+[View in MeshView](https://meshview.freq51.net/node/3377436007)
+
+> Placeholder — Router. Current MeshView GPS: 43.40000, -113.96000. Deployment details pending.
 
 ---
 
@@ -339,9 +426,18 @@ Infrastructure physically located within Western Idaho including Boise, Meridian
 
 ---
 
+#### MHDR — MH Danskin Repeater V2
+[View in MeshView](https://meshview.freq51.net/node/935622448)
+
+> Placeholder — Router. Current MeshView GPS: 43.41000, -115.66000. Deployment details pending.
+
+---
+
 ### Router Lates
 
 #### RBR — Rattlesnake Butte Repeater
+[View in MeshView](https://meshview.freq51.net/node/185915364)
+
 **Location**: Rattlesnake Butte, Mountain Home
 
 | Node Name| Radio| Antenna| Battery| Solar| Modem Preset | Slot | Rebroadcast Mode | Firmware  |
@@ -371,6 +467,8 @@ Infrastructure physically located within Western Idaho including Boise, Meridian
 ### Routers
 
 #### HPR — Hayden Peak Router
+[View in MeshView](https://meshview.freq51.net/node/3546923185)
+
 **Location**: Hayden Peak - Boise
 
 | Node Name| Radio| Antenna| Battery| Solar| Modem Preset | Slot | Rebroadcast Mode | Firmware|
@@ -385,6 +483,8 @@ Infrastructure physically located within Western Idaho including Boise, Meridian
 ---
 
 #### TVM Pearl
+[View in MeshView](https://meshview.freq51.net/node/3020952891)
+
 **Location**: Treasure Valley - Pearl
 
 | Node Name| Radio| Antenna| Battery| Solar| Modem Preset | Slot | Rebroadcast Mode | Firmware       |
@@ -408,5 +508,21 @@ Infrastructure physically located within Western Idaho including Boise, Meridian
 **TVM Tablerock**
 ![TVMTablerock](images/Idaho/TVM_Tablerock.png)
 <sub><sup>[Return to Table of Contents](#table-of-contents)</sub></sup>
+
+---
+
+#### SQB — SWIARC-SQB
+[View in MeshView](https://meshview.freq51.net/node/1770277916)
+
+> Placeholder — Router. Current MeshView GPS: 43.98000, -116.41000. Deployment details pending.
+
+---
+
+### Router Lates
+
+#### 🍕 — Pizza Home
+[View in MeshView](https://meshview.freq51.net/node/1881832957)
+
+> Placeholder — Router Late. Current MeshView GPS: 43.48000, -116.42000. Deployment details pending.
 
 ---
