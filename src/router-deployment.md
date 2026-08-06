@@ -17,11 +17,12 @@ This guide covers everything you need to know about deploying **ROUTER** nodes o
 - **Coverage**: Should provide strategic coverage for the network
 - **Coordination**: **MANDATORY** community approval required
 
-### 🚫 REPEATER Role
-- **❌ NOT RECOMMENDED**: Should be avoided by all users
-- **Why avoid**: Can cause network congestion and interference
-- **Community policy**: Only deployed by experienced members with specific approval
-- **⚠️ Critical**: Never use without explicit network coordinator permission
+###  STRATEGIC CLIENT / CLIENT BASE Role
+- **Purpose**: Can contribute to infrastructure with zero hop routing, but doesn't overstep ROUTERs
+- **Behavior**: Works as normal CLIENT, with priority to favorites.
+- **Power**: Requires reliable, continuous power source
+- **Coverage**: Should provide strategic coverage for the network
+- **Coordination**: **Recommended** community involement beneficial
 
 ---
 
@@ -54,17 +55,17 @@ Where we place routers is very important
 - Remote monitoring capabilities
 - Regular maintenance access
 
-### ⛰️ Regional Coverage Routers (~5,600' - Point of the Mountain Level)
+### ⛰️ Regional Coverage Routers / Strategic Clients (~5,600' - Point of the Mountain Level)
 
 **Purpose**: Regional coverage bridging high backbone to local nodes
 
 **Characteristics**:
 - **Elevation**: 5,000-7,000 feet above sea level
 - **Coverage**: 15-30 mile radius depending on terrain
-- **Role**: ROUTER or ROUTER_CLIENT for secondary infrastructure
+- **Role**: ROUTER or CLIENT_BASE for secondary infrastructure
 - **Power**: Reliable power source (grid-tied or robust solar)
 - **Antenna**: Medium to high-gain antennas
-- **Coordination**: Community coordination recommended
+- **Coordination**: Requires extensive community planning and approval
 
 **Example Locations**:
 - Foothills and elevated neighborhoods
@@ -85,7 +86,7 @@ Where we place routers is very important
 **Characteristics**:
 - **Elevation**: Ground level to 100 feet
 - **Coverage**: 1-5 miles in typical terrain
-- **Role**: CLIENT or CLIENT_MUTE (NOT router roles)
+- **Role**: CLIENT or CLIENT_BASE (NOT router roles)
 - **Why CLIENT**: Prevents network congestion from too many routers
 - **Power**: Standard residential power
 
@@ -104,7 +105,7 @@ Where we place routers is very important
 ### Hardware Specifications
 
 **Minimum Requirements**:
-- Meshtastic-compatible device (Heltec V3, T-Beam, etc.)
+- Meshtastic-compatible device (Heltec, LilyGo, RAK, etc.)
 - Reliable power source (grid-tied or solar with battery backup)
 - Weather-resistant housing/enclosure
 - Appropriate antenna for coverage area
@@ -201,22 +202,20 @@ Where we place routers is very important
 - **Power Management**: Optimize for continuous operation
 
 **Channel Settings**:
-- **Primary Channel**: Use community standard (Leave the name empty)
+- **Primary Channel**: Use community standard (Freq51)
 - **Region**: Set to "US"
 - **Frequency**: 915MHz band (automatic for US region)
+- **Frequency Slot**: 51 (Freq51 - Utah)
 - **Hop Limit**: 7
 
 **Router-Specific Settings**:
-- **Store & Forward**: Enable for message relay capability
 - **Neighbor Info**: Enable for network mapping
-- **MQTT**: Configure based on community guidelines
 - **Power Management**: Disable sleep modes for continuous operation
 
 ### Advanced Configuration
 
 **Network Optimization**:
 - **Message Routing**: Optimize for network topology
-- **Store & Forward**: Configure based on coverage area
 - **Neighbor Discovery**: Enable for network health monitoring
 - **Channel Utilization**: Monitor and optimize as needed
 
@@ -224,7 +223,6 @@ Where we place routers is very important
 - **Remote Access**: Set up secure remote management
 - **Logging**: Enable comprehensive logging
 - **Alerting**: Configure alerts for system issues
-- **Backup**: Regular configuration backups
 
 ---
 
@@ -260,19 +258,6 @@ Where we place routers is very important
 - Check device status and connectivity
 - Monitor power system performance
 - Review network traffic and performance
-- Check for any error messages or alerts
-
-**Weekly Tasks**:
-- Review system logs for issues
-- Check antenna connections and mounting
-- Verify power system operation
-- Update community on status
-
-**Monthly Tasks**:
-- Physical inspection of equipment
-- Clean antennas and equipment
-- Check weather protection
-- Review and update documentation
 
 **Quarterly Tasks**:
 - Comprehensive system testing

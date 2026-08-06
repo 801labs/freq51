@@ -7,19 +7,21 @@ Use this to configure your node to connect with local or community networks.
 ---
 
 ## 🧭 Table of Contents
-- [Primary Channel (General Freq51 Mesh)](#primary-channel-general-mesh)  
-- [Utah Channels](#utah-channels)  
-- [Idaho Channels](#idaho-channels)
+- [Primary Channel (General Freq51 Mesh)](#-primary-channels-general-mesh)  
+- [Utah Channels](#-utah-channels)  
+- [Idaho Channels](#-idaho-channels)
+- [Emergency Communications Channels](#-emergency-communications-channels-coming-soon)
 
 ---
 
-## 🔹 Primary Channel (General Mesh)
+## 🔹 Primary Channels (General Mesh)
 
 | Channel Name | Role | PSK/Key | Description |
 |---------------|------|----------|--------------|
 | `Freq51` | **Primary** | `1A==` | `Main Freq51 mesh network for general users. Enables broad communication across regions.` |
+| `MediumFast` | **Secondary** | `AQ==` | `Default Channel: This is used for testing your node on the mesh by sending ping/test messages.` |
 
-💡 *This is the main channel most users start with. It connects you to the general Freq51 mesh.*
+💡 *These are the main channels most users start with. It connects you to the general Freq51 mesh, and provides another channel to test with*
 
 ---
 
@@ -30,7 +32,7 @@ These can be added as **secondary** or **tertiary** channels for local coordinat
 
 | Channel Name | Role | PSK/Key | Description |
 |---------------|------|----------|--------------|
-| `BBBB-Alerts` | Secondary | `NONE` | `Alerts from FEMA iPAWS/EAS, NOAA, USGS Volcano Alerts, and more.` |
+| `BBBB-Alerts` | Secondary | `empty` | `Alerts from FEMA iPAWS/EAS, NOAA, USGS Volcano Alerts, and more.` |
 | `DC801` | Secondary | `MHHa9wlKe4chJ01SuTKt1RnqbSXv4UJNAP+ONcKfa0c=` | `DC801 - 801 Labs` |
 | `SAINTCON` | Secondary | `dFa5cC4GuZ9AnFgPKzBjzqO6Ch8doQdOMqzwlmEff0Q=` | `SAINTCON` |
 
@@ -52,6 +54,22 @@ These can be added as **secondary** channels to support local groups, alerts, an
 💬 *These Idaho-specific channels extend the mesh to local emergency and community networks.*
 
 ---
+
+## 🚨 Emergency Communications Channels (Coming Soon)
+
+These channels are intended for emergency coordination, disaster response, and critical communications.
+They should only be used for legitimate emergency traffic, drills, or official coordination.
+
+⚠️ Keep messages clear, concise, and relevant. Avoid general chat on these channels.
+
+| Channel Name | Role | PSK/Key | Description |
+|---------------|------|----------|--------------|
+| `` | Secondary | `empty` | `` |
+
+💬 *These emergency channels provide structured communication during incidents while keeping the primary mesh available for general traffic.*
+
+---
+
 
 ## ⚙️ How to Add Channels
 

@@ -41,6 +41,7 @@ This guide covers solutions for the most common issues encountered when setting 
 **Fixes:**
 - Ensure nodes share same region, channel, and key.
 - Verify antenna connection and placement.
+  - Check for connectors for tightness. Replace ipex pigtail [Amazon](https://www.amazon.com/TUOLNK-Adapter-Pigtail-Coaxial-Extension/dp/B09329TYCS?th=1) 
 - Move nodes closer to test connectivity.
 - Check logs for LoRa errors or low RSSI/SNR.
 - Restart app if cache issues suspected.
@@ -57,7 +58,8 @@ This guide covers solutions for the most common issues encountered when setting 
 - Confirm GPS (see section 6).
 - Verify primary channel matches other nodes.
 - Ensure MQTT/HTTP uplink configured for public maps.
-- Check relay/router nodes are powered.
+- Verify antenna connection and placement.
+  - Check for connectors for tightness. Replace ipex pigtail [Amazon](https://www.amazon.com/TUOLNK-Adapter-Pigtail-Coaxial-Extension/dp/B09329TYCS?th=1)
 
 **Tips:** Wait a few minutes; inactive nodes expire on some firmware versions.
 
@@ -72,7 +74,9 @@ This guide covers solutions for the most common issues encountered when setting 
 - Match region and LoRa parameters.
 - Test broadcast messages first.
 - Reboot sender and receiver.
-
+- Verify antenna connection and placement.
+  - Check for connectors for tightness. Replace ipex pigtail [Amazon](https://www.amazon.com/TUOLNK-Adapter-Pigtail-Coaxial-Extension/dp/B09329TYCS?th=1)
+  - 
 **Tips:** Use CLI (`meshtastic --sendtext "test"`) for reliable testing.
 
 ---
@@ -145,6 +149,8 @@ This guide covers solutions for the most common issues encountered when setting 
 - Backup configuration: `meshtastic --export-config`.
 - Factory-reset after major updates or persistent bugs.
 - Monitor network for warnings or unusual behavior.
+- Verify antenna connection and placement.
+  - Check for connectors for tightness. Replace ipex pigtail [Amazon](https://www.amazon.com/TUOLNK-Adapter-Pigtail-Coaxial-Extension/dp/B09329TYCS?th=1)
 
 ---
 

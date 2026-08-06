@@ -36,6 +36,7 @@ This guide will walk you through updating your Meshtastic node's modem preset fr
 - Find presets and select **Medium Fast** (sometimes shown as **MEDIUM_FAST** or **MediumFast**).
 - Find "Ok to MQTT" and enable it. This allows your node to be listed on our mesh network stats sites.
 - Find "Frequency Slot" and set it to **51**. (If not set already)
+- Leave "Frequency Override" blank (0). This is for adjusting XCVRs and is not normally needed.
 - Save your changes.
 
 ![iOS: Change modem preset to MediumFast](images/ios-step2.png)
@@ -76,6 +77,7 @@ This guide will walk you through updating your Meshtastic node's modem preset fr
 - Find presets and select **Medium Fast** (may be listed as **MEDIUM_FAST** or **MediumFast**).
 - Find "Ok to MQTT" and enable it. This allows your node to be listed on our mesh network stats sites.
 - Find "Frequency Slot" and set it to **51**. (If not set already)
+- Leave "Frequency Override" blank. This is for adjusting XCVRs and is not normally needed.
 - Save your changes.
 
 ![Android: Change modem preset to MediumFast](images/android-step2.png)
@@ -104,8 +106,9 @@ meshtastic --reset-nodedb
 
 ## Troubleshooting
 
-- If your node does not appear on the mesh after migration, double-check that the preset is **MediumFast** and that the primary channel name is Freq51 with the key size as 1byte and Key set to "1A==" No quotes.
+- If your node does not appear on the mesh after migration, double-check that the preset is **MediumFast** and that the primary channel name is **Freq51** with the key size as 1byte and Key set to "1A==" No quotes.
 - Reboot your node if changes do not appear to take effect.
+- Get your node up high (roof/tree) preferably with a clear line of sight to infrastructure.
 
 ---
 

@@ -65,16 +65,21 @@
    sudo apt update && sudo apt install -y meshtasticd
    ```
 
-4) **Add the NebraHat radio preset**  
+4) **Add the Nebra-Hat/Zebra-Hat radio preset**  
    *** 1W NebraHat ***
    ```bash
    cd /etc/meshtasticd/config.d/
    sudo wget https://raw.githubusercontent.com/wehooper4/Meshtastic-Hardware/refs/heads/main/NebraHat/NebraHat_1W.yaml
    ```
-   *** 2W NebraHat ***
+   *** 2W Nebra-Hat ***
     ```bash
    cd /etc/meshtasticd/config.d/
    sudo wget https://raw.githubusercontent.com/wehooper4/Meshtastic-Hardware/refs/heads/main/NebraHat/NebraHat_2W.yaml
+   ```
+      *** 1W Zebra-Hat ***
+    ```bash
+   cd /etc/meshtasticd/config.d/
+   sudo wget https://github.com/wehooper4/Meshtastic-Hardware/raw/refs/heads/main/ZebraHAT/ZebraHat.yaml
    ```
    Preset sets SX1262 pins for the NebraHat:
    ```
@@ -110,8 +115,11 @@
 
 7) **Optional: Python & CLI tools**
    ```bash
-   sudo apt install -y python3-pip
-   pip3 install --upgrade pytap2 "meshtastic[cli]"
+   sudo apt install -y python3-pip pipx
+   pipx install "meshtastic[cli]"
+   pipx ensurepath
+   pipx install contact
+   pipx ensurepath
    ```
    Verify:
    ```bash

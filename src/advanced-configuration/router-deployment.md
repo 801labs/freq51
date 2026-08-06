@@ -17,11 +17,12 @@ This guide covers everything you need to know about deploying **ROUTER** nodes o
 - **Coverage**: Should provide strategic coverage for the network
 - **Coordination**: **MANDATORY** community approval required
 
-### 🚫 REPEATER Role
-- **❌ NOT RECOMMENDED**: Should be avoided by all users
-- **Why avoid**: Can cause network congestion and interference
-- **Community policy**: Only deployed by experienced members with specific approval
-- **⚠️ Critical**: Never use without explicit network coordinator permission
+### 🏠 CLIENT BASE / "STRATEGIC CLIENT" Role
+- **Purpose**: Contributes to network without over stepping Routers
+- **Behavior**: Acts as client with priority to favorited nodes. Can take advantage of zero hop routing
+- **Power**: Requires reliable, continuous power source
+- **Coverage**: Should provide strategic coverage for the network
+- **Coordination**: **Recommended** community approval required
 
 ---
 
@@ -61,7 +62,7 @@ Where we place routers is very important.
 **Characteristics**:
 - **Elevation**: 5,000-7,000 feet above sea level
 - **Coverage**: 15-30 mile radius depending on terrain
-- **Role**: ROUTER_LATE
+- **Role**: ROUTER OR CLIENT_BASE
 - **Power**: Reliable power source (grid-tied or robust solar)
 - **Antenna**: Medium to high-gain antennas
 - **Coordination**: Community coordination recommended
@@ -85,7 +86,7 @@ Where we place routers is very important.
 **Characteristics**:
 - **Elevation**: Ground level to 100 feet
 - **Coverage**: 1-5 miles in typical terrain
-- **Role**: CLIENT or CLIENT_MUTE (NOT router roles)
+- **Role**: CLIENT or CLIENT_BASE or CLIENT_MUTE (NOT router roles)
 - **Why CLIENT**: Prevents network congestion from too many routers
 - **Power**: Standard residential power
 
@@ -104,7 +105,7 @@ Where we place routers is very important.
 ### Hardware Specifications
 
 **Minimum Requirements**:
-- Meshtastic-compatible device (Heltec V3, T-Beam, etc.)
+- Meshtastic-compatible device (RAK, Heltec, LilyGo, etc.)
 - Reliable power source (grid-tied or solar with battery backup)
 - Weather-resistant housing/enclosure
 - Appropriate antenna for coverage area
