@@ -23,7 +23,6 @@ For deployment guidelines, see [Router Deployment Guide](advanced-configuration/
 	- [CBT — Cache Butte Tower](#cbt--cache-butte-tower)
 	- [POTM — Point of the Mountain](#potm--point-of-the-mountain)
    	- [STIR — Stansbury Island RTR](#stir--stansbury-island-rtr)
-	- [D801 — DC801C6](#d801--dc801c6)
 	- [☀ — Murray Suncatcher](#--murray-suncatcher)
 	- [ROCK — The Rock](#rock--the-rock)
 	- [WMTN — West Mountain](#wmtn--west-mountain)
@@ -60,8 +59,6 @@ For deployment guidelines, see [Router Deployment Guide](advanced-configuration/
     - [TVM Pearl](#tvm-pearl)
     - [TVM Tablerock](#tvm-tablerock)
     - [SQB — SWIARC-SQB](#sqb--swiarc-sqb)
-  - [Router Lates](#router-lates-2)
-    - [🍕 — Pizza Home](#--pizza-home)
 
 ---
 
@@ -208,13 +205,6 @@ Includes BME680 telemetry every 1800 s.
 
 #### Site survey
 ![STIR](images/STIR.png)
-
----
-
-### D801 — DC801C6
-[View in MeshView](https://meshview.freq51.net/node/1736609882)
-
-> Placeholder — Router Late. Current MeshView GPS: 40.77000, -111.88000. Deployment details pending.
 
 ---
 
@@ -515,14 +505,5 @@ Infrastructure physically located within Western Idaho including Boise, Meridian
 [View in MeshView](https://meshview.freq51.net/node/1770277916)
 
 > Placeholder — Router. Current MeshView GPS: 43.98000, -116.41000. Deployment details pending.
-
----
-
-### Router Lates
-
-#### 🍕 — Pizza Home
-[View in MeshView](https://meshview.freq51.net/node/1881832957)
-
-> Placeholder — Router Late. Current MeshView GPS: 43.48000, -116.42000. Deployment details pending.
 
 ---
