@@ -152,7 +152,7 @@ Before configuring a Router Late, review the [Router Deployment Guide](advanced-
 - **Neighborinfo**: `ON, Transmit over Lora ON, 14400 Interval`
 - **Required Channels**: `Freq51`
 
-### Clent Mute Nodes (Mobile or Indoors)
+### Client Mute Nodes (Mobile or Indoors)
 
 **Paths to check** (App tabs may vary):  
 `Radio > User`, `Radio > Device`, `Radio > Position`, `Radio > LoRa`, `Radio > Bluetooth`, `Modules > Neighbor Info`, `Modules > MQTT`
@@ -175,7 +175,7 @@ Before configuring a Router Late, review the [Router Deployment Guide](advanced-
 - **Neighborinfo**: `OFF`
 - **Required Channels**: `Freq51`
 
-### Clent Hidden Nodes (Stealth Nodes)
+### Client Hidden Nodes (Stealth Nodes)
 
 **Paths to check** (App tabs may vary):  
 `Radio > User`, `Radio > Device`, `Radio > Position`, `Radio > LoRa`, `Radio > Bluetooth`, `Modules > Neighbor Info`, `Modules > MQTT`
