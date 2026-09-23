@@ -7,6 +7,7 @@
    - [Nebra Miner Guide](equipment/nebra-miner.md)
    - [POE Node Guide](equipment/poe-node.md)
    - [Lightning Protection Guide](equipment/zeusprotection.md)
+   - [Cavity Filters & Lightning Protection](EMCStuff.md)
 - [Configuration](config.md)
    - [Channels](channels.md)
 - [Apps & Software](software.md)
